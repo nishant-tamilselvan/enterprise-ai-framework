@@ -1,0 +1,26 @@
+# MkDocs build output
+/site/
+
+# Python (docs tooling)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.mkdocs_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Logs / temp
+*.log
+tmp/
+.tmp/

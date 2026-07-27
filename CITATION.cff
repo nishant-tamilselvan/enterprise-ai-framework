@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use or adapt this framework, please cite it using this metadata."
+title: "Enterprise AI Framework"
+type: software
+authors:
+  - family-names: "Tamilselvan"
+    given-names: "Nishant"
+    orcid: ""
+repository-code: "https://github.com/nishant-tamilselvan/enterprise-ai-framework"
+url: "https://nishant-tamilselvan.github.io/enterprise-ai-framework/"
+license: "CC-BY-4.0"
+version: "0.1.0"
+date-released: "2026-07-26"
+abstract: >-
+  A vendor-neutral architectural framework for responsible Enterprise AI adoption
+  in government, public-sector, and highly regulated organizations.
+keywords:
+  - enterprise AI
+  - responsible AI
+  - AI architecture
+  - AI governance
+  - public sector
