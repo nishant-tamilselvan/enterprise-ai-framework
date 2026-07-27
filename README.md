@@ -5,8 +5,13 @@
 [![Markdown Quality](https://github.com/nishant-tamilselvan/enterprise-ai-framework/actions/workflows/markdown-lint.yml/badge.svg)](https://github.com/nishant-tamilselvan/enterprise-ai-framework/actions/workflows/markdown-lint.yml)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![Version](https://img.shields.io/badge/version-0.1.0-blue.svg)](releases/v0.1.0.md)
+[![Docs site](https://img.shields.io/badge/docs-live-brightgreen.svg)](https://nishant-tamilselvan.github.io/enterprise-ai-framework/)
 
 An open, vendor-neutral architectural framework for responsible Enterprise AI adoption in government, public-sector, and highly regulated organizations.
+
+**Live documentation:** <https://nishant-tamilselvan.github.io/enterprise-ai-framework/>
+
+[![Enterprise Context Architecture as a cross-cutting perspective on the TOGAF ADM cycle: seven context domains — People & Org, Business, Information, Technology, Governance, Integration, and Operational — surround Requirements Management at the centre, encircled by the eight ADM phases A through H.](docs/assets/diagrams/eca-adm-overview.png)](https://nishant-tamilselvan.github.io/enterprise-ai-framework/architecture/context-architecture/#context-wheel)
 
 > [!IMPORTANT]
 > This project provides architectural guidance, not legal, regulatory, security, procurement, or compliance advice. Organizations remain responsible for assessing and satisfying their obligations.
@@ -45,6 +50,7 @@ It is vendor-neutral and does not prescribe a specific cloud, model provider, pr
 
 | Area | Document |
 | --- | --- |
+| Live documentation site | <https://nishant-tamilselvan.github.io/enterprise-ai-framework/> |
 | Framework entry point | [Documentation home](docs/index.md) |
 | Core architecture | [Enterprise Context Architecture (ECA)](docs/architecture/context-architecture.md) |
 | Capability model | [Enterprise AI Capability Model](docs/architecture/capability-model.md) |
