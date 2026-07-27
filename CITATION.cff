@@ -6,6 +6,8 @@ authors:
   - family-names: "Tamilselvan"
     given-names: "Nishant"
     orcid: ""
+    website: "https://github.com/nishant-tamilselvan"
+    affiliation: "Enterprise AI Framework"
 repository-code: "https://github.com/nishant-tamilselvan/enterprise-ai-framework"
 url: "https://nishant-tamilselvan.github.io/enterprise-ai-framework/"
 license: "CC-BY-4.0"
