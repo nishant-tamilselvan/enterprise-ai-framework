@@ -13,13 +13,16 @@ not_in_nav: |
 
 theme:
   name: material
+  custom_dir: overrides
   language: en
+  logo: assets/logo.svg
+  favicon: assets/favicon.svg
   features:
     - navigation.instant
     - navigation.sections
+    - navigation.expand
     - navigation.top
     - navigation.footer
-    - content.action.edit
     - content.code.copy
     - search.highlight
     - search.suggest
@@ -41,6 +44,13 @@ theme:
 
 plugins:
   - search
+  - social:
+      # Card generation requires native image-processing libraries (Cairo/Pango).
+      # Enable only in CI (where CI=true) so local `strict` builds don't need them.
+      cards: !ENV [CI, false]
+      cards_layout_options:
+        background_color: "#3f51b5"
+        color: "#ffffff"
   - blog:
       blog_dir: blog
       post_dir: blog/posts
@@ -63,6 +73,9 @@ markdown_extensions:
   - toc:
       permalink: true
   - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
@@ -76,6 +89,9 @@ markdown_extensions:
       alternate_style: true
   - pymdownx.tasklist:
       custom_checkbox: true
+
+extra_css:
+  - stylesheets/extra.css
 
 nav:
   - Home: index.md

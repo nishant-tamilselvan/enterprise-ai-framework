@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" role="img" aria-label="Enterprise AI Framework">
+  <title>Enterprise AI Framework</title>
+  <!-- Outer context ring -->
+  <circle cx="24" cy="24" r="20" fill="none" stroke="#ffffff" stroke-width="1.4" opacity="0.55"/>
+  <!-- Spokes from the centre (Requirements) out to each context domain -->
+  <g stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" opacity="0.85">
+    <line x1="24" y1="24" x2="44" y2="24"/>
+    <line x1="24" y1="24" x2="34" y2="6.68"/>
+    <line x1="24" y1="24" x2="14" y2="6.68"/>
+    <line x1="24" y1="24" x2="4" y2="24"/>
+    <line x1="24" y1="24" x2="14" y2="41.32"/>
+    <line x1="24" y1="24" x2="34" y2="41.32"/>
+  </g>
+  <!-- Context domain nodes -->
+  <g fill="#ffffff">
+    <circle cx="44" cy="24" r="3"/>
+    <circle cx="34" cy="6.68" r="3"/>
+    <circle cx="14" cy="6.68" r="3"/>
+    <circle cx="4" cy="24" r="3"/>
+    <circle cx="14" cy="41.32" r="3"/>
+    <circle cx="34" cy="41.32" r="3"/>
+  </g>
+  <!-- Centre: Requirements Management -->
+  <circle cx="24" cy="24" r="6.5" fill="#ffffff"/>
+  <circle cx="24" cy="24" r="3" fill="#3f51b5"/>
+</svg>

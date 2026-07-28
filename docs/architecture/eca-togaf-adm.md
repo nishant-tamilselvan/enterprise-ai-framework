@@ -1,6 +1,5 @@
 ---
 title: ECA and the TOGAF ADM
-status: Draft
 version: 0.1.0
 last_reviewed: 2026-07-26
 owners: Enterprise Architecture

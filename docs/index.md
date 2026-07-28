@@ -1,13 +1,14 @@
 ---
 title: Enterprise AI Framework
-status: Draft
+template: home.html
+hide:
+  - navigation
+  - toc
 version: 0.1.0
 last_reviewed: 2026-07-26
 ---
 
-# Enterprise AI Framework
-
-A vendor-neutral framework for designing, governing, securing, integrating, and assuring Enterprise AI in government, public-sector, and highly regulated organizations.
+# Enterprise AI Framework { .mdx-visually-hidden }
 
 ## Why this framework exists
 
@@ -53,7 +54,7 @@ The **Enterprise Context Architecture (ECA)** makes those dependencies explicit 
 
     [Explore mappings](compliance/overview.md)
 
--   :material-blueprint:{ .lg .middle } **Blueprints**
+-   :material-floor-plan:{ .lg .middle } **Blueprints**
 
     ---
 

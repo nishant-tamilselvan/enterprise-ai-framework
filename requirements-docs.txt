@@ -3,3 +3,7 @@ mkdocs-material>=9.5,<10
 mkdocs-git-revision-date-localized-plugin>=1.2,<2
 mkdocs-minify-plugin>=0.8,<1
 pymdown-extensions>=10,<11
+
+# Social cards image processing (used when CI=true)
+pillow>=10,<12
+cairosvg>=2.7,<3

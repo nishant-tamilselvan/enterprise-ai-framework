@@ -1,6 +1,5 @@
 ---
 title: Enterprise AI Capability Model
-status: Draft
 version: 0.1.0
 last_reviewed: 2026-07-26
 ---

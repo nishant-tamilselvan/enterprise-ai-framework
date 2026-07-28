@@ -1,0 +1,175 @@
+/* =========================================================================
+   Enterprise AI Framework — landing page + polish
+   Hero styles are scoped with the .mdx- prefix so they never affect
+   normal documentation pages.
+   ========================================================================= */
+
+/* -------------------------------------------------------------------------
+   Accessibility helper: keep an <h1> in the DOM for a11y/SEO but hide it
+   visually (prevents Material from injecting a fallback "Home" heading).
+   ------------------------------------------------------------------------- */
+.mdx-visually-hidden {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* -------------------------------------------------------------------------
+   Hero
+   ------------------------------------------------------------------------- */
+.mdx-container {
+  padding-top: 1rem;
+  background:
+    linear-gradient(
+      to bottom,
+      var(--md-primary-fg-color),
+      color-mix(in srgb, var(--md-primary-fg-color) 55%, transparent) 60%,
+      var(--md-default-bg-color) 100%
+    );
+}
+
+[data-md-color-scheme="slate"] .mdx-container {
+  background:
+    linear-gradient(
+      to bottom,
+      var(--md-primary-fg-color),
+      color-mix(in srgb, var(--md-primary-fg-color) 40%, var(--md-default-bg-color)) 70%,
+      var(--md-default-bg-color) 100%
+    );
+}
+
+.mdx-hero {
+  margin: 0 0.8rem;
+  color: var(--md-primary-bg-color);
+}
+
+.mdx-hero__content {
+  padding-bottom: 4rem;
+  max-width: 42rem;
+}
+
+.mdx-hero h1 {
+  margin-bottom: 1rem;
+  color: currentColor;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.mdx-hero p {
+  margin-bottom: 2rem;
+  font-size: 0.9rem;
+  opacity: 0.92;
+  max-width: 34rem;
+}
+
+/* Buttons. */
+.mdx-hero .md-button {
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+  color: var(--md-primary-bg-color);
+  border-width: 2px;
+  transition:
+    transform 0.25s,
+    background-color 0.25s,
+    color 0.25s,
+    border-color 0.25s;
+}
+
+.mdx-hero .md-button:focus,
+.mdx-hero .md-button:hover {
+  background-color: var(--md-accent-fg-color);
+  border-color: var(--md-accent-fg-color);
+  color: var(--md-accent-bg-color);
+  transform: translateY(-2px);
+}
+
+.mdx-hero .md-button--primary {
+  background-color: var(--md-primary-bg-color);
+  border-color: var(--md-primary-bg-color);
+  color: var(--md-primary-fg-color);
+}
+
+/* Wider hero copy on large screens. */
+@media screen and (min-width: 60em) {
+  .mdx-hero {
+    display: flex;
+    align-items: center;
+  }
+
+  .mdx-hero__content {
+    margin-top: 3.5rem;
+    padding-bottom: 5rem;
+  }
+
+  .mdx-hero h1 {
+    font-size: 2.6rem;
+  }
+
+  .mdx-hero p {
+    font-size: 1.05rem;
+  }
+}
+
+/* -------------------------------------------------------------------------
+   Landing content sections (scoped to the home page via :has(.mdx-hero))
+   ------------------------------------------------------------------------- */
+body:has(.mdx-hero) .md-content__inner > h2 {
+  margin-top: 2.75rem;
+  font-weight: 700;
+}
+
+body:has(.mdx-hero) .md-content__inner > h2::before {
+  content: "";
+  display: block;
+  width: 2.25rem;
+  height: 0.2rem;
+  margin-bottom: 0.65rem;
+  border-radius: 0.2rem;
+  background: var(--md-accent-fg-color);
+}
+
+/* -------------------------------------------------------------------------
+   Feature cards
+   ------------------------------------------------------------------------- */
+.md-typeset .grid.cards {
+  margin-top: 1.5rem;
+  grid-gap: 1rem;
+}
+
+.md-typeset .grid.cards > ul > li {
+  border: 0.05rem solid var(--md-default-fg-color--lightest);
+  border-radius: 0.5rem;
+  padding: 1.1rem;
+  transition:
+    transform 0.25s,
+    box-shadow 0.25s,
+    border-color 0.25s;
+}
+
+.md-typeset .grid.cards > ul > li:hover {
+  transform: translateY(-4px);
+  border-color: var(--md-accent-fg-color);
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.12);
+}
+
+/* Card icon accent */
+.md-typeset .grid.cards .twemoji svg {
+  fill: var(--md-primary-fg-color);
+  transition: fill 0.25s;
+}
+
+.md-typeset .grid.cards > ul > li:hover .twemoji svg {
+  fill: var(--md-accent-fg-color);
+}
+
+.md-typeset .grid.cards a[href] {
+  font-weight: 600;
+}
+

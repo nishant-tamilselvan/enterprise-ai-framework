@@ -1,6 +1,5 @@
 ---
 title: ISO/IEC 42001 Mapping
-status: Draft
 version: 0.1.0
 last_reviewed: 2026-07-26
 source_framework: ISO/IEC 42001:2023

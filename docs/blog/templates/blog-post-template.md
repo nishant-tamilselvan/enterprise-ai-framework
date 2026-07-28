@@ -1,6 +1,5 @@
 ---
 title: Blog Post Template
-status: Template
 ---
 
 # Post title

@@ -35,6 +35,13 @@ jobs:
           cache: pip
           cache-dependency-path: requirements-docs.txt
 
+      - name: Install image processing libraries (social cards)
+        run: >-
+          sudo apt-get update &&
+          sudo apt-get install -y
+          libcairo2-dev libfreetype6-dev libffi-dev
+          libjpeg-dev libpng-dev libz-dev libpango1.0-dev
+
       - name: Install documentation dependencies
         run: pip install --requirement requirements-docs.txt
 

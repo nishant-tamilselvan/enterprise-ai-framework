@@ -1,6 +1,5 @@
 ---
 title: Control Mapping Template
-status: Template
 version: 0.1.0
 last_reviewed: 2026-07-26
 ---

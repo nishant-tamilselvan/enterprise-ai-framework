@@ -1,0 +1,39 @@
+{% extends "main.html" %}
+
+<!--
+  Custom landing page for the Enterprise AI Framework.
+  The hero is injected into the "tabs" block so it renders full-width,
+  above the normal page content (the feature cards in index.md).
+-->
+
+{% block tabs %}
+  {{ super() }}
+
+  <section class="mdx-container">
+    <div class="md-grid md-typeset">
+      <div class="mdx-hero">
+        <div class="mdx-hero__content">
+          <h1>{{ config.site_name }}</h1>
+          <p>{{ config.site_description }}</p>
+          <a
+            href="{{ 'architecture/overview/' | url }}"
+            class="md-button md-button--primary"
+          >
+            Get started
+          </a>
+          <a
+            href="{{ config.repo_url }}"
+            class="md-button"
+          >
+            Go to GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}
+
+<!-- Keep the standard page content (index.md body) below the hero. -->
+{% block content %}
+  {{ super() }}
+{% endblock %}

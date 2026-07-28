@@ -1,9 +1,12 @@
 ---
 title: Enterprise Context Architecture (ECA)
-status: Draft
 version: 0.1.0
 last_reviewed: 2026-07-26
 owners: Enterprise Architecture
+social:
+  cards_layout_options:
+    title: Enterprise Context Architecture (ECA)
+    description: AI doesn't need more data. It needs the right context.
 ---
 
 # Enterprise Context Architecture (ECA)

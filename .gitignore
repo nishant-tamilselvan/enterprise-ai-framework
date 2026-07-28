@@ -8,6 +8,7 @@ __pycache__/
 venv/
 env/
 .mkdocs_cache/
+.cache/
 
 # OS files
 .DS_Store

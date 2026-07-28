@@ -1,6 +1,5 @@
 ---
 title: NIST AI RMF Mapping
-status: Draft
 version: 0.1.0
 last_reviewed: 2026-07-26
 source_framework: NIST AI RMF 1.0
