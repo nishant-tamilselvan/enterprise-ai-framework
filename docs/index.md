@@ -38,6 +38,14 @@ The **Enterprise Context Architecture (ECA)** makes those dependencies explicit 
 
     [Explore governance](governance/overview.md)
 
+-   :material-source-branch:{ .lg .middle } **Delivery**
+
+    ---
+
+    Specification-driven delivery, shifting roles and accountability, and team topologies.
+
+    [Explore delivery](delivery/overview.md)
+
 -   :material-shield-lock:{ .lg .middle } **Security**
 
     ---

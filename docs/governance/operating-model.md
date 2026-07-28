@@ -26,3 +26,7 @@ last_reviewed: 2026-07-26
 ## Accountability record
 
 Every governed system should name a service owner, risk owner, data owner, model or AI engineering owner, security owner, privacy contact, operational owner, and authorization authority. One person may hold multiple roles only when independence requirements permit it.
+
+## Delivery alignment
+
+For AI-assisted delivery, the [delivery operating model](../delivery/overview.md) expresses these gates and accountability owners at the team level: specification handoffs map to the lifecycle gates, and the delivery roles map to the named accountability owners. See [roles and accountability](../delivery/roles-and-accountability.md).
