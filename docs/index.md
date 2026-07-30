@@ -12,9 +12,9 @@ last_reviewed: 2026-07-26
 
 ## Why this framework exists
 
-AI adoption fails when model selection is treated as the architecture. Enterprise outcomes depend on a wider system: legal authority, mission context, data rights, human accountability, semantic grounding, integration boundaries, security controls, operational feedback, and evidence of performance.
+Treating model selection as the architecture causes AI adoption to fail. Enterprise outcomes depend on a wider system: legal authority, mission context, data rights, human accountability, semantic grounding, integration boundaries, security controls, operational feedback, and evidence of performance.
 
-The **Enterprise Context Architecture (ECA)** makes those dependencies explicit and traceable: AI doesn't need more data, it needs the right context.
+The **Enterprise Context Architecture (ECA)** makes those dependencies explicit and traceable. AI needs authoritative enterprise context.
 
 ## Explore the framework
 
@@ -74,7 +74,7 @@ The **Enterprise Context Architecture (ECA)** makes those dependencies explicit 
 
 <!-- markdownlint-enable MD030 -->
 
-## How to use it
+## Adoption steps
 
 1. Establish mission outcomes, legal authority, affected parties, and prohibited outcomes.
 2. Define the system boundary and classify impact and risk.
@@ -84,8 +84,10 @@ The **Enterprise Context Architecture (ECA)** makes those dependencies explicit 
 6. Evaluate before release and continuously monitor production behavior.
 7. Record residual risk, authorization decisions, incidents, and lessons learned.
 
-!!! warning "Guidance, not certification"
-    Framework use does not demonstrate legal compliance, certification, authorization to operate, or fitness for a particular purpose. Validate requirements with qualified authorities.
+!!! warning "Scope of guidance"
+    Use the framework as architecture guidance. Legal compliance, certification,
+    authorization to operate, and fitness for a particular purpose require separate
+    validation by qualified authorities.
 
 ## Document lifecycle
 

@@ -6,14 +6,13 @@ last_reviewed: 2026-07-28
 
 # Roles and accountability in AI-assisted delivery
 
-AI does not remove roles; it moves their centre of gravity from *producing* artefacts to
-*specifying, directing, and validating* them. Collaboration remains essential — AI does not
-enable fully independent single-person delivery. Governance, accountability, and
-cross-functional review still apply.
+AI shifts role focus toward *specifying, directing, and validating* artefacts. Teams spend
+less time producing them. AI-assisted delivery requires collaboration, governance,
+accountability, and cross-functional review.
 
-![Roles shift, accountability stays: seven roles each hold one accountable outcome — product owner (business intent and requirement approval), architect (specification completeness and standards), developer (implementation correctness against the spec), verification specialist (evidence the solution meets the spec), security and privacy reviewer (controls approved before build), delivery coordinator (delivery flow and governance checkpoints), and operational owner (live solution operation). Four accountability principles anchor them: one accountable owner per outcome, separation of duties, human accountability for AI output, and operational ownership persists.](../assets/images/delivery-roles.webp)
+![Diagram of seven delivery roles and their accountable outcomes: the product owner holds business intent and requirement approval; the architect holds specification completeness and standards; the developer holds implementation correctness against the specification; the verification specialist holds evidence that the solution meets the specification; the security and privacy reviewer holds control approval before build; the delivery coordinator holds delivery flow and governance checkpoints; and the operational owner holds live solution operation. Four principles support these assignments: one accountable owner per outcome, separation of duties, human accountability for AI output, and persistent operational ownership.](../assets/images/delivery-roles.webp)
 
-## Roles shift, they do not disappear
+## How roles shift
 
 | Traditional focus | AI-assisted focus |
 | --- | --- |
@@ -29,43 +28,43 @@ These principles prevent the failure modes AI introduces: speed outrunning revie
 ownership of generated code, and unreviewed change.
 
 1. **One accountable owner per outcome.** Every outcome has exactly one accountable role;
-   others are responsible, consulted, or informed. Shared accountability is no
-   accountability.
-2. **Separation of duties.** Whoever directs the AI to implement a change is not its sole
-   approver. A second human reviews before release.
+  others are responsible, consulted, or informed. Assigning multiple accountable roles
+  obscures ownership.
+2. **Separation of duties.** A second human reviews changes before release, independently
+  of the person who directed the AI implementation.
 3. **Human accountability for AI output.** A named human is accountable for every
-   AI-generated artefact through to production. AI is a tool, never an accountable party.
-4. **Operational ownership persists.** Accountability does not end at release. A named owner
-   is accountable for the solution's supportability, maintenance, and drift once live.
+  AI-generated artefact through to production.
+4. **Operational ownership persists.** A named owner remains accountable after release for
+  the solution's supportability, maintenance, and drift.
 
 ## Role definitions
 
-Roles keep familiar names to reduce change friction; only their focus shifts.
+Familiar role names reduce change friction. Their focus shifts as follows.
 
-- **Product owner — business intent and requirement approval.** Clarifies requirements,
+- **Product owner: business intent and requirement approval.** Clarifies requirements,
   answers open business questions, approves the requirements portion of the specification,
-  and validates delivered outcomes. Approves business requirements and acceptance, not
-  architecture or security detail.
-- **Architect — specification engineer.** Translates requirements into detailed
+  and validates delivered outcomes. The architect and security and privacy reviewer approve
+  their respective details.
+- **Architect: specification engineer.** Translates requirements into detailed
   specifications; applies architecture, security, data, and platform constraints; defines
   acceptance and validation criteria; records decisions; and reviews AI-generated
-  implementation against the specification. Standards and reusable patterns are embedded in
-  the workflow so governance is enforced by tooling, not by one person's availability.
-- **Developer — implementation lead.** Executes implementation from approved
+  implementation against the specification. Teams encode standards and reusable patterns
+  in workflow tooling. This approach applies governance consistently and reduces dependence
+  on one person's availability.
+- **Developer: implementation lead.** Executes implementation from approved
   specifications using AI coding assistants; validates generated code; performs
   test-driven development; resolves edge cases; and maintains the solution.
-- **Verification specialist — verification and evaluation.** Validates implementations
+- **Verification specialist: verification and evaluation.** Validates implementations
   against the specification; executes automated testing; assesses release readiness;
   reviews specification testability early; and retains exploratory testing.
 - **Security and privacy reviewer.** Performs risk-triaged review of sensitive
-  specifications and validates that security and privacy controls are addressed before
-  implementation. A sensitivity triage step determines which specifications require review,
-  keeping the gate proportionate.
+  specifications and validates security and privacy controls before implementation. A
+  sensitivity triage step identifies specifications that require review and keeps the gate
+  proportionate.
 - **Delivery coordinator.** Facilitates collaboration, manages delivery flow and
   work-in-progress limits, coordinates dependencies, and supports governance checkpoints.
-- **Operational owner.** Owns the solution after release — supportability, monitoring,
-  incident response, and drift — so AI-generated code always has a named owner in
-  production.
+- **Operational owner.** Owns supportability, monitoring, incident response, and drift after
+  release. This role gives every AI-generated production component a named owner.
 
 ## Responsibility across lifecycle gates
 
@@ -86,17 +85,17 @@ per gate), **R** responsible, **C** consulted, **I** informed.
 Notes:
 
 - At **Authorize and release**, the delivery coordinator is accountable for running the gate
-  and confirming all sign-offs are collected; for higher risk tiers, final authorization
-  escalates to the designated authorization authority. Each contributor remains responsible
-  for their own sign-off, satisfying separation of duties.
+  and confirming that required approvers submitted their sign-offs. For higher risk tiers,
+  final authorization escalates to the designated authorization authority. Each contributor
+  remains responsible for their own sign-off. This division preserves separation of duties.
 - The architect is accountable at **Assessment**, **Design**, and **Change or retire**. This
-  concentration is a bottleneck risk; mitigate it by embedding governance in tooling and by
-  requiring a second approver before release.
+  concentration is a bottleneck risk. Teams mitigate it by embedding governance in tooling
+  and requiring a second approver before release.
 
 ## Mapping to enterprise accountability owners
 
-The delivery roles are the team-level expression of the accountability owners named in the
-governance [operating model](../governance/operating-model.md):
+The delivery roles map to the accountability owners named in the governance
+[operating model](../governance/operating-model.md):
 
 | Enterprise accountability owner | Delivery role that carries it |
 | --- | --- |
@@ -109,7 +108,7 @@ governance [operating model](../governance/operating-model.md):
 | Operational owner | Operational owner |
 | Authorization authority | Escalation point for authorize and release |
 
-## Accountability at a glance
+## Deliverable accountability
 
 For communication, the gate-level matrix reduces to a single accountable owner per
 deliverable. This is a summary view; the matrix above governs at gate level.

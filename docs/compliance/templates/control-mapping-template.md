@@ -27,7 +27,7 @@ last_reviewed: 2026-07-26
 
 ## Mapping rules
 
-- Preserve identifiers and link to the authoritative source; do not reproduce restricted standards text.
+- Preserve identifiers, link to the authoritative source, and follow licensing restrictions for standards text.
 - Separate requirement interpretation, implementation, and validation.
 - Explain non-applicability and inherited controls.
 - Record source versions and reassess after material changes.

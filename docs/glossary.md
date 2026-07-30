@@ -16,25 +16,27 @@ A structured, evidence-supported argument that a system is sufficiently trustwor
 
 ## Consequential action
 
-An action that can materially affect rights, access, safety, liberty, finances, essential services, employment, or similarly significant interests.
+An action that can materially affect rights, access, safety, liberty, finances, basic services, employment, or interests of comparable consequence.
 
 ## Context envelope
 
+The authorized, task-specific set of identity, purpose, data, policy, model, tool, and evidence attributes that governs an AI invocation.
+
 ## Enterprise Context Architecture (ECA)
 
-A cross-cutting architectural perspective that connects business intent to information, systems, and intelligent outcomes. ECA organizes enterprise context into seven domains — People & Org, Business, Information, Technology, Governance, Integration, and Operational — centred on Requirements Management, and is positioned at the heart of the TOGAF ADM.
+A cross-cutting architectural perspective that connects business intent to information, systems, and intelligent outcomes. ECA organizes enterprise context into seven domains: People & Org, Business, Information, Technology, Governance, Integration, and Operational. Requirements Management sits at the centre, and ECA applies across all TOGAF ADM phases.
 
 ## Requirements Management
 
-The centre of the TOGAF ADM and of ECA, where context requirements are captured and kept current so that every architecture phase and AI capability draws on the same authoritative context.
+The centre of the TOGAF ADM and ECA. Requirements Management captures and maintains context requirements so every architecture phase and AI capability draws on the same authoritative context.
 
 ## TOGAF ADM
 
-The Architecture Development Method of the TOGAF standard: an iterative cycle of phases (A–H) for developing and governing enterprise architecture. ECA acts as a cross-cutting perspective across all ADM phases.
+The Architecture Development Method of the TOGAF standard: an iterative cycle of phases (A through H) for developing and governing enterprise architecture. ECA provides a cross-cutting perspective across all ADM phases.
 
 ## Grounding
 
-Connecting generated output to authoritative or controlled evidence. Grounding reduces but does not eliminate error.
+Connecting generated output to authoritative or controlled evidence. Grounding reduces error, and systems still require validation.
 
 ## Human oversight
 
@@ -50,11 +52,11 @@ A controlled mediation service for model access, routing, policy enforcement, te
 
 ## Retrieval-augmented generation (RAG)
 
-A pattern that retrieves external information and supplies selected context to a generative model. Retrieval does not guarantee correctness or source authority.
+A pattern that retrieves external information and supplies selected context to a generative model. Systems must validate correctness and source authority separately.
 
 ## Risk owner
 
-The person accountable for ensuring a risk is managed and for escalating acceptance decisions to the appropriate authority.
+The person accountable for managing a risk and escalating acceptance decisions to the appropriate authority.
 
 ## System boundary
 
@@ -62,4 +64,4 @@ The components, actors, data, environments, suppliers, processes, and dependenci
 
 ## Trust boundary
 
-A point where identity, authority, data, execution, or assurance assumptions change and controls must be applied or re-evaluated.
+A point where identity, authority, data, execution, or assurance assumptions change. Teams must apply or re-evaluate controls at that point.

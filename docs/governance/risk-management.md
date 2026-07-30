@@ -16,13 +16,13 @@ Assess consequence severity, likelihood, scale, affected populations, vulnerabil
 
 | Tier | Characteristics | Minimum governance |
 | --- | --- | --- |
-| 1 — Limited | Internal, assistive, reversible, non-sensitive | Owner, inventory, basic testing, monitoring |
-| 2 — Moderate | Material workflow influence or protected data | Impact assessment, formal controls, review gate |
-| 3 — High | Consequential outcomes, vulnerable groups, high autonomy | Independent assurance, executive acceptance, intensive monitoring |
-| 4 — Prohibited | Unlawful, policy-prohibited, or intolerable harm | Do not develop, procure, deploy, or use |
+| 1: Limited | Internal, assistive, reversible, non-sensitive | Owner, inventory, basic testing, monitoring |
+| 2: Moderate | Material workflow influence or protected data | Impact assessment, formal controls, review gate |
+| 3: High | Consequential outcomes, vulnerable groups, high autonomy | Independent assurance, executive acceptance, intensive monitoring |
+| 4: Prohibited | Unlawful, policy-prohibited, or intolerable harm | Prohibit development, procurement, deployment, and use |
 
 ## Risk treatment
 
-Prefer avoiding unnecessary AI and reducing risk through architecture before relying on warnings or user behavior. Record inherent risk, controls, evidence, residual risk, owner, approver, review date, and reassessment triggers.
+Use AI only where needed, and reduce risk through architecture before relying on warnings or user behavior. Record inherent risk, controls, evidence, residual risk, owner, approver, review date, and reassessment triggers.
 
 Triggers include model or supplier change, new data or purpose, performance degradation, incident, regulatory change, population shift, expanded autonomy, and changed deployment environment.

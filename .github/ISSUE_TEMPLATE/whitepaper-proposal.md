@@ -36,7 +36,7 @@ Name willing authors and the architecture, policy, security, privacy, accessibil
 
 ## Acceptance criteria
 
-- [ ] Scope and document owner are defined.
-- [ ] Claims can be supported by authoritative evidence.
-- [ ] Security, privacy, accessibility, and affected-party implications are considered.
-- [ ] The proposal does not imply certification or product endorsement.
+- [ ] The proposal defines its scope and document owner.
+- [ ] Authoritative evidence supports each claim.
+- [ ] The proposal addresses security, privacy, accessibility, and affected-party implications.
+- [ ] The proposal makes no claims of certification or product endorsement.

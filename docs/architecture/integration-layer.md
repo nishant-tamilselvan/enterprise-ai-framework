@@ -10,13 +10,13 @@ The integration layer mediates between probabilistic AI behavior and determinist
 
 ## Logical services
 
-- **AI gateway** — approved model routing, quotas, policy enforcement, content controls, and telemetry.
-- **Context broker** — assembles authorized, task-specific context with provenance and freshness metadata.
-- **Retrieval service** — controlled search, ranking, citation, tenancy, and data-classification enforcement.
-- **Prompt and configuration registry** — versioning, approvals, testing, and rollback.
-- **Tool registry and execution broker** — allowlisted tools, typed contracts, least privilege, approvals, and transaction boundaries.
-- **Evaluation service** — repeatable offline, pre-release, and production evaluation.
-- **Audit and evidence service** — tamper-evident decision and change records with privacy-aware retention.
+- **AI gateway**: approved model routing, quotas, policy enforcement, content controls, and telemetry.
+- **Context broker**: assembles authorized, task-specific context with provenance and freshness metadata.
+- **Retrieval service**: controlled search, ranking, citation, tenancy, and data-classification enforcement.
+- **Prompt and configuration registry**: versioning, approvals, testing, and rollback.
+- **Tool registry and execution broker**: allowlisted tools, typed contracts, least privilege, approvals, and transaction boundaries.
+- **Evaluation service**: repeatable offline, pre-release, and production evaluation.
+- **Audit and evidence service**: tamper-evident decision and change records with privacy-aware retention.
 
 ## Integration patterns
 
@@ -30,4 +30,4 @@ The integration layer mediates between probabilistic AI behavior and determinist
 
 ## Contract requirements
 
-Interfaces should declare identity and delegation, purpose, data classification, schema, provenance, policy version, idempotency, timeout, error behavior, human-approval state, and correlation identifiers. Tool responses are untrusted until validated.
+Interfaces should declare identity and delegation, purpose, data classification, schema, provenance, policy version, idempotency, timeout, error behavior, human-approval state, and correlation identifiers. Treat tool responses as untrusted input and validate them before use.

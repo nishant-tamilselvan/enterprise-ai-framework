@@ -39,7 +39,7 @@ Contributions use the Developer Certificate of Origin (DCO) process. A `Signed-o
 - Cite primary, authoritative, and current sources.
 - Include publication or access dates where source content may change.
 - Avoid unqualified claims of compliance, safety, accuracy, or regulatory approval.
-- Write technology-neutral guidance unless a named technology is essential to an example.
+- Write technology-neutral guidance unless an example requires a named technology.
 - Add accessible alt text and source files for diagrams.
 - Use kebab-case file names and relative repository links.
 
@@ -53,8 +53,8 @@ Mappings are informative unless explicitly approved otherwise. Include control o
 
 ## Review expectations
 
-Maintainers evaluate technical correctness, evidence quality, neutrality, security and privacy implications, accessibility, consistency, and alignment with project scope. Two maintainer approvals are expected for normative or governance changes.
+Maintainers evaluate technical correctness, evidence quality, neutrality, security and privacy implications, accessibility, consistency, and alignment with project scope. Normative or governance changes require two maintainer approvals.
 
 ## License of contributions
 
-By contributing, you agree that your contribution is licensed under Creative Commons Attribution 4.0 International unless a file clearly states another license.
+By contributing, you license your contribution under Creative Commons Attribution 4.0 International unless a file clearly states another license.

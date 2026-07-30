@@ -6,7 +6,7 @@
 
 ## Executive summary
 
-Describe the release, intended audience, and strategic significance.
+Describe the release, intended audience, and strategic impact.
 
 ## Highlights
 
@@ -28,7 +28,7 @@ Identify changed layers, interfaces, capabilities, principles, or decisions.
 
 ## Assurance and compliance impact
 
-Describe changed evidence, mappings, control expectations, and review needs. Do not imply certification.
+Describe changed evidence, mappings, control expectations, and review needs. Reserve certification claims for authorized certifying bodies.
 
 ## Compatibility and migration
 

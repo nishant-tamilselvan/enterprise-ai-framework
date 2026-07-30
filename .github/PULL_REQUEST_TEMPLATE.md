@@ -25,7 +25,7 @@ Describe affected audiences, compatibility, migration, security, privacy, access
 - [ ] Markdown and links pass automated checks.
 - [ ] New or changed diagrams include accessible text and editable sources.
 - [ ] Compliance mappings avoid certification claims and identify source versions.
-- [ ] Material affiliations or vendor interests are disclosed.
+- [ ] I disclosed material affiliations or vendor interests.
 - [ ] I updated `CHANGELOG.md` for a notable change.
 - [ ] My commits include a DCO `Signed-off-by` line.
 

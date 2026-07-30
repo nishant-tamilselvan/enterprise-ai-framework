@@ -6,7 +6,7 @@ last_reviewed: 2026-07-26
 
 # FedRAMP mapping
 
-FedRAMP applies to authorization and continuous monitoring of cloud services used by United States federal agencies. AI capabilities are part of the cloud system boundary and must be addressed through the applicable FedRAMP baseline and agency authorization process.
+FedRAMP applies to authorization and continuous monitoring of cloud services used by United States federal agencies. Include AI capabilities in the cloud system boundary and address them through the applicable FedRAMP baseline and agency authorization process.
 
 ## Architecture mapping areas
 
@@ -21,4 +21,4 @@ FedRAMP applies to authorization and continuous monitoring of cloud services use
 | System integrity | Input/output validation, model artifact integrity, monitoring | Threat controls, artifact verification, telemetry |
 | Privacy | PII in prompts, retrieval, logs, training, and provider processing | Privacy assessment, minimization, deletion evidence |
 
-Use the current FedRAMP authorization path, baseline, templates, and agency requirements. Confirm how inherited controls and external AI dependencies are represented in the System Security Plan; this document is not an authorization package.
+Use the current FedRAMP authorization path, baseline, templates, and agency requirements. Document inherited controls and external AI dependencies in the System Security Plan. Use this document as architecture guidance only.

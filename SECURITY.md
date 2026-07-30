@@ -2,11 +2,11 @@
 
 ## Supported versions
 
-Security and safety-related corrections are applied to the latest published version and the current `master` branch. Older documentation releases may not receive updates.
+Maintainers apply security and safety corrections to the latest published version and the current `master` branch. Older documentation releases may remain unchanged.
 
 ## Reporting a vulnerability
 
-Do not open a public issue for information that could enable exploitation, expose sensitive data, or create immediate AI safety risk. Use GitHub's **Report a vulnerability** private security advisory feature for this repository.
+Use GitHub's **Report a vulnerability** private security advisory feature for information that could enable exploitation, expose sensitive data, or create immediate AI safety risk. Reserve public issues for reports that carry none of these risks.
 
 Include:
 
@@ -22,4 +22,4 @@ A maintainer will acknowledge a complete report within five business days and pr
 
 Reports may cover repository automation, dependency or publishing risks, unsafe architectural guidance, exposed secrets, vulnerable reference configurations, and material omissions that could foreseeably weaken deployed systems.
 
-This policy does not create a bug bounty or guarantee compensation. Never test against systems without explicit authorization.
+This repository has no bug bounty or guaranteed compensation program. Test only systems for which you have explicit authorization.

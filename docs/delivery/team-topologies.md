@@ -6,44 +6,43 @@ last_reviewed: 2026-07-28
 
 # Team topologies for AI-assisted delivery
 
-Traditional teams assume that more developers means more delivery capacity: work is
-distributed through work items and iteration planning, and collaboration happens through
-ceremonies. AI weakens that assumption. When a single contributor can generate large
-volumes of working code quickly, the constraint is no longer how fast code is written — it
-is how fast specifications are clarified, changes are validated, and outcomes are reviewed.
-Sizing a team by developer headcount optimises a resource that is no longer scarce.
+Traditional teams often use developer headcount as a measure of delivery capacity. They
+distribute work through work items, iteration planning, and delivery ceremonies. AI changes
+that relationship. When a single contributor can generate large volumes of working code,
+specification clarity, validation capacity, and outcome review determine throughput.
+Developer headcount becomes a poor sizing measure because code generation is abundant.
 
-The resolution is not single-person teams. It is a **small, cross-functional team weighted
-toward specification, validation, and governance**, running in short loops.
+A **small, cross-functional team weighted toward specification, validation, and governance**
+provides the required collaboration and runs in short loops.
 
-![Right-sizing the AI-assisted team (illustrative): a traditional team of about nine full-time roles — architect, roughly three developers, about one QA, product owner, scrum master, business analyst or service designer, and a UI/UX designer — inverts to a smaller AI-assisted core of about 3.75 — a full-time architect and developer, with fractional QA, product owner, service designer, and delivery coordinator, plus security and privacy review, operational ownership, and UI/UX design engaged on demand. The architect stays full-time with focus shifting to specification engineering, while developer and QA headcount fall and UI/UX becomes on-demand.](../assets/images/delivery-team-topologies.webp)
+![Illustrative comparison of traditional and AI-assisted team allocation. A traditional team uses about nine full-time roles across architecture, development, verification, product ownership, delivery coordination, service design, and interaction design. An AI-assisted core uses about 3.75 full-time equivalents: one architect, one developer, and fractional verification, product ownership, service design, and delivery coordination. Security and privacy review, operational ownership, and interaction design engage on demand. The architect remains full-time and focuses on specification engineering. Developer and verification allocations decrease.](../assets/images/delivery-team-topologies.webp)
 
-## Size by specification weight, not headcount
+## Size teams by specification workload
 
-Weight the team toward the roles that now carry the work — specification, verification, and
-coordination — and keep implementation headcount small, because AI performs most generation
-and humans direct and verify it.
+Weight the team toward specification, verification, and coordination roles. Keep
+implementation headcount small because AI performs most generation while people direct and
+verify it.
 
 !!! note "Illustrative only"
-    The figures below are an example to show the *shape* of a specification-weighted team,
-    not a prescribed team size. Tailor them to mission, risk, and scale.
+  The figures below illustrate the structure of a specification-weighted team. Tailor the
+  allocation to mission, risk, and scale.
 
 An indicative allocation for a single AI-assisted product team:
 
 | Role | Indicative FTE | Why |
 | --- | --- | --- |
-| Architect / specification engineer | 1.0 | Owns the specification — the primary deliverable, amplified by AI tools |
+| Architect / specification engineer | 1.0 | Owns the specification as the primary deliverable and uses AI tools to support the work |
 | Developer | 1.0 | Directs and validates AI-generated implementation |
 | Verification specialist | 0.5 | Verification and evaluation against the specification |
 | Product owner | 0.5 | Requirement clarification and business approval |
-| Service designer | 0.5 | User and service journey inputs to the specification |
+| Service designer | 0.5 | User and service design inputs to the specification |
 | Delivery coordinator | 0.25 | Flow, dependencies, and governance checkpoints |
 | **Core total** | **3.75** | |
 | Security and privacy reviewer | on demand | Risk-triaged specification review |
 | Operational owner | on demand | Live-solution accountability |
 | Interaction (UI/UX) designer | on demand | Engaged for complex or accessibility-critical work |
 
-Compared with a traditional team for equivalent scope, the allocation **inverts**:
+For equivalent scope, AI assistance changes the allocation:
 
 | Role | Traditional FTE | AI-assisted FTE |
 | --- | --- | --- |
@@ -56,37 +55,35 @@ Compared with a traditional team for equivalent scope, the allocation **inverts*
 | Interaction (UI/UX) designer | 1.0 | on demand |
 | **Total** | **~9.0** | **3.75** |
 
-The architect stays full-time, but the focus shifts from design and developer guidance to
-specification engineering; developer and verification headcount fall because AI generates and
-humans direct and verify. Interaction design shifts to on-demand consultation, with AI
-generating interface scaffolding from the specification.
+The architect remains full-time and focuses on specification engineering. Developer and
+verification allocations decrease because AI generates implementation while people direct
+and verify it. Interaction designers work on demand, and AI generates interface scaffolding
+from the specification.
 
-The principle: fewer, more senior people weighted toward specification outperform a large
-team weighted toward implementation.
+A small senior team weighted toward specification can outperform a large team weighted
+toward implementation.
 
 ## Why adding developers can slow delivery
 
-The instinct to add developers to go faster tends to backfire in an AI-assisted team:
+Adding developers often slows an AI-assisted team for four reasons:
 
-- **The bottleneck has moved.** Code generation is no longer the constraint; specification
-  clarity, review, and integration are. Adding developers floods the actual constraint —
-  review and integration capacity — lengthening the queue rather than shortening delivery.
-- **AI output resists clean partition.** Detailed specifications produce large,
+- **Specification and review set the pace.** Additional developers increase demand on fixed
+  review and integration capacity, which lengthens the queue.
+- **Large implementations are difficult to partition.** Detailed specifications can produce
   interconnected implementations. Splitting them across developers creates merge conflicts,
-  divergent context, and rework at the seams.
+  divergent context, and integration rework.
 - **Coordination cost is superlinear.** Communication paths grow roughly as *n(n−1)/2*; each
   added developer adds handoffs, context synchronisation, and review load.
 - **Review concentrates on one role.** The architect reviews against the specification;
   more developers generate more to review against a fixed review capacity.
 
-Better levers than headcount: invest in specification quality, keep implementation headcount
-small, run short loops, and scale horizontally with multiple small teams rather than adding
-developers to one solution.
+Improve throughput by investing in specification quality, keeping implementation headcount
+small, running short loops, and assigning separate solutions to multiple small teams.
 
 ## Short delivery loops
 
-Throughput comes from loop speed and size, not team size. Each loop takes a small slice of
-the specification through to integrated, validated code:
+Loop speed and slice size determine throughput. Each loop takes a small part of the
+specification through to integrated, validated code:
 
 ```mermaid
 flowchart LR
@@ -99,21 +96,20 @@ flowchart LR
 
 Practices that keep loops short:
 
-- **Small atomic changes** — small commits and frequent, reviewable pull requests.
-- **Low work-in-progress** — finish and integrate a slice before starting the next.
-- **Continuous validation** — validate each slice against the specification as it lands,
-  not at a fixed iteration boundary.
+- **Small atomic changes**: use small commits and frequent, reviewable pull requests.
+- **Low work-in-progress**: finish and integrate a slice before starting the next.
+- **Continuous validation**: validate each slice against the specification as it lands.
 
 ## Work decomposition and swim lanes
 
-When more than one contributor is genuinely needed, partition the **specification** into
-bounded areas of responsibility — swim lanes — with minimal coupling, rather than splitting
-a single interconnected implementation:
+When work requires multiple contributors, partition the **specification** into bounded areas
+of responsibility called swim lanes. This structure minimizes coupling across a single
+interconnected implementation.
 
-- **Bounded ownership.** Each swim lane is owned end-to-end by one contributor, reducing
-  overlap and merge conflict.
+- **Bounded ownership.** Assign each swim lane to one contributor from start to finish. This
+  assignment reduces overlap and merge conflicts.
 - **Small slices.** Each lane's work should fit the short-loop rhythm above.
-- **Light coordination.** Synchronise lanes through periodic structured checkpoints —
-  dependency and integration coordination, not detailed task management.
-- **Scale by teams, not by developers.** Growth comes from adding small swim-lane teams,
-  each with its own specification, rather than adding developers to one solution.
+- **Light coordination.** Synchronise lanes through periodic checkpoints for dependency and
+  integration coordination.
+- **Team-based scaling.** Add small swim-lane teams, each with its own specification and
+  solution boundary.
