@@ -6,7 +6,7 @@ last_reviewed: 2026-07-26
 
 # Compliance and standards mappings
 
-These mappings help teams trace architecture capabilities and evidence to external frameworks. They are informative starting points, not legal interpretations, audits, certifications, or authorizations.
+These mappings help teams trace architecture capabilities and evidence to external frameworks. Use them as informative starting points for qualified review. They carry no legal interpretation, audit, certification, or authorization.
 
 ## Available mappings
 
@@ -26,5 +26,7 @@ These mappings help teams trace architecture capabilities and evidence to extern
 6. Obtain review from qualified legal, compliance, security, privacy, and audit functions.
 7. Revalidate after authoritative-source or system changes.
 
-!!! danger "No compliance claim"
-    A mapped architecture does not prove that controls are implemented, operating effectively, or sufficient for a specific organization or system.
+!!! danger "Compliance evidence"
+    A mapped architecture supports traceability. A compliance claim requires evidence that
+    controls are implemented, operate effectively, and suit the specific organization and
+    system.

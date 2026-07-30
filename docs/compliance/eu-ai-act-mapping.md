@@ -22,4 +22,4 @@ This page provides architecture traceability for Regulation (EU) 2024/1689. Appl
 | Accuracy, robustness, cybersecurity | Evaluation, SLOs, threat model, resilience | Test reports, security assessment, production metrics |
 | Post-market monitoring | Operational monitoring and incident governance | Monitoring plan, complaints, incidents, corrective actions |
 
-Do not infer legal classification or conformity from this table. Validate against the official consolidated text, delegated and implementing acts, harmonized standards, codes of practice, and regulator guidance applicable at the time of use.
+Base legal classification and conformity decisions on the official consolidated text, delegated and implementing acts, harmonized standards, codes of practice, and regulator guidance applicable at the time of use.

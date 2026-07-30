@@ -6,7 +6,7 @@ last_reviewed: 2026-07-26
 
 # Domain blueprints
 
-Blueprints apply the core framework to recurring use cases. They are logical reference architectures and must be tailored to mission, law, risk, data, environment, and organizational capability.
+Blueprints apply the core framework to recurring use cases. They are logical reference architectures. Implementation teams must tailor them to mission, law, risk, data, environment, and organizational capability.
 
 ## Available blueprints
 

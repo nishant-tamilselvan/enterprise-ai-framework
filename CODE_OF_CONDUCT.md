@@ -22,8 +22,8 @@ This Code applies in project spaces and when an individual officially represents
 
 ## Reporting and enforcement
 
-Report abusive, harassing, or otherwise unacceptable behavior privately to the project maintainer through the contact methods available on the maintainer's GitHub profile. Reports will be reviewed promptly and fairly. Maintainers must respect the privacy and security of reporters.
+Report abusive, harassing, or otherwise unacceptable behavior privately to the project maintainer through the contact methods available on the maintainer's GitHub profile. Maintainers review reports promptly and fairly while respecting the privacy and security of reporters.
 
 ## Attribution
 
-This Code of Conduct is adapted from the [Contributor Covenant, version 2.1](https://www.contributor-covenant.org/version/2/1/code_of_conduct.html), available under the Creative Commons Attribution 4.0 International license.
+Project maintainers adapted this Code of Conduct from the [Contributor Covenant, version 2.1](https://www.contributor-covenant.org/version/2/1/code_of_conduct.html), available under the Creative Commons Attribution 4.0 International license.

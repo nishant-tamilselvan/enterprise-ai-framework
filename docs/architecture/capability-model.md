@@ -21,24 +21,24 @@ The capability model identifies **what an organization must be able to do**, ind
 | Security and privacy | Threat modeling, privacy engineering, supply-chain assurance, incident response |
 | Operations | Release, observability, drift monitoring, change, continuity, retirement |
 | People and adoption | Literacy, specialist skills, workforce impact, accessibility, change management |
-| Procurement and ecosystem | Supplier due diligence, contracts, portability, concentration-risk management |
+| Procurement and supplier management | Supplier due diligence, contracts, portability, concentration-risk management |
 
 ## Maturity scale
 
-1. **Initial** — activity is ad hoc and person-dependent.
-2. **Managed** — repeatable ownership and minimum controls exist.
-3. **Defined** — enterprise standards, reusable services, and measures are established.
-4. **Measured** — outcomes, control effectiveness, and operational performance drive decisions.
-5. **Adaptive** — evidence continuously improves policy, architecture, and investment.
+1. **Initial**: teams depend on individual effort and ad hoc activity.
+2. **Managed**: teams assign ownership and apply minimum controls consistently.
+3. **Defined**: the organization establishes enterprise standards, reusable services, and measures.
+4. **Measured**: outcomes, control effectiveness, and operational performance drive decisions.
+5. **Adaptive**: evidence continuously improves policy, architecture, and investment.
 
-Maturity is not a goal by itself. Target levels should reflect organizational mission, risk exposure, operating scale, and investment priorities.
+Maturity is a means to better outcomes. Set target levels from organizational mission, risk exposure, operating scale, and investment priorities.
 
 !!! note "Relationship to ECA"
-    These capability domains describe *what the organization must be able to do*. They are
-    exercised within the enterprise context defined by the seven
-    [Enterprise Context Architecture](context-architecture.md) domains — People & Org,
-    Business, Information, Technology, Governance, Integration, and Operational.
+    These capability domains describe what the organization must be able to do. They are
+    part of the enterprise context described by the seven [Enterprise Context Architecture](context-architecture.md)
+    domains: People & Org, Business, Information, Technology, Governance, Integration,
+    and Operational.
 
 ## Assessment guidance
 
-For each capability, record the accountable owner, current and target maturity, dependencies, evidence, gaps, funded initiatives, and target date. Validate self-assessments with operational evidence rather than policy existence alone.
+For each capability, record the accountable owner, current and target maturity, dependencies, evidence, gaps, funded initiatives, and target date. Validate self-assessments with operational evidence. Policy documents alone provide insufficient evidence of maturity.

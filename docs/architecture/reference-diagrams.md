@@ -6,11 +6,11 @@ last_reviewed: 2026-07-26
 
 # Reference diagrams
 
-Reference diagrams communicate logical responsibilities and trust boundaries; they do not prescribe products.
+Reference diagrams communicate logical responsibilities and trust boundaries. Product selection remains outside their scope.
 
 ## Enterprise Context Architecture wheel
 
-Seven ECA context domains surround Requirements Management, where context requirements are captured.
+Requirements Management captures context requirements at the centre of seven ECA context domains.
 
 ```mermaid
 flowchart TB

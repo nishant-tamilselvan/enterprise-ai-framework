@@ -44,6 +44,12 @@ theme:
 
 plugins:
   - search
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      zoomable: true
+      draggable: true
   - social:
       # Card generation requires native image-processing libraries (Cairo/Pango).
       # Enable only in CI (where CI=true) so local `strict` builds don't need them.

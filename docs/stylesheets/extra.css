@@ -173,3 +173,10 @@ body:has(.mdx-hero) .md-content__inner > h2::before {
   font-weight: 600;
 }
 
+/* Images open in a glightbox lightbox (zoom-in cursor signals this) */
+.md-typeset a.glightbox img,
+.md-typeset a.glightbox {
+  cursor: zoom-in;
+}
+
+

@@ -19,8 +19,8 @@ This initial mapping uses the four NIST AI RMF 1.0 functions. Future revisions w
 ## Tailoring questions
 
 - Which NIST AI RMF profile applies to the organizational and use-case context?
-- How are trustworthiness characteristics translated into measurable requirements?
-- Which evaluations are independent from model development and service ownership?
+- How will the organization translate trustworthiness characteristics into measurable requirements?
+- Who evaluates the system independently of model development and service ownership?
 - How do operational events feed back into GOVERN, MAP, and MEASURE activities?
 
 Source: National Institute of Standards and Technology, *Artificial Intelligence Risk Management Framework (AI RMF 1.0)*, NIST AI 100-1 (2023). Confirm current NIST guidance before use.

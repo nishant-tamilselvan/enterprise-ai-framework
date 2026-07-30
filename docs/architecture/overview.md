@@ -6,20 +6,20 @@ last_reviewed: 2026-07-26
 
 # Architecture overview
 
-The framework treats an Enterprise AI service as a **socio-technical system**, not an isolated model. Its architecture connects strategic intent and legal authority to controls, implementation, evidence, and operational outcomes.
+The framework treats an Enterprise AI service as a socio-technical system that spans people, process, data, and technology. Its architecture connects strategic intent and legal authority to controls, implementation, evidence, and operational outcomes.
 
 ## Architecture perspectives
 
 | Perspective | Primary question | Typical evidence |
 | --- | --- | --- |
 | Mission and value | What authorized outcome should improve? | Outcome model, benefit measures |
-| Stakeholder and human | Who is affected and who remains accountable? | Impact assessment, oversight design |
+| Stakeholder and human | Whom does the system affect, and who remains accountable? | Impact assessment, oversight design |
 | Governance and assurance | Who decides, verifies, accepts, and monitors risk? | RACI, approvals, assurance case |
 | Information and context | Which data, meaning, provenance, and rights are required? | Catalog, ontology, lineage, licenses |
 | Application and integration | How does AI participate in business processes? | Service contracts, sequence diagrams |
 | Model and intelligence | Which models, prompts, tools, and evaluations are appropriate? | Model cards, test reports |
-| Security and resilience | How is misuse, compromise, and failure contained? | Threat model, control evidence |
-| Platform and operations | How is the system delivered and sustained? | SLOs, runbooks, monitoring |
+| Security and resilience | How do teams contain misuse, compromise, and failure? | Threat model, control evidence |
+| Platform and operations | How do teams deliver and sustain the system? | SLOs, runbooks, monitoring |
 
 ## Core architecture artifacts
 
@@ -31,4 +31,4 @@ The framework treats an Enterprise AI service as a **socio-technical system**, n
 
 ## Tailoring
 
-Architecture depth should be proportionate to impact, novelty, autonomy, scale, data sensitivity, reversibility, and exposure. Low-impact assistive use cases may use a lightweight profile; consequential or high-impact systems require independent review and stronger evidence.
+Architecture depth should be proportionate to impact, novelty, autonomy, scale, data sensitivity, reversibility, and exposure. Teams may use a lightweight profile for low-impact assistive use cases. Consequential or high-impact systems require independent review and stronger evidence.

@@ -8,7 +8,7 @@ last_reviewed: 2026-07-26
 
 ## Purpose
 
-Provide a reusable architecture for an AI capability embedded in a regulated business process with clear accountability, controlled data and model supply chains, independent assurance, and operational evidence.
+This blueprint provides a reusable architecture for an AI capability embedded in a regulated business process with clear accountability, controlled data and model supply chains, independent assurance, and operational evidence.
 
 ## Control plane
 

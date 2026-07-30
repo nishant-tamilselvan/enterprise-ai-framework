@@ -7,7 +7,7 @@ source_framework: ISO/IEC 42001:2023
 
 # ISO/IEC 42001 mapping
 
-ISO/IEC 42001:2023 specifies requirements for an AI management system. This framework can supply architecture and operational evidence within an organization's management system but does not replace certification activities.
+ISO/IEC 42001:2023 specifies requirements for an AI management system. This framework can supply architecture and operational evidence within an organization's management system. Certification activities remain separate.
 
 | Management-system area | Framework alignment | Example evidence |
 | --- | --- | --- |

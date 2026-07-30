@@ -7,18 +7,18 @@
 [![Version](https://img.shields.io/badge/version-0.1.0-blue.svg)](releases/v0.1.0.md)
 [![Docs site](https://img.shields.io/badge/docs-live-brightgreen.svg)](https://nishant-tamilselvan.github.io/enterprise-ai-framework/)
 
-An open, vendor-neutral architectural framework for responsible Enterprise AI adoption in government, public-sector, and highly regulated organizations.
+The Enterprise AI Framework is an open, vendor-neutral architecture framework for responsible AI adoption in government, public-sector, and regulated organizations.
 
 **Live documentation:** <https://nishant-tamilselvan.github.io/enterprise-ai-framework/>
 
-[![Enterprise Context Architecture as a cross-cutting perspective on the TOGAF ADM cycle: seven context domains — People & Org, Business, Information, Technology, Governance, Integration, and Operational — surround Requirements Management at the centre, encircled by the eight ADM phases A through H.](docs/assets/diagrams/eca-adm-overview.png)](https://nishant-tamilselvan.github.io/enterprise-ai-framework/architecture/context-architecture/#context-wheel)
+[![Enterprise Context Architecture as a cross-cutting perspective on the TOGAF ADM cycle. Seven context domains (People & Org, Business, Information, Technology, Governance, Integration, and Operational) surround Requirements Management at the centre. The eight ADM phases, A through H, encircle the domains.](docs/assets/diagrams/eca-adm-overview.png)](https://nishant-tamilselvan.github.io/enterprise-ai-framework/architecture/context-architecture/#context-wheel)
 
 > [!IMPORTANT]
-> This project provides architectural guidance, not legal, regulatory, security, procurement, or compliance advice. Organizations remain responsible for assessing and satisfying their obligations.
+> Use this project for architecture guidance. Organizations remain responsible for obtaining qualified legal, regulatory, security, procurement, and compliance advice and satisfying their obligations.
 
 ## Vision
 
-Enable organizations to adopt AI through a shared architectural language that connects mission outcomes, business context, governance, data, models, integration, security, operations, and assurance.
+The framework enables organizations to adopt AI through a shared architectural language that connects mission outcomes, business context, governance, data, models, integration, security, operations, and assurance.
 
 The initial body of work defines the **Enterprise Context Architecture (ECA)**: a cross-cutting perspective that places AI capabilities within the organizational, regulatory, operational, and technical contexts that determine whether they can be trusted and sustained.
 
@@ -35,7 +35,7 @@ The framework covers:
 - public-sector and regulated-industry reference blueprints; and
 - traceable mappings to major standards and regulatory frameworks.
 
-It is vendor-neutral and does not prescribe a specific cloud, model provider, product, or implementation platform.
+It is vendor-neutral and remains independent of any specific cloud, model provider, product, or implementation platform.
 
 ## Target audience
 
@@ -85,17 +85,17 @@ It is vendor-neutral and does not prescribe a specific cloud, model provider, pr
 
 ## Principles
 
-1. **Mission and public value first** — architecture starts with outcomes and affected people.
-2. **Accountability by design** — decision rights, evidence, and human oversight are explicit.
-3. **Risk-proportionate controls** — assurance depth reflects impact and exposure.
-4. **Secure and private by default** — zero trust, minimization, and resilience span the lifecycle.
-5. **Open and interoperable** — portable patterns and standards reduce lock-in.
-6. **Evidence over assertion** — evaluation, traceability, and monitoring support every claim.
-7. **Context is architecture** — organizational, legal, semantic, and operational context are first-class concerns.
+1. **Mission and public value**: architecture starts with outcomes and affected people.
+2. **Accountability**: decision rights, evidence, and human oversight are explicit.
+3. **Proportionate controls**: assurance depth reflects impact and exposure.
+4. **Secure defaults**: zero trust, minimization, and resilience span the lifecycle.
+5. **Interoperability**: portable patterns and standards reduce lock-in.
+6. **Evidence**: evaluation, traceability, and monitoring support every claim.
+7. **Enterprise context**: organizational, legal, semantic, and operational context are first-class concerns.
 
 ## Contributing
 
-Contributions from public servants, practitioners, researchers, standards experts, vendors, and civil-society participants are welcome.
+The project accepts contributions from public servants, practitioners, researchers, standards experts, vendors, and civil-society participants.
 
 1. Read [CONTRIBUTING.md](CONTRIBUTING.md) and the [Code of Conduct](CODE_OF_CONDUCT.md).
 2. Search existing issues before proposing a whitepaper or correction.
@@ -107,33 +107,33 @@ Editorial changes must distinguish normative requirements (`MUST`, `SHOULD`, `MA
 
 ## Roadmap
 
-### v0.1 — Foundation
+### v0.1: Foundation
 
 - Repository governance and publishing workflow
 - Enterprise Context Architecture (ECA) outline
 - Initial capability, governance, security, and compliance structures
 
-### v0.2 — Architecture baseline
+### v0.2: Architecture baseline
 
 - Architecture perspectives and layered reference model
 - Enterprise AI capability model
 - Context and integration patterns
 - Reference diagrams and glossary expansion
 
-### v0.3 — Assurance and governance
+### v0.3: Assurance and governance
 
 - Governance operating model and policy patterns
 - Threat model and zero-trust AI guidance
 - NIST AI RMF and ISO/IEC 42001 mappings
 
-### v0.4 — Domain blueprints
+### v0.4: Domain blueprints
 
 - Public-sector retrieval-augmented generation blueprint
 - Regulated-enterprise AI blueprint
 - EU AI Act and FedRAMP mapping refinements
-- Reference implementation with before/after adoption metrics
+- Reference implementation with pre-adoption and post-adoption metrics
 
-### v1.0 — Stable framework
+### v1.0: Stable framework
 
 - Public review resolution
 - Stable terminology and conformance model
@@ -143,7 +143,7 @@ Roadmap priorities may change through the process described in [GOVERNANCE.md](G
 
 ## Documentation site
 
-The site is built with MkDocs Material. Install dependencies from `requirements-docs.txt`, then run `mkdocs serve` locally or `mkdocs build --strict` for validation. Publishing is automated through GitHub Actions on changes to `master`.
+MkDocs Material builds the site. Install dependencies from `requirements-docs.txt`, then run `mkdocs serve` locally or `mkdocs build --strict` for validation. GitHub Actions publishes changes to `master`.
 
 ## Releases and versioning
 
@@ -155,6 +155,6 @@ Use the metadata in [`CITATION.cff`](CITATION.cff). When adapting the framework,
 
 ## License
 
-Except where otherwise identified, repository documentation, diagrams, architectural frameworks, and blueprints are licensed under the [Creative Commons Attribution 4.0 International License](LICENSE).
+Unless a file identifies another license, the project licenses repository documentation, diagrams, architectural frameworks, and blueprints under the [Creative Commons Attribution 4.0 International License](LICENSE).
 
 Copyright © 2026 NISHANT TAMILSELVAN and contributors.

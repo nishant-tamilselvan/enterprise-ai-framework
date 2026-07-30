@@ -12,7 +12,7 @@ Maintainers approve releases, protect project integrity, administer infrastructu
 
 ### Editors
 
-Editors coordinate one or more architecture domains, ensure source quality, and maintain terminology and document status.
+Editors coordinate one or more architecture domains, verify source quality, and maintain terminology and document status.
 
 ### Contributors and reviewers
 
@@ -22,7 +22,7 @@ Contributors propose changes. Reviewers provide domain, implementation, security
 
 The project seeks evidence-based consensus. Routine editorial corrections may be merged by one maintainer. Substantive architecture, normative, governance, or licensing changes require public discussion and approval from at least two maintainers when two are available.
 
-If consensus cannot be reached, maintainers record options, evidence, objections, and the final decision in the relevant issue. The lead maintainer is the final decision-maker until a multi-maintainer steering group is established.
+If participants cannot reach consensus, maintainers record options, evidence, objections, and the final decision in the relevant issue. The lead maintainer is the final decision-maker until the project establishes a multi-maintainer steering group.
 
 ## Transparency and conflicts
 

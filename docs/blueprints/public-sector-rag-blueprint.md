@@ -6,24 +6,24 @@ last_reviewed: 2026-07-26
 
 # Public-sector retrieval-augmented generation blueprint
 
-## Intended use
+## Authorized scope
 
-Assist authorized staff or the public in locating and understanding approved government information while preserving source authority, access controls, records obligations, accessibility, and a route to human service.
+The service assists authorized staff or the public in locating and understanding approved government information. It preserves source authority, access controls, records obligations, accessibility, and a route to human service.
 
-## Not intended for
+## Excluded scope
 
-Autonomous eligibility, enforcement, adjudication, benefits, immigration, law-enforcement, clinical, or other consequential decisions without a separately approved architecture and legal basis.
+This blueprint excludes autonomous eligibility, enforcement, adjudication, benefits, immigration, law-enforcement, clinical, and other consequential decisions. These uses require a separately approved architecture and legal basis.
 
 ## Logical flow
 
 1. Authenticate the actor where the service requires identity.
-2. classify intent, purpose, data sensitivity, and risk;
-3. retrieve only content authorized for that actor, purpose, jurisdiction, and time;
-4. preserve document version, provenance, effective dates, and classification;
-5. generate a bounded response with citations and uncertainty handling;
-6. validate output for sensitive data, unsupported claims, and policy constraints;
-7. present authoritative sources, limitations, and human escalation; and
-8. retain privacy-minimized evidence and monitor quality and harm indicators.
+2. Classify intent, purpose, data sensitivity, and risk.
+3. Retrieve only content authorized for that actor, purpose, jurisdiction, and time.
+4. Preserve document version, provenance, effective dates, and classification.
+5. Generate a bounded response with citations and a clear account of uncertainty.
+6. Validate output for sensitive data, unsupported claims, and policy constraints.
+7. Present authoritative sources, limitations, and human escalation.
+8. Retain privacy-minimized evidence and monitor quality and harm indicators.
 
 ## Minimum controls
 

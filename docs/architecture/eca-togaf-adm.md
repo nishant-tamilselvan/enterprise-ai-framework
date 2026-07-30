@@ -7,16 +7,15 @@ owners: Enterprise Architecture
 
 # ECA and the TOGAF ADM
 
-[Enterprise Context Architecture (ECA)](context-architecture.md) is positioned as a
-cross-cutting perspective at the heart of the TOGAF Architecture Development Method (ADM).
-It does not replace or add an ADM phase. Instead, it supplies the enterprise context —
-captured through Requirements Management at the centre of the cycle — that every phase
-consumes and updates.
+[Enterprise Context Architecture (ECA)](context-architecture.md) provides a cross-cutting
+perspective across the TOGAF Architecture Development Method (ADM). ECA preserves the ADM
+phase structure and supplies enterprise context to every phase. Requirements Management
+captures and updates that context at the centre of the cycle.
 
 !!! note "Key change"
-    ECA sits at the heart of the ADM as a cross-cutting perspective and **influences every
-    phase of the cycle**. Requirements Management is where ECA context requirements are
-    captured and kept current for all phases.
+    ECA provides a cross-cutting perspective and **influences every phase of the cycle**.
+    Requirements Management captures and maintains ECA context requirements for all
+    phases.
 
 ## ADM cycle
 
@@ -45,8 +44,8 @@ flowchart TB
 
 ## Phase-by-phase mapping
 
-The table maps each ADM phase to the ECA context domains it most relies on and the AI
-concerns ECA helps make explicit in that phase.
+The table maps each ADM phase to its primary ECA context domains and surfaces the AI
+concerns for that phase.
 
 | ADM phase | Primary ECA contexts | AI concerns ECA surfaces |
 | --- | --- | --- |
@@ -61,16 +60,15 @@ concerns ECA helps make explicit in that phase.
 
 ## Requirements Management at the centre
 
-Requirements Management is the connective tissue between ECA and the ADM. Each phase reads
-context requirements captured by ECA and writes back new or changed requirements as the
-architecture evolves. This keeps mission intent, data semantics, governance obligations,
-and operational constraints synchronized across the whole cycle, so AI capabilities remain
-grounded in current, authoritative enterprise context.
+Requirements Management links ECA to the ADM. Each phase reads ECA context requirements
+and writes back new or changed requirements as the architecture evolves. This exchange
+keeps mission intent, data semantics, governance obligations, and operational constraints
+synchronized across the cycle. AI capabilities remain grounded in current, authoritative
+enterprise context.
 
 ## Alignment note
 
 This page uses the canonical TOGAF ADM phase names (A. Architecture Vision through
-H. Architecture Change Management, with Requirements Management at the centre). It aligns
-ECA with the TOGAF ADM to aid adoption; it does not imply endorsement by, or certification
-against, The Open Group. Validate ADM tailoring against your organization's architecture
-practice.
+H. Architecture Change Management, with Requirements Management at the centre). The
+mapping supports adoption and carries no endorsement or certification from The Open Group.
+Validate ADM tailoring against your organization's architecture practice.

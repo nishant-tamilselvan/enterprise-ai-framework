@@ -23,4 +23,4 @@ An enterprise policy suite should translate principles into enforceable rules, a
 
 ## Policy quality checks
 
-Policies should identify scope, authority, accountable owner, normative requirements, exceptions, evidence, enforcement, review interval, training, and related standards. Requirements must be implementable and testable; policy publication alone is not control effectiveness.
+Policies should identify scope, authority, accountable owner, normative requirements, exceptions, evidence, enforcement, review interval, training, and related standards. Requirements must be implementable and testable. Control effectiveness requires implementation evidence beyond policy publication.

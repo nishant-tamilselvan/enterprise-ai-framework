@@ -6,23 +6,23 @@ last_reviewed: 2026-07-28
 
 # AI-assisted delivery overview
 
-AI-assisted delivery changes *how* teams produce software, not only how fast. When AI
-generates much of the implementation, the scarce resource shifts from writing code to
-defining intent, validating outcomes, and governing quality. This section describes an
-operating model for AI-assisted delivery that preserves accountability and reconciles with
-the governance [lifecycle gates](../governance/operating-model.md).
+AI-assisted delivery changes how teams produce software and allocate effort. When AI
+generates much of the implementation, teams spend more time defining intent, validating
+outcomes, and governing quality. This section describes an operating model that preserves
+accountability and aligns with the governance
+[lifecycle gates](../governance/operating-model.md).
 
-The model is principle-based and vendor-neutral. It does not prescribe a specific agile
-method, tool, or team size; it describes where effort, artefacts, and accountability move
-when AI does a large share of the implementation.
+The model is principle-based and vendor-neutral. It applies across agile methods, tools,
+and team sizes. It describes how teams allocate effort, manage artefacts, and assign
+accountability when AI performs a large share of the implementation.
 
-![The shift to AI-assisted delivery: the strategic focus moves from writing code, creating work items, manual testing, iteration administration, and implementation effort toward specification ownership and validation, detailed specifications, automated verification and evaluation, delivery coordination and governance, and quality, review, and accountability. The delivery pipeline compresses from requirements, work items, iteration planning, development, testing, release to requirements, specification, AI-assisted implementation, validation, release. Implementation becomes validation of the specification, not discovery of requirements, and human review and governance concentrate on the specification and validation stages.](../assets/images/delivery-shift.webp)
+![The shift to AI-assisted delivery. Traditional delivery emphasizes writing code, creating work items, manual testing, iteration administration, and implementation effort. AI-assisted delivery emphasizes specification ownership, detailed specifications, automated evaluation, delivery governance, quality, and accountability. The traditional pipeline includes requirements, work items, iteration planning, development, testing, and release. The AI-assisted pipeline includes requirements, specification, AI-assisted implementation, validation, and release. Human review and governance concentrate on specification and validation.](../assets/images/delivery-shift.webp)
 
 ## What changes
 
-Traditional delivery is organised around producing code and managing work items.
-AI-assisted delivery is increasingly organised around producing specifications, validating
-outcomes, enforcing standards, and governing delivery.
+Teams organise traditional delivery around producing code and managing work items. Teams
+organise AI-assisted delivery around producing specifications, validating outcomes,
+enforcing standards, and governing delivery.
 
 | Traditional focus | AI-assisted focus |
 | --- | --- |
@@ -32,14 +32,13 @@ outcomes, enforcing standards, and governing delivery.
 | Iteration administration | Delivery coordination and governance |
 | Implementation effort | Quality, review, and accountability |
 
-The single most important shift is the artefact: the **specification** becomes the primary
-deliverable, and implementation becomes *validation of the specification* rather than
-*discovery of requirements during implementation*.
+The **specification** becomes the primary deliverable. Teams complete requirements
+discovery before implementation and use implementation to validate the specification.
 
 ## Delivery pipeline shift
 
-The delivery sequence compresses. Work-item decomposition and iteration planning are
-replaced by specification engineering and AI-assisted implementation.
+The delivery sequence compresses. Specification engineering and AI-assisted implementation
+replace work-item decomposition and iteration planning.
 
 ```mermaid
 flowchart LR
@@ -53,8 +52,8 @@ flowchart LR
     end
 ```
 
-The removed stages are coordination overhead; the retained stages — specification and
-validation — are where human judgement and governance now concentrate.
+The removed stages represent coordination overhead. Human judgement and governance
+concentrate on the retained specification and validation stages.
 
 ## Scope and exclusions
 
@@ -64,24 +63,24 @@ This section covers:
 - How roles and accountability shift when AI generates implementation.
 - How to size and structure teams, and how to decompose work.
 
-It does not replace governance, security, or architecture guidance. Risk classification,
-authorization, threat modelling, and enterprise architecture remain governed by their
-respective sections; this section describes how delivery *operates within* them.
+The governance, security, and architecture sections retain authority over risk
+classification, authorization, threat modelling, and enterprise architecture. This section
+describes how delivery operates within those requirements.
 
-## How this section is organised
+## Section contents
 
-- [Specification-driven delivery](specification-driven-delivery.md) — the specification as
+- [Specification-driven delivery](specification-driven-delivery.md): the specification as
   the authoritative artefact, its anatomy, handoffs, and traceability.
-- [Roles and accountability](roles-and-accountability.md) — how roles shift and who is
+- [Roles and accountability](roles-and-accountability.md): how roles shift and who is
   accountable for each outcome and gate.
-- [Team topologies](team-topologies.md) — sizing, why more developers can slow delivery,
+- [Team topologies](team-topologies.md): sizing, why more developers can slow delivery,
   short delivery loops, and work decomposition.
 
 ## Relationship to the rest of the framework
 
-The delivery model is the team-level expression of the governance
-[operating model](../governance/operating-model.md): its handoffs map to the lifecycle
-gates, and its accountable roles map to the named accountability owners. It exercises the
-[capability model](../architecture/capability-model.md) — particularly AI engineering,
-platform and integration, and people and adoption — and depends on well-formed
-[context](../architecture/context-architecture.md) to specify systems correctly.
+The delivery model applies the governance
+[operating model](../governance/operating-model.md) at team level. Its handoffs map to the
+lifecycle gates, and its accountable roles map to the named accountability owners. It
+exercises the [capability model](../architecture/capability-model.md), including AI
+engineering, platform and integration, and people and adoption. It also depends on
+well-formed [context](../architecture/context-architecture.md) to specify systems correctly.
