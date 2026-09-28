@@ -35,6 +35,9 @@ jobs:
         with:
           args: >-
             --no-progress
+            --max-retries 4
+            --retry-wait-time 10
+            --timeout 30
             --exclude-path site
             --exclude-path .venv
             --exclude-path tmp

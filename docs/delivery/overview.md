@@ -47,7 +47,7 @@ The delivery sequence compresses. Specification engineering and AI-assisted impl
 replace work-item decomposition and iteration planning.
 
 ```mermaid
-flowchart LR
+flowchart TB
     subgraph T["Traditional"]
         direction LR
         T1[Requirements] --> T2[Work items] --> T3[Iteration planning] --> T4[Development] --> T5[Testing] --> T6[Release]
@@ -56,6 +56,7 @@ flowchart LR
         direction LR
         A1[Requirements] --> A2[Specification] --> A3[AI-assisted implementation] --> A4[Validation] --> A5[Release]
     end
+    T ~~~ A
 ```
 
 The removed stages represent coordination overhead. Human judgment and governance
