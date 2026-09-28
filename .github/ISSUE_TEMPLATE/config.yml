@@ -2,7 +2,7 @@ blank_issues_enabled: false
 contact_links:
   - name: Private security report
     url: https://github.com/nishant-tamilselvan/enterprise-ai-framework/security/advisories/new
-    about: Report exploitable or sensitive security concerns privately.
+    about: Report exploitable or sensitive security concerns privately. If this form is unavailable, follow the fallback in SECURITY.md.
   - name: Contribution guidance
     url: https://github.com/nishant-tamilselvan/enterprise-ai-framework/blob/master/CONTRIBUTING.md
     about: Read scope, editorial standards, and the DCO process before contributing.

@@ -6,7 +6,9 @@ Maintainers apply security and safety corrections to the latest published versio
 
 ## Reporting a vulnerability
 
-Use GitHub's **Report a vulnerability** private security advisory feature for information that could enable exploitation, expose sensitive data, or create immediate AI safety risk. Reserve public issues for reports that carry none of these risks.
+Report privately through GitHub for information that could enable exploitation, expose sensitive data, or create immediate AI safety risk. Open the repository's **Security** tab and select **Report a vulnerability**, or go straight to the [private report form](https://github.com/nishant-tamilselvan/enterprise-ai-framework/security/advisories/new). Only you and the maintainers can see the report. Reserve public issues for reports that carry none of these risks.
+
+If the private form is unavailable, open a [security contact request](https://github.com/nishant-tamilselvan/enterprise-ai-framework/issues/new?template=security-contact-request.md). The issue is public, so include no details of the problem. A maintainer replies on the issue with a private channel for the report.
 
 Include:
 

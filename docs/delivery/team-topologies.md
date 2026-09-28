@@ -24,8 +24,8 @@ implementation headcount small because AI performs most generation while people 
 verify it.
 
 !!! note "Illustrative only"
-  The figures below illustrate the structure of a specification-weighted team. Tailor the
-  allocation to mission, risk, and scale.
+    The figures below illustrate the structure of a specification-weighted team. Tailor the
+    allocation to mission, risk, and scale.
 
 An indicative allocation for a single AI-assisted product team:
 
