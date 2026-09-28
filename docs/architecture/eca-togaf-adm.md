@@ -1,8 +1,10 @@
 ---
 title: ECA and the TOGAF ADM
+doc_status: Draft
 version: 0.1.0
+owners: Framework maintainers
+audience: Enterprise and solution architects
 last_reviewed: 2026-07-26
-owners: Enterprise Architecture
 ---
 
 # ECA and the TOGAF ADM
@@ -10,7 +12,7 @@ owners: Enterprise Architecture
 [Enterprise Context Architecture (ECA)](context-architecture.md) provides a cross-cutting
 perspective across the TOGAF Architecture Development Method (ADM). ECA preserves the ADM
 phase structure and supplies enterprise context to every phase. Requirements Management
-captures and updates that context at the centre of the cycle.
+captures and updates that context at the center of the cycle.
 
 !!! note "Key change"
     ECA provides a cross-cutting perspective and **influences every phase of the cycle**.
@@ -58,7 +60,7 @@ concerns for that phase.
 | G. Implementation Governance | Technology, Integration, Governance, Operational | Least-privilege tool access, evaluation gates, and control evidence at build time |
 | H. Architecture Change Management | Governance, Business, People & Org | Drift, material-change assessment, re-approval, and context fed back to Requirements Management |
 
-## Requirements Management at the centre
+## Requirements Management at the center
 
 Requirements Management links ECA to the ADM. Each phase reads ECA context requirements
 and writes back new or changed requirements as the architecture evolves. This exchange
@@ -69,6 +71,6 @@ enterprise context.
 ## Alignment note
 
 This page uses the canonical TOGAF ADM phase names (A. Architecture Vision through
-H. Architecture Change Management, with Requirements Management at the centre). The
+H. Architecture Change Management, with Requirements Management at the center). The
 mapping supports adoption and carries no endorsement or certification from The Open Group.
 Validate ADM tailoring against your organization's architecture practice.

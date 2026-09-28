@@ -1,6 +1,9 @@
 ---
 title: Governance Operating Model
+doc_status: Draft
 version: 0.1.0
+owners: Framework maintainers
+audience: Governance, risk, and compliance leads
 last_reviewed: 2026-07-26
 ---
 
@@ -8,10 +11,10 @@ last_reviewed: 2026-07-26
 
 ## Decision forums
 
-- **Portfolio forum:** prioritizes investment and monitors value, concentration, and systemic risk.
-- **AI review board:** approves risk tier, control profile, release evidence, exceptions, and material changes.
-- **Architecture and security review:** validates boundaries, integrations, resilience, privacy, and threat mitigations.
-- **Operational risk forum:** reviews performance, incidents, complaints, drift, and corrective actions.
+- **Portfolio forum.** Prioritizes investment and monitors value, concentration, and systemic risk.
+- **AI review board.** Approves risk tier, control profile, release evidence, exceptions, and material changes.
+- **Architecture and security review.** Validates boundaries, integrations, resilience, privacy, and threat mitigations.
+- **Operational risk forum.** Reviews performance, incidents, complaints, drift, and corrective actions.
 
 ## Lifecycle gates
 

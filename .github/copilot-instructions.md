@@ -1,4 +1,4 @@
-# Copilot Instructions — Enterprise AI Framework
+# Copilot instructions for the Enterprise AI Framework
 
 This repository is a documentation and reference framework built with MkDocs. Most contributions are Markdown prose: architecture guidance, governance and compliance content, blueprints, release notes, and blog posts. Content is vendor-neutral and targets government, public-sector, and regulated organizations.
 
@@ -27,3 +27,24 @@ python .github/skills/writing-style/scripts/sloplint.py docs/path/to/page.md
 - Markdown is linted in CI (see `.github/workflows/markdown-lint.yml`). Keep new content lint-clean.
 - Release notes go in `releases/`; follow the existing templates.
 - Provide guidance, not legal, regulatory, security, procurement, or compliance advice.
+- Give every page under `docs/` the frontmatter fields listed in `CONTRIBUTING.md`.
+- Use American spelling. Keep official titles and legal terms as published, such as the EU AI Act's "harmonised standards".
+
+## Organization-neutral content
+
+The framework is vendor-neutral and organization-neutral. Never add the names of employers, internal programs, internal systems, internal hostnames, or real people's internal roles to any file, commit message, or pull request. Use generic examples, and label any invented figure as illustrative.
+
+The denylist check enforces this. It reads public patterns from `scripts/ci/denylist.txt`, and private organization patterns from a gitignored `.denylist.local` file or a CI secret. Run it before you finish:
+
+```bash
+python scripts/ci/denylist.py
+```
+
+## Checks before you finish
+
+| Check | Command |
+| --- | --- |
+| All pre-commit hooks | `pre-commit run --all-files` |
+| Docs build | `mkdocs build --strict` |
+
+Claude Code reads `CLAUDE.md`, which imports this file, so both tools follow the same rules.

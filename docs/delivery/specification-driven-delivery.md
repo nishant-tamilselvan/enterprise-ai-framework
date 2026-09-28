@@ -1,17 +1,22 @@
 ---
 title: Specification-Driven Delivery
-version: 0.1.0
+doc_status: Draft
+version: 0.2.0
+owners: Framework maintainers
+audience: Delivery leads, product owners, and delivery teams
 last_reviewed: 2026-07-28
 ---
 
 # Specification-driven delivery
 
-In AI-assisted delivery, the **specification** is the authoritative artefact. Teams derive
+In AI-assisted delivery, the **specification** is the authoritative artifact. Teams derive
 work items from it. Work items describe fragments of intent that teams assemble over
 successive iterations. A specification captures the full intent before implementation in
 enough detail for an AI-assisted team to implement and validate directly.
 
-![The specification as the authoritative delivery artefact. One versioned document holds eight components: purpose and context, requirements, acceptance criteria, architecture constraints, security and privacy requirements, standards references, open questions and resolutions, and approvals. It guides implementation and verification. Teams commit it with the code to create an auditable historical record and derive work items from it.](../assets/images/delivery-specification.webp)
+![The specification as the authoritative delivery artifact. One versioned document holds eight components: purpose and context, requirements, acceptance criteria, architecture constraints, security and privacy requirements, standards references, open questions and resolutions, and approvals. It guides implementation and verification. Teams commit it with the code to create an auditable historical record and derive work items from it.](../assets/images/delivery-specification.webp)
+
+<small>Figure: generated with NotebookLM from the framework's text · Enterprise AI Framework · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)</small>
 
 ## Specifications and work items
 
@@ -41,7 +46,7 @@ re-discovering intent. Each specification should contain:
    implementation must respect.
 5. **Security and privacy requirements**: data classification, access, and threat
    considerations for sensitive components.
-6. **Standards references**: the organisational standards, patterns, and reusable
+6. **Standards references**: the organizational standards, patterns, and reusable
    templates that govern the solution.
 7. **Open questions and resolutions**: a running log of ambiguities and how the team
    resolved them.
@@ -52,7 +57,7 @@ Treat this as a reusable checklist. Complete every element before implementation
 ## The specification-based handoff chain
 
 Specification approvals define the handoffs. Each transition is an approval point where
-human judgement adds quality. AI throughput makes review the limiting factor.
+human judgment adds quality. AI throughput makes review the limiting factor.
 
 ```mermaid
 flowchart LR
@@ -86,6 +91,6 @@ This approach stores audit and maintenance history in one versioned place tied t
 
 - Validate the **specification's testability** before implementation begins. A flawed
    specification can produce an implementation that passes its own tests.
-- Keep a **named human accountable** for every AI-generated artefact through to production.
+- Keep a **named human accountable** for every AI-generated artifact through to production.
 - Apply **separation of duties** by requiring a second human to approve each AI-assisted
    change.

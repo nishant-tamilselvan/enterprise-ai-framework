@@ -1,6 +1,9 @@
 ---
 title: EU AI Act Mapping
-version: 0.2.0
+doc_status: Draft
+version: 0.3.0
+owners: Framework maintainers
+audience: Compliance, legal, privacy, and assurance teams
 last_reviewed: 2026-09-28
 source_framework: Regulation (EU) 2024/1689, as amended by Regulation (EU) 2026/1744
 ---
@@ -133,7 +136,7 @@ The higher amount applies, except for SMEs and small mid-caps, where the lower o
 
 ## Standards
 
-No harmonised standards for the AI Act were cited in the Official Journal as of 2026-09-28, so none yet gives a presumption of conformity. CEN and CENELEC published EN 18286:2026, a quality management system standard that supports Article 17, in July 2026. Track the Commission's standardisation page for citations.
+No harmonised standards for the AI Act were cited in the Official Journal as of 2026-09-28, so none yet gives a presumption of conformity. CEN and CENELEC published EN 18286:2026, a quality management system standard that supports Article 17, in July 2026. Track the Commission's standardization page for citations.
 
 ## Sources
 

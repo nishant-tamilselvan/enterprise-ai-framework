@@ -1,6 +1,9 @@
 ---
 title: AI Incident Response
-version: 0.1.0
+doc_status: Draft
+version: 0.3.0
+owners: Framework maintainers
+audience: Security architects and engineers
 last_reviewed: 2026-09-28
 ---
 

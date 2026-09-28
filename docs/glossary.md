@@ -1,6 +1,9 @@
 ---
 title: Glossary
+doc_status: Draft
 version: 0.1.0
+owners: Framework maintainers
+audience: All readers
 last_reviewed: 2026-07-26
 ---
 
@@ -24,11 +27,11 @@ The authorized, task-specific set of identity, purpose, data, policy, model, too
 
 ## Enterprise Context Architecture (ECA)
 
-A cross-cutting architectural perspective that connects business intent to information, systems, and intelligent outcomes. ECA organizes enterprise context into seven domains: People & Org, Business, Information, Technology, Governance, Integration, and Operational. Requirements Management sits at the centre, and ECA applies across all TOGAF ADM phases.
+A cross-cutting architectural perspective that connects business intent to information, systems, and intelligent outcomes. ECA organizes enterprise context into seven domains: People & Org, Business, Information, Technology, Governance, Integration, and Operational. Requirements Management sits at the center, and ECA applies across all TOGAF ADM phases.
 
 ## Requirements Management
 
-The centre of the TOGAF ADM and ECA. Requirements Management captures and maintains context requirements so every architecture phase and AI capability draws on the same authoritative context.
+The center of the TOGAF ADM and ECA. Requirements Management captures and maintains context requirements so every architecture phase and AI capability draws on the same authoritative context.
 
 ## TOGAF ADM
 

@@ -1,6 +1,9 @@
 ---
 title: Team Topologies for AI-Assisted Delivery
-version: 0.1.0
+doc_status: Draft
+version: 0.2.0
+owners: Framework maintainers
+audience: Delivery leads, product owners, and delivery teams
 last_reviewed: 2026-07-28
 ---
 
@@ -16,6 +19,8 @@ A **small, cross-functional team weighted toward specification, validation, and 
 provides the required collaboration and runs in short loops.
 
 ![Illustrative comparison of traditional and AI-assisted team allocation. A traditional team uses about nine full-time roles across architecture, development, verification, product ownership, delivery coordination, service design, and interaction design. An AI-assisted core uses about 3.75 full-time equivalents: one architect, one developer, and fractional verification, product ownership, service design, and delivery coordination. Security and privacy review, operational ownership, and interaction design engage on demand. The architect remains full-time and focuses on specification engineering. Developer and verification allocations decrease.](../assets/images/delivery-team-topologies.webp)
+
+<small>Figure: generated with NotebookLM from the framework's text · Enterprise AI Framework · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)</small>
 
 ## Size teams by specification workload
 
@@ -73,7 +78,7 @@ Adding developers often slows an AI-assisted team for four reasons:
   interconnected implementations. Splitting them across developers creates merge conflicts,
   divergent context, and integration rework.
 - **Coordination cost is superlinear.** Communication paths grow roughly as *n(n−1)/2*; each
-  added developer adds handoffs, context synchronisation, and review load.
+  added developer adds handoffs, context synchronization, and review load.
 - **Review concentrates on one role.** The architect reviews against the specification;
   more developers generate more to review against a fixed review capacity.
 
@@ -96,9 +101,9 @@ flowchart LR
 
 Practices that keep loops short:
 
-- **Small atomic changes**: use small commits and frequent, reviewable pull requests.
-- **Low work-in-progress**: finish and integrate a slice before starting the next.
-- **Continuous validation**: validate each slice against the specification as it lands.
+- **Small atomic changes.** Use small commits and frequent, reviewable pull requests.
+- **Low work-in-progress.** Finish and integrate a slice before starting the next.
+- **Continuous validation.** Validate each slice against the specification as it lands.
 
 ## Work decomposition and swim lanes
 
@@ -109,7 +114,7 @@ interconnected implementation.
 - **Bounded ownership.** Assign each swim lane to one contributor from start to finish. This
   assignment reduces overlap and merge conflicts.
 - **Small slices.** Each lane's work should fit the short-loop rhythm above.
-- **Light coordination.** Synchronise lanes through periodic checkpoints for dependency and
+- **Light coordination.** Synchronize lanes through periodic checkpoints for dependency and
   integration coordination.
 - **Team-based scaling.** Add small swim-lane teams, each with its own specification and
   solution boundary.
