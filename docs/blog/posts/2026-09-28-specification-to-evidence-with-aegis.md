@@ -15,7 +15,7 @@ The framework's [delivery model](../../delivery/overview.md) says the specificat
 !!! info "Disclosure and status"
     I maintain both this framework and AEGIS. This post is a practitioner's walkthrough and
     my own view. It is not a project decision, and the framework does not require AEGIS. It
-    applies to framework version 0.3.0 and AEGIS 0.1.2.
+    applies to framework version 0.3.0 and AEGIS 0.2.0.
 
 ## Summary
 
