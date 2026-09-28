@@ -6,7 +6,7 @@ owners: Enterprise Architecture
 social:
   cards_layout_options:
     title: Enterprise Context Architecture (ECA)
-        description: AI needs authoritative enterprise context.
+    description: AI needs authoritative enterprise context.
 ---
 
 # Enterprise Context Architecture (ECA)

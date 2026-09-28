@@ -25,3 +25,6 @@ desktop.ini
 *.log
 tmp/
 .tmp/
+
+# Local denylist: organization patterns, never committed.
+.denylist.local

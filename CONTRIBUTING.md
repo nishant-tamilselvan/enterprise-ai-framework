@@ -22,13 +22,34 @@ Thank you for helping build an open, trustworthy Enterprise AI architecture fram
 1. Fork the repository and create a branch from `master`.
 2. Use a descriptive branch name such as `docs/context-boundaries`.
 3. Write concise commits and sign each commit with `git commit -s`.
-4. Run the documentation build and Markdown checks.
+4. Run the documentation build and the local checks (see [Local checks](#local-checks)).
 5. Submit a pull request using the repository template.
 6. Address reviewer feedback and preserve a clear decision record.
 
 ## Developer Certificate of Origin
 
 Contributions use the Developer Certificate of Origin (DCO) process. A `Signed-off-by` line certifies that you have the right to submit the contribution under this repository's license. Use your real name and an email address you control.
+
+Add the line with `git commit -s`. A required check fails any pull request that contains a commit without it. To fix an unsigned commit, run `git commit --amend -s` for the last commit, or `git rebase --signoff master` for several, then force-push your branch.
+
+## Local checks
+
+Install the hooks once, then they run on every commit:
+
+```bash
+pip install pre-commit
+pre-commit install
+pre-commit run --all-files
+```
+
+| Hook | Checks |
+| --- | --- |
+| File hygiene | Large files, merge conflict markers, YAML and JSON syntax, line endings, trailing whitespace |
+| markdownlint-cli2 | Markdown style, using `.markdownlint-cli2.jsonc` |
+| gitleaks | Secrets in staged changes |
+| Denylist | Credentials, internal hostnames and personal paths, from `scripts/ci/denylist.txt` |
+
+The denylist also reads a gitignored `.denylist.local` file for organization names that must not appear in the repository. CI reads the same patterns from a repository secret and never prints them.
 
 ## Editorial standards
 
@@ -57,4 +78,4 @@ Maintainers evaluate technical correctness, evidence quality, neutrality, securi
 
 ## License of contributions
 
-By contributing, you license your contribution under Creative Commons Attribution 4.0 International unless a file clearly states another license.
+By contributing, you license documentation and other content under Creative Commons Attribution 4.0 International, and code under the MIT License, as the README's License section describes. A file that clearly states another license follows that license instead.
