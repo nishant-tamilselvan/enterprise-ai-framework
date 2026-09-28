@@ -4,18 +4,22 @@ This repository is a documentation and reference framework built with MkDocs. Mo
 
 ## Writing style
 
-All prose in this repository follows the [Writing Style Guide](instructions/writing-style.instructions.md). It is auto-attached when you edit Markdown files, and it applies to documentation, README files, blog posts, release notes, commit messages, and pull request descriptions.
+All prose in this repository follows the [writing-style skill](skills/writing-style/SKILL.md). Load it before you write or edit documentation, README files, blog posts, release notes, commit messages, or pull request descriptions. The banned words, phrases, and sentence shapes live in [`banned.json`](skills/writing-style/references/banned.json).
 
 Apply it whenever you author or edit text. Key rules to keep in mind:
 
 - Write in plain declarative language. State the claim and move on.
 - Never use "this is not A, but B" constructions.
 - No em dashes. Use commas, periods, parentheses, or colons.
-- Avoid the banned vocabulary and AI-tell sentence openers listed in the guide.
+- Avoid the banned vocabulary and AI-tell sentence openers listed in the rule file.
 - Use the active voice, name the actor, and keep numbers concrete.
 - No emojis or decorative icons unless the user asks for them.
 
-Run the Reviewer's Checklist in the guide before finishing any written change.
+Before finishing any written change, run the checker on each file you touched, then work through the Reviewer's Checklist in the skill:
+
+```bash
+python .github/skills/writing-style/scripts/sloplint.py docs/path/to/page.md
+```
 
 ## Repository conventions
 

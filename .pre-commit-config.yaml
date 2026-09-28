@@ -1,0 +1,41 @@
+# Install once with:  pip install pre-commit && pre-commit install
+# Run on everything:  pre-commit run --all-files
+# Hook repos are pinned to commit SHAs; update them with `pre-commit autoupdate --freeze`.
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: 3e8a8703264a2f4a69428a0aa4dcb512790b2c8c  # frozen: v6.0.0
+    hooks:
+      - id: check-added-large-files
+        args: ["--maxkb=1000"]
+      - id: check-case-conflict
+      - id: check-json
+      - id: check-merge-conflict
+      - id: check-yaml
+        # Syntax only: mkdocs.yml uses !ENV and !!python/name tags.
+        args: ["--unsafe"]
+      - id: detect-private-key
+      - id: end-of-file-fixer
+      - id: mixed-line-ending
+        args: ["--fix=lf"]
+        exclude: '\.(ps1|bat|cmd)$'
+      - id: trailing-whitespace
+        exclude: '\.md$'
+
+  - repo: https://github.com/DavidAnson/markdownlint-cli2
+    rev: 916ad0aaa108c64d294101002066f530ea170b10  # frozen: v0.23.3
+    hooks:
+      - id: markdownlint-cli2
+
+  - repo: https://github.com/gitleaks/gitleaks
+    rev: 83d9cd684c87d95d656c1458ef04895a7f1cbd8e  # frozen: v8.30.1
+    hooks:
+      - id: gitleaks
+
+  - repo: local
+    hooks:
+      - id: denylist
+        name: Denylist (credentials, internal hostnames, personal paths, organization names)
+        entry: python scripts/ci/denylist.py
+        language: system
+        pass_filenames: false
+        always_run: true

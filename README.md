@@ -78,7 +78,8 @@ It is vendor-neutral and remains independent of any specific cloud, model provid
 ├── CHANGELOG.md             # Notable changes by version
 ├── CONTRIBUTING.md          # Contribution workflow and editorial rules
 ├── GOVERNANCE.md            # Stewardship and decision model
-├── LICENSE                  # Creative Commons Attribution 4.0
+├── LICENSE                  # Creative Commons Attribution 4.0 (content)
+├── LICENSES/MIT.txt         # MIT License (code)
 ├── mkdocs.yml               # Documentation-site configuration
 └── requirements-docs.txt    # Reproducible documentation dependencies
 ```
@@ -155,6 +156,13 @@ Use the metadata in [`CITATION.cff`](CITATION.cff). When adapting the framework,
 
 ## License
 
-Unless a file identifies another license, the project licenses repository documentation, diagrams, architectural frameworks, and blueprints under the [Creative Commons Attribution 4.0 International License](LICENSE).
+The project uses two licenses. A file that names its own license follows that license instead.
+
+| Part of the repository | License |
+| --- | --- |
+| Documentation, diagrams, images, architectural frameworks, blueprints, release notes, and other prose | [Creative Commons Attribution 4.0 International](LICENSE) (CC BY 4.0) |
+| Code: scripts, theme overrides in `overrides/`, workflows in `.github/workflows/`, and configuration files such as `mkdocs.yml` | [MIT License](LICENSES/MIT.txt) |
+
+When you reuse the content, give credit, link to the license, and say what you changed. When you reuse the code, keep the MIT copyright and permission notice.
 
 Copyright © 2026 NISHANT TAMILSELVAN and contributors.
