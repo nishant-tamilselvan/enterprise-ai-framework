@@ -8,6 +8,7 @@ The project uses the [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) fo
 
 ### Added
 
+- A diagram viewer: select any diagram, or its Expand button, to open it full screen and zoom with the mouse wheel, a pinch, or buttons, and drag to move (`docs/javascripts/diagrams.js`).
 - Provenance captions on the ECA wheel and the four Delivery images, all generated with NotebookLM, and a contribution rule that AI-generated figures name their tool.
 - `.github/CODEOWNERS`, so GitHub requests a maintainer review on every pull request.
 - Conduct contact request issue template, the private reporting route in the Code of Conduct.
@@ -24,6 +25,7 @@ The project uses the [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) fo
 
 ### Changed
 
+- Mermaid diagrams render in the page instead of in Material's closed shadow DOM, span the full content width, and follow the light and dark theme. The context wheels and the delivery diagrams use layouts that read at page width.
 - Site navigation uses one tab per section, so the sidebar lists only the current section's pages. Pages show breadcrumbs, and the table of contents follows scrolling.
 - Every page has an icon in the navigation, and each page title is followed by chips for its status, version, audience, and last review date.
 - Stronger heading hierarchy, clearer sidebar section labels and active page, tinted table headers, and hero buttons with icons that meet contrast on the gradient.
@@ -52,6 +54,7 @@ The project uses the [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) fo
 
 ### Fixed
 
+- The link check retries slow sites up to four times with a 30-second timeout, so one timeout no longer fails the run.
 - The ECA wheel's credit no longer claims personal copyright for a figure generated with NotebookLM.
 - The changelog and the 0.2.0 release notes no longer claim that 0.2.0 adopted ECA. ECA shipped in 0.1.0, and the entries now sit under that release.
 - The frontmatter of the Enterprise Context Architecture page is valid YAML again, so its social card description loads.

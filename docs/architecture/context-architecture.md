@@ -54,7 +54,7 @@ ECA organizes enterprise context into seven domains, all feeding **Requirements 
 ## Context wheel
 
 ```mermaid
-flowchart TB
+flowchart LR
     RM(("Requirements Management<br/>context requirements captured here"))
     P["People &amp; Org<br/>roles, culture, capabilities, policies"]
     B["Business<br/>intent, capabilities, value streams, objectives"]
@@ -64,13 +64,8 @@ flowchart TB
     N["Integration<br/>external organizations, partners, interfaces, data flows"]
     O["Operational<br/>processes, metrics, SLAs, events, constraints"]
 
-    P --- RM
-    B --- RM
-    I --- RM
-    T --- RM
-    G --- RM
-    N --- RM
-    O --- RM
+    P & B & I & T --- RM
+    RM --- G & N & O
 ```
 
 !!! note "Reading the wheel"

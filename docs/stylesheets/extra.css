@@ -365,3 +365,152 @@ body:has(.mdx-hero) .md-content__inner > h2::before {
 body:has(.mdx-hero) .md-typeset h2 {
   border-bottom: 0;
 }
+
+/* =========================================================================
+   Mermaid diagrams (rendered by docs/javascripts/diagrams.js)
+   ========================================================================= */
+
+/* Hide the raw source until the script replaces it, so readers never see a flash of code. */
+.md-typeset pre.eaf-diagram {
+  visibility: hidden;
+  height: 4rem;
+}
+
+.md-typeset figure.eaf-diagram {
+  position: relative;
+  display: block;
+  margin: 1.5em 0;
+  padding: 1rem;
+  border: 0.05rem solid var(--md-default-fg-color--lightest);
+  border-radius: 0.5rem;
+  background: var(--md-default-bg-color);
+  text-align: center;
+}
+
+.md-typeset .eaf-diagram__canvas svg {
+  height: auto;
+  max-width: 100%;
+}
+
+.md-typeset .eaf-diagram__toolbar {
+  position: absolute;
+  top: 0.4rem;
+  right: 0.4rem;
+  opacity: 0.35;
+  transition: opacity 0.2s;
+}
+
+.md-typeset figure.eaf-diagram:hover .eaf-diagram__toolbar,
+.md-typeset .eaf-diagram__toolbar:focus-within {
+  opacity: 1;
+}
+
+.eaf-diagram__button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  margin-left: 0.2rem;
+  border: 0.05rem solid var(--md-default-fg-color--lightest);
+  border-radius: 0.3rem;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color--light);
+  cursor: pointer;
+}
+
+.eaf-diagram__button:hover,
+.eaf-diagram__button:focus-visible {
+  border-color: var(--md-accent-fg-color);
+  color: var(--md-accent-fg-color);
+}
+
+.eaf-diagram__button svg {
+  width: 1.1rem;
+  height: 1.1rem;
+  fill: currentColor;
+}
+
+/* Full-screen viewer */
+.eaf-viewer {
+  width: 96vw;
+  max-width: none;
+  height: 92vh;
+  max-height: none;
+  padding: 0;
+  border: 0;
+  border-radius: 0.6rem;
+  background: #ffffff;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.35);
+}
+
+.eaf-viewer.is-dark {
+  background: #1e2129;
+}
+
+.eaf-viewer::backdrop {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.eaf-viewer__toolbar {
+  position: absolute;
+  top: 0.6rem;
+  right: 0.6rem;
+  z-index: 1;
+}
+
+.eaf-viewer .eaf-diagram__button {
+  background: #ffffff;
+  color: #333333;
+}
+
+.eaf-viewer.is-dark .eaf-diagram__button {
+  background: #2b2f3a;
+  color: #e6e6e6;
+}
+
+.eaf-viewer__stage {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  cursor: grab;
+  touch-action: none;
+}
+
+.eaf-viewer__stage.is-dragging {
+  cursor: grabbing;
+}
+
+.eaf-viewer__content {
+  transform-origin: 0 0;
+}
+
+.eaf-viewer__hint {
+  position: absolute;
+  bottom: 0.6rem;
+  left: 50%;
+  margin: 0;
+  transform: translateX(-50%);
+  color: #777777;
+  font-size: 0.7rem;
+  pointer-events: none;
+}
+
+/* Material sizes figures to their content; diagrams need the full column instead. */
+.md-typeset figure.eaf-diagram {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.md-typeset .eaf-diagram__canvas {
+  width: 100%;
+}
+
+/* Diagrams open in the viewer on click, like images in the lightbox. */
+.md-typeset .eaf-diagram__canvas {
+  cursor: zoom-in;
+}
+
+.md-typeset .eaf-diagram__toolbar {
+  opacity: 0.7;
+}

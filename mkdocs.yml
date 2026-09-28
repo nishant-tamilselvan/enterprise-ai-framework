@@ -99,8 +99,10 @@ markdown_extensions:
       check_paths: true
   - pymdownx.superfences:
       custom_fences:
+        # Material renders .mermaid blocks in a closed shadow DOM that cannot be zoomed.
+        # This class keeps Material out, and docs/javascripts/diagrams.js renders them.
         - name: mermaid
-          class: mermaid
+          class: eaf-diagram
           format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
@@ -115,6 +117,10 @@ extra:
 
 extra_css:
   - stylesheets/extra.css
+
+extra_javascript:
+  - path: javascripts/diagrams.js
+    type: module
 
 nav:
   - Home: index.md

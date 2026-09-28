@@ -17,7 +17,7 @@ Reference diagrams communicate logical responsibilities and trust boundaries. Pr
 Requirements Management captures context requirements at the center of seven ECA context domains.
 
 ```mermaid
-flowchart TB
+flowchart LR
     RM((Requirements Management))
     P[People &amp; Org]
     B[Business]
@@ -27,13 +27,8 @@ flowchart TB
     N[Integration]
     O[Operational]
 
-    P --- RM
-    B --- RM
-    I --- RM
-    T --- RM
-    G --- RM
-    N --- RM
-    O --- RM
+    P & B & I & T --- RM
+    RM --- G & N & O
 ```
 
 ## Controlled AI service flow
