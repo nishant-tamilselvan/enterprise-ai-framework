@@ -1,0 +1,17 @@
+{
+  // Markdown rules for the framework's documentation, release notes and repository files.
+  "config": {
+    "default": true,
+    "MD013": false,  // line length: prose and tables wrap freely
+    "MD024": { "siblings_only": true },
+    "MD025": { "front_matter_title": "" },  // frontmatter `title:` is metadata, not a heading
+    "MD033": false,  // inline HTML: used for figures and the landing page
+    "MD041": false   // first line heading: pages start with frontmatter
+  },
+  "ignores": [
+    ".venv/**",
+    "tmp/**",
+    "site/**",
+    "**/node_modules/**"
+  ]
+}

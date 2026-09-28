@@ -8,13 +8,33 @@ The project uses the [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) fo
 
 ### Added
 
+- `LICENSES/MIT.txt`: code (scripts, theme overrides, workflows, and configuration) is now licensed under MIT. Content stays under CC BY 4.0.
+- Supply-chain hardening: Dependabot for actions and pip (MkDocs stays on 1.x), OpenSSF Scorecard, CodeQL for workflows and Python, a gitleaks secret scan with a verified checksum, and a DCO sign-off check on pull requests.
+- Pre-commit hooks: file hygiene, markdownlint, gitleaks, and a denylist check (`scripts/ci/denylist.py`) whose organization patterns stay out of the repository.
+- `.gitattributes` for LF line endings, and `.markdownlint-cli2.jsonc`, which ignores `.venv`, `tmp`, and `site`.
+- Security contact request issue template, for reporters who cannot use the private report form.
+- `writing-style` skill under `.github/skills/`, with a machine-readable rule file (`references/banned.json`) and a checker script (`scripts/sloplint.py`).
+
 ### Changed
+
+- The Copilot instructions point at the `writing-style` skill instead of the old instructions file.
+- `LICENSE` now holds the full Creative Commons Attribution 4.0 legal code, so GitHub detects the license as CC-BY-4.0.
+- Workflows pin every action to a full commit SHA, set `persist-credentials: false`, and set job timeouts. The Pages workflow grants `pages: write` and `id-token: write` to the deploy job only, and it now also runs when `overrides/` changes.
+- The Documentation quality workflow also builds the site in strict mode and runs the repository checks.
+- The README License section, `CONTRIBUTING.md`, and `CITATION.cff` describe the two-license setup.
+- `SECURITY.md` explains how to reach the private report form, and gives a fallback: a detail-free security contact request issue.
 
 ### Deprecated
 
 ### Removed
 
+- `.markdownlint.json`, replaced by `.markdownlint-cli2.jsonc`.
+- `.github/instructions/writing-style.instructions.md`, replaced by the `writing-style` skill. It named an internal source and quoted a budget figure that read as real.
+
 ### Fixed
+
+- The frontmatter of the Enterprise Context Architecture page is valid YAML again, so its social card description loads.
+- The "Illustrative only" note on the team topologies page renders its text inside the box.
 
 ### Security
 
