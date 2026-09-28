@@ -61,7 +61,7 @@ Specification approvals define the handoffs. Each transition is an approval poin
 human judgment adds quality. AI throughput makes review the limiting factor.
 
 ```mermaid
-flowchart LR
+flowchart TB
     PO["Product owner<br/>approves requirements"] --> ARCH["Architect<br/>approves design"]
     ARCH --> SEC["Security and privacy<br/>approve sensitive components"]
     SEC --> DEV["Developer<br/>implements (AI-assisted)"]
