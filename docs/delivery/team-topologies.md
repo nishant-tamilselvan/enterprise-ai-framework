@@ -21,7 +21,7 @@ provides the required collaboration and runs in short loops.
 
 ![Illustrative comparison of traditional and AI-assisted team allocation. A traditional team uses about nine full-time roles across architecture, development, verification, product ownership, delivery coordination, service design, and interaction design. An AI-assisted core uses about 3.75 full-time equivalents: one architect, one developer, and fractional verification, product ownership, service design, and delivery coordination. Security and privacy review, operational ownership, and interaction design engage on demand. The architect remains full-time and focuses on specification engineering. Developer and verification allocations decrease.](../assets/images/delivery-team-topologies.webp)
 
-<small>Figure: generated with NotebookLM from the framework's text · Enterprise AI Framework · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)</small>
+<small>Figure: generated with NotebookLM from the framework's text, with one word corrected by hand · Enterprise AI Framework · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)</small>
 
 ## Size teams by specification workload
 

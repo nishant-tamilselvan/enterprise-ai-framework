@@ -45,7 +45,7 @@ ECA places seven context domains around Requirements Management and runs through
 
 [![Enterprise Context Architecture as a cross-cutting perspective on the TOGAF ADM cycle. Seven context domains (People & Org, Business, Information, Technology, Governance, Integration, and Operational) surround Requirements Management at the center. The eight ADM phases, A through H, encircle the domains.](docs/assets/diagrams/eca-adm-overview.png)](https://nishant-tamilselvan.github.io/enterprise-ai-framework/architecture/context-architecture/#context-wheel)
 
-<sub>Figure: generated with NotebookLM from the framework's text · Enterprise AI Framework · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)</sub>
+<sub>Figure: generated with NotebookLM from the framework's text, with one word corrected by hand · Enterprise AI Framework · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)</sub>
 
 ## Where to start
 
@@ -144,7 +144,6 @@ Then open `http://127.0.0.1:8000/enterprise-ai-framework/` in your browser. The 
 - Quality assurance and review for AI-assisted delivery across large programs
 - Governance quality gates and shadow-application controls
 - Coordination across many delivery teams
-- Replacement Delivery and ECA images with recorded provenance
 - NIST AI RMF mapping update once NIST publishes the revised framework
 
 ### v1.0: Stable framework
