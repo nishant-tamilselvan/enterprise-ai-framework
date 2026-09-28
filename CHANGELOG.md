@@ -62,6 +62,7 @@ The project uses the [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) fo
 
 ### Fixed
 
+- Three spelling errors inside the figures. The ECA wheel reads "ECA sits at the heart" instead of "site". The specification and team topologies figures use the American "artifact". Each fix reuses letters from the same image, and the captions say a word was corrected by hand.
 - The link check retries slow sites up to four times with a 30-second timeout, so one timeout no longer fails the run.
 - The ECA wheel's credit no longer claims personal copyright for a figure generated with NotebookLM.
 - The changelog and the 0.2.0 release notes no longer claim that 0.2.0 adopted ECA. ECA shipped in 0.1.0, and the entries now sit under that release.

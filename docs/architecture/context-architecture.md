@@ -49,7 +49,7 @@ ECA organizes enterprise context into seven domains, all feeding **Requirements 
 
 *Enterprise Context Architecture (ECA) as a cross-cutting perspective across the TOGAF ADM cycle.*
 
-<small>Figure: generated with NotebookLM from the framework's text · Enterprise AI Framework · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)</small>
+<small>Figure: generated with NotebookLM from the framework's text, with one word corrected by hand · Enterprise AI Framework · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)</small>
 
 ## Context wheel
 
