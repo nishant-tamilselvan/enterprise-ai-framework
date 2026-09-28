@@ -32,12 +32,12 @@ At its center is the **Enterprise Context Architecture (ECA)**. ECA makes explic
 
 | | Section | What you get |
 | :---: | --- | --- |
-| <img src=".github/assets/icons/architecture.svg" width="22" alt=""> | [Architecture](https://nishant-tamilselvan.github.io/enterprise-ai-framework/architecture/overview/) | Enterprise Context Architecture, its mapping to the TOGAF ADM, a capability model, integration services, and reference diagrams |
-| <img src=".github/assets/icons/governance.svg" width="22" alt=""> | [Governance](https://nishant-tamilselvan.github.io/enterprise-ai-framework/governance/overview/) | An operating model, risk management, and policy patterns |
-| <img src=".github/assets/icons/delivery.svg" width="22" alt=""> | [Delivery](https://nishant-tamilselvan.github.io/enterprise-ai-framework/delivery/overview/) | Specification-driven delivery, roles and accountability, and team topologies for AI-assisted work |
-| <img src=".github/assets/icons/security.svg" width="22" alt=""> | [Security](https://nishant-tamilselvan.github.io/enterprise-ai-framework/security/overview/) | A threat model with OWASP and MITRE ATLAS identifiers, zero-trust AI, data protection, AI supply chain, and incident response |
-| <img src=".github/assets/icons/compliance.svg" width="22" alt=""> | [Compliance](https://nishant-tamilselvan.github.io/enterprise-ai-framework/compliance/overview/) | Mappings to the NIST AI RMF, ISO/IEC 42001, the EU AI Act, and FedRAMP, each with identifiers and dated sources |
-| <img src=".github/assets/icons/blueprints.svg" width="22" alt=""> | [Blueprints](https://nishant-tamilselvan.github.io/enterprise-ai-framework/blueprints/overview/) | Reference designs for public-sector retrieval-augmented generation and for regulated enterprises |
+| <img src=".github/assets/icons/architecture.svg" width="28" alt=""> | [Architecture](https://nishant-tamilselvan.github.io/enterprise-ai-framework/architecture/overview/) | Enterprise Context Architecture, its mapping to the TOGAF ADM, a capability model, integration services, and reference diagrams |
+| <img src=".github/assets/icons/governance.svg" width="28" alt=""> | [Governance](https://nishant-tamilselvan.github.io/enterprise-ai-framework/governance/overview/) | An operating model, risk management, and policy patterns |
+| <img src=".github/assets/icons/delivery.svg" width="28" alt=""> | [Delivery](https://nishant-tamilselvan.github.io/enterprise-ai-framework/delivery/overview/) | Specification-driven delivery, roles and accountability, and team topologies for AI-assisted work |
+| <img src=".github/assets/icons/security.svg" width="28" alt=""> | [Security](https://nishant-tamilselvan.github.io/enterprise-ai-framework/security/overview/) | A threat model with OWASP and MITRE ATLAS identifiers, zero-trust AI, data protection, AI supply chain, and incident response |
+| <img src=".github/assets/icons/compliance.svg" width="28" alt=""> | [Compliance](https://nishant-tamilselvan.github.io/enterprise-ai-framework/compliance/overview/) | Mappings to the NIST AI RMF, ISO/IEC 42001, the EU AI Act, and FedRAMP, each with identifiers and dated sources |
+| <img src=".github/assets/icons/blueprints.svg" width="28" alt=""> | [Blueprints](https://nishant-tamilselvan.github.io/enterprise-ai-framework/blueprints/overview/) | Reference designs for public-sector retrieval-augmented generation and for regulated enterprises |
 
 ## Enterprise Context Architecture
 
