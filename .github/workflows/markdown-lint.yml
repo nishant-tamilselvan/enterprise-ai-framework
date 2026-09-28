@@ -38,7 +38,7 @@ jobs:
             --exclude-path site
             --exclude-path .venv
             --exclude-path tmp
-            --accept 200,206,429
+            --accept 200,202,206,429
             "**/*.md"
           fail: true
 

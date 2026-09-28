@@ -85,7 +85,10 @@ markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
-  - pymdownx.snippets
+  - pymdownx.snippets:
+      # Shared text such as the compliance disclaimer; a missing file fails the build.
+      base_path: [includes]
+      check_paths: true
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
@@ -123,6 +126,8 @@ nav:
       - Zero-Trust AI: security/zero-trust-ai.md
       - Data Protection: security/data-protection.md
       - Threat Model: security/threat-model.md
+      - AI Supply Chain: security/ai-supply-chain.md
+      - Incident Response: security/incident-response.md
   - Compliance:
       - Overview: compliance/overview.md
       - NIST AI RMF: compliance/nist-ai-rmf-mapping.md

@@ -1,20 +1,26 @@
 ---
 title: Compliance and Standards Mappings
-version: 0.1.0
-last_reviewed: 2026-07-26
+version: 0.2.0
+last_reviewed: 2026-09-28
 ---
 
 # Compliance and standards mappings
 
-These mappings help teams trace architecture capabilities and evidence to external frameworks. Use them as informative starting points for qualified review. They carry no legal interpretation, audit, certification, or authorization.
+--8<-- "compliance-disclaimer.md"
+
+These mappings help teams trace architecture capabilities and evidence to external frameworks. Use them as informative starting points for qualified review.
 
 ## Available mappings
 
-- [NIST AI Risk Management Framework](nist-ai-rmf-mapping.md)
-- [ISO/IEC 42001 AI management systems](iso-iec-42001-mapping.md)
-- [European Union AI Act](eu-ai-act-mapping.md)
-- [FedRAMP](fedramp-mapping.md)
-- [Reusable control mapping template](templates/control-mapping-template.md)
+| Mapping | Source | Maps |
+| --- | --- | --- |
+| [NIST AI RMF](nist-ai-rmf-mapping.md) | NIST AI 100-1 and the Generative AI Profile (AI 600-1) | All 19 categories, the 7 trustworthiness characteristics, the 12 generative AI risks |
+| [ISO/IEC 42001](iso-iec-42001-mapping.md) | ISO/IEC 42001:2023 | Clauses 4 to 10, and all 38 Annex A controls |
+| [EU AI Act](eu-ai-act-mapping.md) | Regulation (EU) 2024/1689, as amended by (EU) 2026/1744 | Timeline, roles, obligations for all systems, provider and deployer obligations for high-risk systems, incident reporting, penalties |
+| [FedRAMP](fedramp-mapping.md) | FedRAMP CR26 and NIST SP 800-53 Rev. 5 | Certification classes, Key Security Indicators, the SP 800-53 families where AI changes the evidence |
+| [Control mapping template](templates/control-mapping-template.md) | Any framework | A blank traceability matrix |
+
+Each mapping records the date its facts were checked. Recheck any date-sensitive fact against the source before you rely on it.
 
 ## Mapping method
 
