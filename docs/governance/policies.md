@@ -1,4 +1,5 @@
 ---
+icon: material/clipboard-text-outline
 title: AI Policy Framework
 doc_status: Draft
 version: 0.1.0

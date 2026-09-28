@@ -1,4 +1,5 @@
 ---
+icon: material/account-group-outline
 title: Governance Operating Model
 doc_status: Draft
 version: 0.1.0

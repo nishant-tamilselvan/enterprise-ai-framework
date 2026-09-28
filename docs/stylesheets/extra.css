@@ -178,3 +178,190 @@ body:has(.mdx-hero) .md-content__inner > h2::before {
 .md-typeset a.glightbox {
   cursor: zoom-in;
 }
+
+/* =========================================================================
+   Page hierarchy, navigation, and component polish (all pages)
+   ========================================================================= */
+
+/* Hero: keep the button area on a solid part of the gradient so both buttons pass
+   contrast, and give the secondary button its own translucent fill. */
+.mdx-container {
+  background:
+    linear-gradient(
+      to bottom,
+      var(--md-primary-fg-color) 0%,
+      var(--md-primary-fg-color) 55%,
+      color-mix(in srgb, var(--md-primary-fg-color) 70%, var(--md-default-bg-color)) 85%,
+      var(--md-default-bg-color) 100%
+    );
+}
+
+[data-md-color-scheme="slate"] .mdx-container {
+  background:
+    linear-gradient(
+      to bottom,
+      var(--md-primary-fg-color) 0%,
+      var(--md-primary-fg-color) 55%,
+      var(--md-default-bg-color) 100%
+    );
+}
+
+.mdx-hero .md-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.mdx-hero .md-button .twemoji svg {
+  width: 1.1em;
+  height: 1.1em;
+  fill: currentColor;
+}
+
+.mdx-hero .mdx-hero__secondary {
+  background-color: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.85);
+  color: #ffffff;
+}
+
+/* Headings: a stronger, darker title and clearly separated sections. */
+.md-typeset h1 {
+  margin-bottom: 0.6rem;
+  color: var(--md-default-fg-color);
+  font-weight: 700;
+  letter-spacing: -0.015em;
+}
+
+.md-typeset h2 {
+  margin-top: 2.2em;
+  padding-bottom: 0.3em;
+  border-bottom: 0.05rem solid var(--md-default-fg-color--lightest);
+  font-weight: 650;
+  letter-spacing: -0.01em;
+}
+
+.md-typeset h3 {
+  font-weight: 600;
+}
+
+/* Document metadata chips under the page title. */
+.md-typeset .doc-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0 0 1.6rem;
+  padding: 0;
+  list-style: none;
+}
+
+.md-typeset .doc-meta__chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  margin: 0;
+  padding: 0.15rem 0.6rem;
+  border: 0.05rem solid var(--md-default-fg-color--lightest);
+  border-radius: 1rem;
+  background: var(--md-code-bg-color);
+  color: var(--md-default-fg-color--light);
+  font-size: 0.64rem;
+  line-height: 1.6;
+}
+
+.md-typeset .doc-meta__chip svg {
+  width: 0.85rem;
+  height: 0.85rem;
+  fill: currentColor;
+}
+
+.md-typeset .doc-meta__chip--status {
+  border-color: color-mix(in srgb, var(--md-accent-fg-color) 45%, transparent);
+  color: var(--md-accent-fg-color);
+  font-weight: 600;
+}
+
+/* Sidebar: readable section labels, a visible active page, and aligned icons. */
+.md-nav--primary .md-nav__item--section > .md-nav__link {
+  color: var(--md-default-fg-color);
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.md-nav__link .md-icon svg,
+.md-nav__link > .twemoji svg {
+  opacity: 0.75;
+}
+
+@media screen and (min-width: 76.25em) {
+  .md-nav--primary .md-nav__link--active {
+    margin-left: -0.6rem;
+    padding-left: 0.5rem;
+    border-left: 0.1rem solid var(--md-accent-fg-color);
+    font-weight: 600;
+  }
+}
+
+/* Tabs: a clear marker under the active section. */
+.md-tabs__link--active,
+.md-tabs__item--active .md-tabs__link {
+  font-weight: 700;
+  opacity: 1;
+}
+
+.md-tabs__item--active {
+  box-shadow: inset 0 -0.12rem 0 var(--md-primary-bg-color);
+}
+
+/* Breadcrumbs sit closer to the title. */
+.md-path {
+  margin-bottom: 0.4rem;
+  font-size: 0.66rem;
+}
+
+/* Tables: tinted header row, rounded frame, and row hover for scanning wide tables. */
+.md-typeset table:not([class]) {
+  border-radius: 0.4rem;
+  overflow: hidden;
+}
+
+.md-typeset table:not([class]) th {
+  background-color: color-mix(in srgb, var(--md-primary-fg-color) 8%, var(--md-default-bg-color));
+  color: var(--md-default-fg-color);
+  font-weight: 650;
+}
+
+.md-typeset table:not([class]) tbody tr:hover {
+  background-color: color-mix(in srgb, var(--md-accent-fg-color) 6%, transparent);
+}
+
+/* Figure credit captions under images. */
+.md-typeset small {
+  display: block;
+  margin-top: -0.4rem;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.64rem;
+}
+
+/* Admonitions: softer corners to match cards and chips. */
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 0.4rem;
+}
+
+/* Keep the hero title light on the dark gradient, above the global h1 color. */
+.md-typeset .mdx-hero h1 {
+  color: var(--md-primary-bg-color);
+}
+
+/* The chip row is a list: drop the default list indentation. */
+.md-typeset ul.doc-meta,
+.md-typeset ul.doc-meta > li {
+  margin-left: 0;
+}
+
+/* The home page already marks its sections with an accent bar. */
+body:has(.mdx-hero) .md-typeset h2 {
+  border-bottom: 0;
+}

@@ -1,4 +1,5 @@
 ---
+icon: material/gavel
 title: EU AI Act Mapping
 doc_status: Draft
 version: 0.3.0
@@ -142,16 +143,16 @@ No harmonised standards for the AI Act were cited in the Official Journal as of 
 
 Checked 2026-09-28.
 
-- Regulation (EU) 2024/1689: <http://data.europa.eu/eli/reg/2024/1689/oj>
-- Regulation (EU) 2026/1744 (Digital Omnibus on AI): <http://data.europa.eu/eli/reg/2026/1744/oj>
-- Commission news, AI Omnibus enters into force: <https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force>
-- European Parliament Legislative Train, Digital Omnibus on AI: <https://www.europarl.europa.eu/legislative-train/package-digital-package/file-digital-omnibus-on-ai>
-- Guidelines on prohibited practices: <https://digital-strategy.ec.europa.eu/en/library/commission-publishes-guidelines-prohibited-artificial-intelligence-ai-practices-defined-ai-act>
-- Guidelines on the AI system definition: <https://digital-strategy.ec.europa.eu/en/library/commission-publishes-guidelines-ai-system-definition-facilitate-first-ai-acts-rules-application>
-- General-Purpose AI Code of Practice: <https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai>
-- Guidelines for general-purpose AI providers: <https://digital-strategy.ec.europa.eu/en/news/commission-publishes-guidelines-providers-general-purpose-ai-models>
-- Code of Practice on marking and labelling: <https://digital-strategy.ec.europa.eu/en/news/commission-publishes-code-practice-marking-and-labelling-ai-generated-content>
-- Guidelines on transparency obligations: <https://digital-strategy.ec.europa.eu/en/policies/guidelines-ai-transparency-obligations>
-- Draft guidelines on high-risk classification: <https://digital-strategy.ec.europa.eu/en/consultations/targeted-consultation-draft-guidelines-classification-high-risk-artificial-intelligence-systems>
-- AI Act standardisation: <https://digital-strategy.ec.europa.eu/en/policies/ai-act-standardisation>
-- EN 18286:2026: <https://www.cencenelec.eu/news-events/news/2026/en-in-the-spotlight/2026-07-30-ai-quality-management/>
+- [Regulation (EU) 2024/1689](http://data.europa.eu/eli/reg/2024/1689/oj)
+- [Regulation (EU) 2026/1744 (Digital Omnibus on AI)](http://data.europa.eu/eli/reg/2026/1744/oj)
+- [Commission news, AI Omnibus enters into force](https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force)
+- [European Parliament Legislative Train, Digital Omnibus on AI](https://www.europarl.europa.eu/legislative-train/package-digital-package/file-digital-omnibus-on-ai)
+- [Guidelines on prohibited practices](https://digital-strategy.ec.europa.eu/en/library/commission-publishes-guidelines-prohibited-artificial-intelligence-ai-practices-defined-ai-act)
+- [Guidelines on the AI system definition](https://digital-strategy.ec.europa.eu/en/library/commission-publishes-guidelines-ai-system-definition-facilitate-first-ai-acts-rules-application)
+- [General-Purpose AI Code of Practice](https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai)
+- [Guidelines for general-purpose AI providers](https://digital-strategy.ec.europa.eu/en/news/commission-publishes-guidelines-providers-general-purpose-ai-models)
+- [Code of Practice on marking and labelling](https://digital-strategy.ec.europa.eu/en/news/commission-publishes-code-practice-marking-and-labelling-ai-generated-content)
+- [Guidelines on transparency obligations](https://digital-strategy.ec.europa.eu/en/policies/guidelines-ai-transparency-obligations)
+- [Draft guidelines on high-risk classification](https://digital-strategy.ec.europa.eu/en/consultations/targeted-consultation-draft-guidelines-classification-high-risk-artificial-intelligence-systems)
+- [AI Act standardisation](https://digital-strategy.ec.europa.eu/en/policies/ai-act-standardisation)
+- [EN 18286:2026](https://www.cencenelec.eu/news-events/news/2026/en-in-the-spotlight/2026-07-30-ai-quality-management/)

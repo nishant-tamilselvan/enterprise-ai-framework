@@ -1,4 +1,5 @@
 ---
+icon: material/floor-plan
 title: Domain Blueprints
 doc_status: Draft
 version: 0.1.0

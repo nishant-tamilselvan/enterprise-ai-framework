@@ -1,4 +1,5 @@
 ---
+icon: material/book-alphabet
 title: Glossary
 doc_status: Draft
 version: 0.1.0

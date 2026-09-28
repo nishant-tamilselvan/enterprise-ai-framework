@@ -1,4 +1,5 @@
 ---
+icon: material/clipboard-check-outline
 title: Compliance and Standards Mappings
 doc_status: Draft
 version: 0.3.0

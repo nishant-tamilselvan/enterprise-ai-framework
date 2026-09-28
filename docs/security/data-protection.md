@@ -1,4 +1,5 @@
 ---
+icon: material/database-lock-outline
 title: AI Data Protection
 doc_status: Draft
 version: 0.3.0
@@ -59,6 +60,6 @@ Joint guidance from CISA, NSA, FBI and international partners, published 2025-05
 
 Checked 2026-09-28.
 
-- AI Data Security: Best Practices for Securing Data Used to Train & Operate AI Systems (2025-05-22): <https://www.cisa.gov/resources-tools/resources/ai-data-security-best-practices-securing-data-used-train-operate-ai-systems>
-- OWASP Top 10 for LLM Applications 2026: <https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/>
-- MITRE ATLAS: <https://atlas.mitre.org/>
+- [AI Data Security: Best Practices for Securing Data Used to Train & Operate AI Systems (2025-05-22)](https://www.cisa.gov/resources-tools/resources/ai-data-security-best-practices-securing-data-used-train-operate-ai-systems)
+- [OWASP Top 10 for LLM Applications 2026](https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/)
+- [MITRE ATLAS](https://atlas.mitre.org/)

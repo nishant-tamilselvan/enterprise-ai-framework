@@ -1,4 +1,5 @@
 ---
+icon: material/account-multiple-outline
 title: Team Topologies for AI-Assisted Delivery
 doc_status: Draft
 version: 0.2.0

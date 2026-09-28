@@ -1,4 +1,5 @@
 ---
+icon: material/sync-circle
 title: ECA and the TOGAF ADM
 doc_status: Draft
 version: 0.1.0

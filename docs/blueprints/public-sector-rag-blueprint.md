@@ -1,4 +1,5 @@
 ---
+icon: material/database-search-outline
 title: Public-Sector RAG Blueprint
 doc_status: Draft
 version: 0.1.0

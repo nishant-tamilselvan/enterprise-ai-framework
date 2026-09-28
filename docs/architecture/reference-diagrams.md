@@ -1,4 +1,5 @@
 ---
+icon: material/draw
 title: Reference Diagrams
 doc_status: Draft
 version: 0.1.0
