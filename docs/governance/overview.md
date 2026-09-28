@@ -1,4 +1,5 @@
 ---
+icon: material/scale-balance
 title: AI Governance Overview
 doc_status: Draft
 version: 0.1.0

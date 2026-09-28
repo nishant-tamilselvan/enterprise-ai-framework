@@ -1,4 +1,5 @@
 ---
+icon: material/text-box-check-outline
 title: Specification-Driven Delivery
 doc_status: Draft
 version: 0.2.0

@@ -4,7 +4,7 @@ site_url: https://nishant-tamilselvan.github.io/enterprise-ai-framework/
 repo_url: https://github.com/nishant-tamilselvan/enterprise-ai-framework
 repo_name: nishant-tamilselvan/enterprise-ai-framework
 edit_uri: edit/master/docs/
-copyright: Copyright &copy; 2026 NISHANT TAMILSELVAN and contributors. Licensed under CC BY 4.0.
+copyright: Copyright &copy; 2026 NISHANT TAMILSELVAN and contributors. Content licensed under CC BY 4.0; code under MIT.
 
 strict: true
 
@@ -18,14 +18,22 @@ theme:
   logo: assets/logo.svg
   favicon: assets/favicon.svg
   features:
-    - navigation.instant
+    # One tab per section keeps the sidebar to the current section's pages.
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
-    - navigation.expand
+    - navigation.path
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
     - navigation.top
     - navigation.footer
+    - toc.follow
     - content.code.copy
+    - content.tooltips
     - search.highlight
     - search.suggest
+    - search.share
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -98,6 +106,12 @@ markdown_extensions:
       alternate_style: true
   - pymdownx.tasklist:
       custom_checkbox: true
+
+extra:
+  social:
+    - icon: material/github
+      link: https://github.com/nishant-tamilselvan/enterprise-ai-framework
+      name: Source on GitHub
 
 extra_css:
   - stylesheets/extra.css

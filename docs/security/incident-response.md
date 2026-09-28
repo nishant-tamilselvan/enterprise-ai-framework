@@ -1,4 +1,5 @@
 ---
+icon: material/alarm-light-outline
 title: AI Incident Response
 doc_status: Draft
 version: 0.3.0
@@ -72,7 +73,7 @@ Share what you learn, without sensitive details, so others can defend against th
 
 Checked 2026-09-28.
 
-- NIST SP 800-61 Rev. 3: <https://csrc.nist.gov/pubs/sp/800/61/r3/final>
-- OWASP GenAI Incident Response Guide 1.0: <https://genai.owasp.org/resource/genai-incident-response-guide-1-0/>
-- CISA JCDC AI Cybersecurity Collaboration Playbook: <https://www.cisa.gov/resources-tools/resources/ai-cybersecurity-collaboration-playbook>
-- EU AI Act, Regulation (EU) 2024/1689: <http://data.europa.eu/eli/reg/2024/1689/oj>
+- [NIST SP 800-61 Rev. 3](https://csrc.nist.gov/pubs/sp/800/61/r3/final)
+- [OWASP GenAI Incident Response Guide 1.0](https://genai.owasp.org/resource/genai-incident-response-guide-1-0/)
+- [CISA JCDC AI Cybersecurity Collaboration Playbook](https://www.cisa.gov/resources-tools/resources/ai-cybersecurity-collaboration-playbook)
+- [EU AI Act, Regulation (EU) 2024/1689](http://data.europa.eu/eli/reg/2024/1689/oj)

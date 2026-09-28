@@ -1,4 +1,5 @@
 ---
+icon: material/package-variant-closed
 title: AI Supply Chain Security
 doc_status: Draft
 version: 0.3.0
@@ -55,10 +56,10 @@ CISA and G7 partners published *Software Bill of Materials for AI: Minimum Eleme
 
 Checked 2026-09-28.
 
-- OWASP Top 10 for LLM Applications 2026 (LLM04:2026 Supply Chain): <https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/>
-- MITRE ATLAS, technique AML.T0010 AI Supply Chain Compromise: <https://atlas.mitre.org/>
-- CycloneDX specification releases: <https://github.com/CycloneDX/specification/releases>
-- SPDX 3.0.1: <https://spdx.github.io/spdx-spec/v3.0.1/>
-- Software Bill of Materials for AI: Minimum Elements (2026-05-12): <https://www.cisa.gov/resources-tools/resources/software-bill-materials-ai-minimum-elements>
-- OpenSSF model signing v1.0: <https://openssf.org/blog/2025/04/04/launch-of-model-signing-v1-0-openssf-ai-ml-working-group-secures-the-machine-learning-supply-chain/>
-- SLSA v1.2: <https://slsa.dev/blog/2025/11/announce-slsa-v1.2>
+- [OWASP Top 10 for LLM Applications 2026 (LLM04:2026 Supply Chain)](https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/)
+- [MITRE ATLAS, technique AML.T0010 AI Supply Chain Compromise](https://atlas.mitre.org/)
+- [CycloneDX specification releases](https://github.com/CycloneDX/specification/releases)
+- [SPDX 3.0.1](https://spdx.github.io/spdx-spec/v3.0.1/)
+- [Software Bill of Materials for AI: Minimum Elements (2026-05-12)](https://www.cisa.gov/resources-tools/resources/software-bill-materials-ai-minimum-elements)
+- [OpenSSF model signing v1.0](https://openssf.org/blog/2025/04/04/launch-of-model-signing-v1-0-openssf-ai-ml-working-group-secures-the-machine-learning-supply-chain/)
+- [SLSA v1.2](https://slsa.dev/blog/2025/11/announce-slsa-v1.2)

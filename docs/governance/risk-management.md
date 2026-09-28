@@ -1,4 +1,5 @@
 ---
+icon: material/alert-decagram-outline
 title: AI Risk Management
 doc_status: Draft
 version: 0.1.0

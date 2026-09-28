@@ -1,0 +1,45 @@
+{#-
+  Material's content partial, plus a row of document metadata chips under the page title.
+  The chips read doc_status, version, audience and last_reviewed from the page frontmatter
+  (CONTRIBUTING.md defines them) and are skipped on the home page and on pages without them.
+-#}
+{% include "partials/tags.html" %}
+{% include "partials/actions.html" %}
+{% set meta = page.meta or {} %}
+{% set chips %}
+  {% if meta.doc_status and not page.is_homepage %}
+    <ul class="doc-meta" aria-label="Document details">
+      <li class="doc-meta__chip doc-meta__chip--status" title="Document status">
+        {% include ".icons/material/progress-pencil.svg" %}<span>{{ meta.doc_status }}</span>
+      </li>
+      {% if meta.version %}
+        <li class="doc-meta__chip" title="Framework release in which this page last changed">
+          {% include ".icons/material/tag-outline.svg" %}<span>v{{ meta.version }}</span>
+        </li>
+      {% endif %}
+      {% if meta.audience %}
+        <li class="doc-meta__chip" title="Intended audience">
+          {% include ".icons/material/account-eye-outline.svg" %}<span>{{ meta.audience }}</span>
+        </li>
+      {% endif %}
+      {% if meta.last_reviewed %}
+        <li class="doc-meta__chip" title="Last content review">
+          {% include ".icons/material/calendar-check-outline.svg" %}<span>Reviewed {{ meta.last_reviewed }}</span>
+        </li>
+      {% endif %}
+    </ul>
+  {% endif %}
+{% endset %}
+{% if "<h1" not in page.content %}
+  <h1>{{ page.title | d(config.site_name, true)}}</h1>
+  {{ chips }}
+  {{ page.content }}
+{% else %}
+  {% set parts = page.content.split("</h1>", 1) %}
+  {{ parts[0] }}</h1>
+  {{ chips }}
+  {{ parts[1] if parts | length > 1 else "" }}
+{% endif %}
+{% include "partials/source-file.html" %}
+{% include "partials/feedback.html" %}
+{% include "partials/comments.html" %}

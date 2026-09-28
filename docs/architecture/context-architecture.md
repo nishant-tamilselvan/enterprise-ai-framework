@@ -1,4 +1,5 @@
 ---
+icon: material/chart-donut
 title: Enterprise Context Architecture (ECA)
 doc_status: Draft
 version: 0.2.0

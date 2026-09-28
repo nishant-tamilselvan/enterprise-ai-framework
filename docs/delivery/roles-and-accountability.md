@@ -1,4 +1,5 @@
 ---
+icon: material/account-tie-outline
 title: Roles and Accountability
 doc_status: Draft
 version: 0.2.0

@@ -1,4 +1,5 @@
 ---
+icon: material/shield-lock-outline
 title: Enterprise AI Security Overview
 doc_status: Draft
 version: 0.3.0

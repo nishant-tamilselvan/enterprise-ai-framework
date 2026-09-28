@@ -1,4 +1,5 @@
 ---
+icon: material/shield-alert-outline
 title: Enterprise AI Threat Model
 doc_status: Draft
 version: 0.3.0
@@ -142,9 +143,9 @@ Link each threat to a detection in production and to an [incident response](inci
 
 Checked 2026-09-28.
 
-- OWASP Top 10 for LLM Applications 2026: <https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/>
-- OWASP Top 10 for LLM Applications 2025 (for the crosswalk): <https://genai.owasp.org/llm-top-10/>
-- OWASP Top 10 for Agentic Applications for 2026: <https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/>
-- MITRE ATLAS data v2026.09: <https://github.com/mitre-atlas/atlas-data>
-- NIST AI 100-2e2025: <https://doi.org/10.6028/NIST.AI.100-2e2025>
-- Invariant Labs, MCP tool poisoning attacks (2025-04-01): <https://invariantlabs.ai/blog/mcp-security-notification-tool-poisoning-attacks>
+- [OWASP Top 10 for LLM Applications 2026](https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/)
+- [OWASP Top 10 for LLM Applications 2025 (for the crosswalk)](https://genai.owasp.org/llm-top-10/)
+- [OWASP Top 10 for Agentic Applications for 2026](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/)
+- [MITRE ATLAS data v2026.09](https://github.com/mitre-atlas/atlas-data)
+- [NIST AI 100-2e2025](https://doi.org/10.6028/NIST.AI.100-2e2025)
+- [Invariant Labs, MCP tool poisoning attacks (2025-04-01)](https://invariantlabs.ai/blog/mcp-security-notification-tool-poisoning-attacks)

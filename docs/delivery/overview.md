@@ -1,4 +1,5 @@
 ---
+icon: material/source-branch
 title: AI-Assisted Delivery Overview
 doc_status: Draft
 version: 0.2.0

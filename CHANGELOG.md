@@ -24,6 +24,10 @@ The project uses the [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) fo
 
 ### Changed
 
+- Site navigation uses one tab per section, so the sidebar lists only the current section's pages. Pages show breadcrumbs, and the table of contents follows scrolling.
+- Every page has an icon in the navigation, and each page title is followed by chips for its status, version, audience, and last review date.
+- Stronger heading hierarchy, clearer sidebar section labels and active page, tinted table headers, and hero buttons with icons that meet contrast on the gradient.
+- Source lists show named links instead of raw URLs, and the footer names both licenses.
 - Every page under `docs/` except blog posts states `doc_status`, `version`, `owners`, `audience`, and `last_reviewed` in its frontmatter. `version` is the release in which the page last changed in substance, and `CONTRIBUTING.md` documents each field.
 - The Delivery and ECA images shrink from about 17 MB to under 1 MB, with no visible loss of legibility.
 - The site uses American spelling throughout. Official titles and EU legal terms keep their published spelling.

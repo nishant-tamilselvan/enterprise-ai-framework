@@ -1,4 +1,5 @@
 ---
+icon: material/shield-key-outline
 title: Zero-Trust AI
 doc_status: Draft
 version: 0.3.0
@@ -73,7 +74,7 @@ Tool descriptions are part of the attack surface as well. The [threat model](thr
 
 Checked 2026-09-28.
 
-- MCP security best practices: <https://modelcontextprotocol.io/specification/latest/basic/security_best_practices>
-- MCP authorization (2026-07-28): <https://modelcontextprotocol.io/specification/2026-07-28/basic/authorization>
-- OWASP Top 10 for Agentic Applications for 2026: <https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/>
-- Deploying AI Systems Securely, joint guidance (2024-04-15): <https://www.cisa.gov/news-events/alerts/2024/04/15/joint-guidance-deploying-ai-systems-securely>
+- [MCP security best practices](https://modelcontextprotocol.io/specification/latest/basic/security_best_practices)
+- [MCP authorization (2026-07-28)](https://modelcontextprotocol.io/specification/2026-07-28/basic/authorization)
+- [OWASP Top 10 for Agentic Applications for 2026](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/)
+- [Deploying AI Systems Securely, joint guidance (2024-04-15)](https://www.cisa.gov/news-events/alerts/2024/04/15/joint-guidance-deploying-ai-systems-securely)
