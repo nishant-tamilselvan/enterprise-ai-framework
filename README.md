@@ -85,7 +85,7 @@ pip install -r requirements-docs.txt
 mkdocs serve
 ```
 
-Then open <http://127.0.0.1:8000/enterprise-ai-framework/>. The site reloads when you save a file. Run `mkdocs build --strict` before you open a pull request, because CI fails on any warning.
+Then open `http://127.0.0.1:8000/enterprise-ai-framework/` in your browser. The site reloads when you save a file. Run `mkdocs build --strict` before you open a pull request, because CI fails on any warning.
 
 ## Repository structure
 
