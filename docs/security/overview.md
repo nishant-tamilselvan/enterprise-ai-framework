@@ -1,6 +1,9 @@
 ---
 title: Enterprise AI Security Overview
-version: 0.2.0
+doc_status: Draft
+version: 0.3.0
+owners: Framework maintainers
+audience: Security architects and engineers
 last_reviewed: 2026-09-28
 ---
 
@@ -18,7 +21,7 @@ AI security builds on established cybersecurity, privacy, resilience and supply-
 - Stop AI components from becoming a way around access control.
 - Keep models and agents inside explicit capability boundaries.
 - Identify untrusted content, and keep its provenance through every transformation.
-- Detect and contain misuse, compromise, unsafe behaviour and supplier failure.
+- Detect and contain misuse, compromise, unsafe behavior and supplier failure.
 - Keep enough evidence to investigate incidents, without retaining sensitive data longer than needed.
 
 ## Security pages

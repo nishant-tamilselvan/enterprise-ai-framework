@@ -4,14 +4,16 @@
 [![Documentation](https://github.com/nishant-tamilselvan/enterprise-ai-framework/actions/workflows/docs-deploy.yml/badge.svg)](https://github.com/nishant-tamilselvan/enterprise-ai-framework/actions/workflows/docs-deploy.yml)
 [![Markdown Quality](https://github.com/nishant-tamilselvan/enterprise-ai-framework/actions/workflows/markdown-lint.yml/badge.svg)](https://github.com/nishant-tamilselvan/enterprise-ai-framework/actions/workflows/markdown-lint.yml)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Version](https://img.shields.io/badge/version-0.1.0-blue.svg)](releases/v0.1.0.md)
+[![Version](https://img.shields.io/badge/version-0.2.0-blue.svg)](releases/v0.2.0.md)
 [![Docs site](https://img.shields.io/badge/docs-live-brightgreen.svg)](https://nishant-tamilselvan.github.io/enterprise-ai-framework/)
 
 The Enterprise AI Framework is an open, vendor-neutral architecture framework for responsible AI adoption in government, public-sector, and regulated organizations.
 
 **Live documentation:** <https://nishant-tamilselvan.github.io/enterprise-ai-framework/>
 
-[![Enterprise Context Architecture as a cross-cutting perspective on the TOGAF ADM cycle. Seven context domains (People & Org, Business, Information, Technology, Governance, Integration, and Operational) surround Requirements Management at the centre. The eight ADM phases, A through H, encircle the domains.](docs/assets/diagrams/eca-adm-overview.png)](https://nishant-tamilselvan.github.io/enterprise-ai-framework/architecture/context-architecture/#context-wheel)
+[![Enterprise Context Architecture as a cross-cutting perspective on the TOGAF ADM cycle. Seven context domains (People & Org, Business, Information, Technology, Governance, Integration, and Operational) surround Requirements Management at the center. The eight ADM phases, A through H, encircle the domains.](docs/assets/diagrams/eca-adm-overview.png)](https://nishant-tamilselvan.github.io/enterprise-ai-framework/architecture/context-architecture/#context-wheel)
+
+<sub>Figure: generated with NotebookLM from the framework's text · Enterprise AI Framework · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)</sub>
 
 > [!IMPORTANT]
 > Use this project for architecture guidance. Organizations remain responsible for obtaining qualified legal, regulatory, security, procurement, and compliance advice and satisfying their obligations.
@@ -108,31 +110,20 @@ Editorial changes must distinguish normative requirements (`MUST`, `SHOULD`, `MA
 
 ## Roadmap
 
-### v0.1: Foundation
+| Release | Status | Scope |
+| --- | --- | --- |
+| [0.1.0](releases/v0.1.0.md) | Released 2026-07-26 | Repository, governance, and publishing. Enterprise Context Architecture (ECA). Starter architecture, governance, security, compliance, and blueprint pages. |
+| [0.2.0](releases/v0.2.0.md) | Released 2026-07-28 | Delivery section, final ECA overview diagram, landing page |
+| [0.3.0](releases/v0.3.0.md) | In progress | Compliance mappings with article, clause, and category identifiers. Security pages with OWASP and MITRE ATLAS identifiers, plus AI supply chain and incident response. Repository hardening. |
 
-- Repository governance and publishing workflow
-- Enterprise Context Architecture (ECA) outline
-- Initial capability, governance, security, and compliance structures
+### Planned
 
-### v0.2: Architecture baseline
-
-- Architecture perspectives and layered reference model
-- Enterprise AI capability model
-- Context and integration patterns
-- Reference diagrams and glossary expansion
-
-### v0.3: Assurance and governance
-
-- Governance operating model and policy patterns
-- Threat model and zero-trust AI guidance
-- NIST AI RMF and ISO/IEC 42001 mappings
-
-### v0.4: Domain blueprints
-
-- Public-sector retrieval-augmented generation blueprint
-- Regulated-enterprise AI blueprint
-- EU AI Act and FedRAMP mapping refinements
 - Reference implementation with pre-adoption and post-adoption metrics
+- Quality assurance and review for AI-assisted delivery at scale
+- Governance quality gates and shadow-application controls
+- Coordination across many delivery teams
+- Replacement Delivery and ECA images with recorded provenance
+- NIST AI RMF mapping update once NIST publishes the revised framework
 
 ### v1.0: Stable framework
 

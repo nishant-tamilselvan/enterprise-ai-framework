@@ -1,6 +1,9 @@
 ---
 title: Public-Sector RAG Blueprint
+doc_status: Draft
 version: 0.1.0
+owners: Framework maintainers
+audience: Solution architects and delivery teams
 last_reviewed: 2026-07-26
 ---
 

@@ -1,6 +1,9 @@
 ---
 title: AI Risk Management
+doc_status: Draft
 version: 0.1.0
+owners: Framework maintainers
+audience: Governance, risk, and compliance leads
 last_reviewed: 2026-07-26
 ---
 

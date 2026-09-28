@@ -1,6 +1,9 @@
 ---
 title: Zero-Trust AI
-version: 0.2.0
+doc_status: Draft
+version: 0.3.0
+owners: Framework maintainers
+audience: Security architects and engineers
 last_reviewed: 2026-09-28
 ---
 
@@ -16,7 +19,7 @@ Zero trust grants no implicit trust because of network location, component type,
 4. Treat prompts, retrieved content, model output and tool responses as untrusted.
 5. Keep control instructions apart from data, and carry provenance with every piece of content.
 6. Assume breach. Limit the blast radius by tenant, task, data class and transaction.
-7. Evaluate identity, device, behaviour, policy and system health signals continuously.
+7. Evaluate identity, device, behavior, policy and system health signals continuously.
 
 ## Enforce outside the model
 

@@ -1,6 +1,9 @@
 ---
 title: NIST AI RMF Mapping
-version: 0.2.0
+doc_status: Draft
+version: 0.3.0
+owners: Framework maintainers
+audience: Compliance, legal, privacy, and assurance teams
 last_reviewed: 2026-09-28
 source_framework: NIST AI RMF 1.0 (NIST AI 100-1); Generative AI Profile (NIST AI 600-1)
 ---

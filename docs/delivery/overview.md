@@ -1,6 +1,9 @@
 ---
 title: AI-Assisted Delivery Overview
-version: 0.1.0
+doc_status: Draft
+version: 0.2.0
+owners: Framework maintainers
+audience: Delivery leads, product owners, and delivery teams
 last_reviewed: 2026-07-28
 ---
 
@@ -13,15 +16,17 @@ accountability and aligns with the governance
 [lifecycle gates](../governance/operating-model.md).
 
 The model is principle-based and vendor-neutral. It applies across agile methods, tools,
-and team sizes. It describes how teams allocate effort, manage artefacts, and assign
+and team sizes. It describes how teams allocate effort, manage artifacts, and assign
 accountability when AI performs a large share of the implementation.
 
 ![The shift to AI-assisted delivery. Traditional delivery emphasizes writing code, creating work items, manual testing, iteration administration, and implementation effort. AI-assisted delivery emphasizes specification ownership, detailed specifications, automated evaluation, delivery governance, quality, and accountability. The traditional pipeline includes requirements, work items, iteration planning, development, testing, and release. The AI-assisted pipeline includes requirements, specification, AI-assisted implementation, validation, and release. Human review and governance concentrate on specification and validation.](../assets/images/delivery-shift.webp)
 
+<small>Figure: generated with NotebookLM from the framework's text · Enterprise AI Framework · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)</small>
+
 ## What changes
 
-Teams organise traditional delivery around producing code and managing work items. Teams
-organise AI-assisted delivery around producing specifications, validating outcomes,
+Teams organize traditional delivery around producing code and managing work items. Teams
+organize AI-assisted delivery around producing specifications, validating outcomes,
 enforcing standards, and governing delivery.
 
 | Traditional focus | AI-assisted focus |
@@ -52,25 +57,25 @@ flowchart LR
     end
 ```
 
-The removed stages represent coordination overhead. Human judgement and governance
+The removed stages represent coordination overhead. Human judgment and governance
 concentrate on the retained specification and validation stages.
 
 ## Scope and exclusions
 
 This section covers:
 
-- The specification as the authoritative delivery artefact.
+- The specification as the authoritative delivery artifact.
 - How roles and accountability shift when AI generates implementation.
 - How to size and structure teams, and how to decompose work.
 
 The governance, security, and architecture sections retain authority over risk
-classification, authorization, threat modelling, and enterprise architecture. This section
+classification, authorization, threat modeling, and enterprise architecture. This section
 describes how delivery operates within those requirements.
 
 ## Section contents
 
 - [Specification-driven delivery](specification-driven-delivery.md): the specification as
-  the authoritative artefact, its anatomy, handoffs, and traceability.
+  the authoritative artifact, its anatomy, handoffs, and traceability.
 - [Roles and accountability](roles-and-accountability.md): how roles shift and who is
   accountable for each outcome and gate.
 - [Team topologies](team-topologies.md): sizing, why more developers can slow delivery,

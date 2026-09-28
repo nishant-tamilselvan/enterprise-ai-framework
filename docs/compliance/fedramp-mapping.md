@@ -1,6 +1,9 @@
 ---
 title: FedRAMP Mapping
-version: 0.2.0
+doc_status: Draft
+version: 0.3.0
+owners: Framework maintainers
+audience: Compliance, legal, privacy, and assurance teams
 last_reviewed: 2026-09-28
 source_framework: FedRAMP Consolidated Rules for 2026 (CR26); NIST SP 800-53 Rev. 5 Release 5.2.0
 ---
@@ -49,18 +52,18 @@ FedRAMP baselines draw on NIST SP 800-53 Rev. 5. The latest release is 5.2.0, da
 | AC Access Control | Human and workload identity, agent delegation, retrieval authorization at query time | [Zero-trust AI](../security/zero-trust-ai.md) design, access tests, role matrix |
 | AT Awareness and Training | AI-specific misuse, social engineering through generated content | Training records, acceptable-use rules |
 | AU Audit and Accountability | Prompt and output sensitivity, correlation across agents and tools, provider logs | Logging design, retention schedule, integrity controls |
-| CA Assessment, Authorization, and Monitoring | AI evaluations and red teaming as assessment inputs, continuous monitoring of model behaviour | Evaluation reports, red-team findings, monitoring plan |
+| CA Assessment, Authorization, and Monitoring | AI evaluations and red teaming as assessment inputs, continuous monitoring of model behavior | Evaluation reports, red-team findings, monitoring plan |
 | CM Configuration Management | Model, prompt, policy, retrieval, tool and supplier versions as configuration items | Registries, baselines, change approvals |
 | CP Contingency Planning | Fallback when a model or AI supplier is unavailable, rollback of model versions | Degradation design, recovery tests, exit plans |
 | IA Identification and Authentication | Identities for models, agents and tools, not only for people | Workload identity inventory, credential scoping |
-| IR Incident Response | Prompt injection, model abuse, data leakage, agent misbehaviour, supplier events | [AI incident response](../security/incident-response.md) playbooks, exercises, reporting paths |
+| IR Incident Response | Prompt injection, model abuse, data leakage, agent misbehavior, supplier events | [AI incident response](../security/incident-response.md) playbooks, exercises, reporting paths |
 | PL Planning | AI components described in the system security plan | System description, boundary diagram |
 | PM Program Management | AI inventory and governance at the program level | [Operating model](../governance/operating-model.md), AI inventory |
 | PT PII Processing and Transparency | Personal data in prompts, retrieval, logs, training and provider processing | Privacy assessment, minimization, deletion evidence |
 | RA Risk Assessment | AI threat modeling and impact assessment | [Threat model](../security/threat-model.md), [risk management](../governance/risk-management.md) |
 | SA System and Services Acquisition | Secure development of AI components, including SP 800-218A practices | Development records, supplier assurance |
 | SC System and Communications Protection | Isolation of model runtimes and tools, egress control, encryption | Architecture diagrams, network policy, configuration evidence |
-| SI System and Information Integrity | Input and output validation, model artifact integrity, behaviour monitoring | Validation controls, artifact verification, telemetry |
+| SI System and Information Integrity | Input and output validation, model artifact integrity, behavior monitoring | Validation controls, artifact verification, telemetry |
 | SR Supply Chain Risk Management | External models, datasets, AI-BOMs, model signing, concentration risk | Supplier assessments, provenance, AI-BOM, signature verification |
 
 ## AI control overlays

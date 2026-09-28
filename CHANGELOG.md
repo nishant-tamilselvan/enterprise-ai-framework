@@ -8,6 +8,9 @@ The project uses the [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) fo
 
 ### Added
 
+- Provenance captions on the ECA wheel and the four Delivery images, all generated with NotebookLM, and a contribution rule that AI-generated figures name their tool.
+- `.github/CODEOWNERS`, so GitHub requests a maintainer review on every pull request.
+- Conduct contact request issue template, the private reporting route in the Code of Conduct.
 - AI supply chain and AI incident response pages in the Security section.
 - A shared disclaimer on every compliance mapping page (`includes/compliance-disclaimer.md`).
 - `CLAUDE.md` and a `.claude/skills/writing-style` pointer, so Claude Code follows the same writing rules as Copilot.
@@ -21,6 +24,13 @@ The project uses the [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) fo
 
 ### Changed
 
+- Every page under `docs/` except blog posts states `doc_status`, `version`, `owners`, `audience`, and `last_reviewed` in its frontmatter. `version` is the release in which the page last changed in substance, and `CONTRIBUTING.md` documents each field.
+- The Delivery and ECA images shrink from about 17 MB to under 1 MB, with no visible loss of legibility.
+- The site uses American spelling throughout. Official titles and EU legal terms keep their published spelling.
+- The README version badge shows 0.2.0, and the roadmap lists what each release shipped.
+- `CONTRIBUTING.md` and `GOVERNANCE.md` state the same approval rule, including how it works with one maintainer.
+- The Code of Conduct gives a private reporting route and GitHub's own reporting feature.
+- The Copilot instructions forbid organization names, point to the denylist check, and list the checks to run.
 - The four compliance mappings cite article, clause and category identifiers, record the date their facts were checked, and list their sources. The EU AI Act mapping reflects the Digital Omnibus on AI (Regulation (EU) 2026/1744).
 - The threat model, zero-trust and data protection pages name threats with OWASP and MITRE ATLAS identifiers and cover improper output handling, excessive agency, MCP tool poisoning and hidden context exposure, using OWASP LLM Top 10 2026 IDs with a crosswalk from the 2025 IDs.
 - The Copilot instructions point at the `writing-style` skill instead of the old instructions file.
@@ -30,19 +40,23 @@ The project uses the [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) fo
 - The README License section, `CONTRIBUTING.md`, and `CITATION.cff` describe the two-license setup.
 - `SECURITY.md` explains how to reach the private report form, and gives a fallback: a detail-free security contact request issue.
 
-### Deprecated
-
 ### Removed
 
+- `.gitkeep` files from asset folders that hold files, and the empty `docs/assets/branding/` folder.
 - `.markdownlint.json`, replaced by `.markdownlint-cli2.jsonc`.
 - `.github/instructions/writing-style.instructions.md`, replaced by the `writing-style` skill. It named an internal source and quoted a budget figure that read as real.
 
 ### Fixed
 
+- The ECA wheel's credit no longer claims personal copyright for a figure generated with NotebookLM.
+- The changelog and the 0.2.0 release notes no longer claim that 0.2.0 adopted ECA. ECA shipped in 0.1.0, and the entries now sit under that release.
 - The frontmatter of the Enterprise Context Architecture page is valid YAML again, so its social card description loads.
 - The "Illustrative only" note on the team topologies page renders its text inside the box.
 
 ### Security
+
+- Private vulnerability reporting is enabled on the repository, and `SECURITY.md` gives a fallback contact route.
+- Every action is pinned to a commit SHA, and CI scans the full history for secrets.
 
 ## [0.2.0] - 2026-07-28
 
@@ -51,25 +65,22 @@ The project uses the [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) fo
 - **Delivery** section: an operating model for AI-assisted delivery, covering specification-driven delivery, roles and accountability (with a RACI across the governance lifecycle gates), and team topologies.
 - Four hero infographics for the Delivery section (overview, specification, roles, and team topologies), each with descriptive alt text.
 - Delivery navigation section, a home-page Delivery card, and a governance operating-model cross-link to the delivery model.
-- Dedicated "ECA and the TOGAF ADM" page mapping each ADM phase (A through H) to ECA context domains.
-- Enterprise Context Architecture wheel and ADM-cycle reference diagrams.
-- Context ownership, right-sizing, and documentation-to-runtime guidance, plus a background note on what ECA builds on.
+- Final ECA and TOGAF ADM overview diagram, with a figure credit, replacing the draft diagram.
+- Landing page, custom logo, social cards, and navigation polish.
 - Roadmap item for a reference implementation with before/after adoption metrics.
 
 ### Changed
 
-- Adopted **Enterprise Context Architecture (ECA)** as the flagship model. ECA replaces the earlier "Enterprise AI Context Architecture (EAICA)" framing, defines seven context domains centred on Requirements Management, and provides a cross-cutting perspective on the TOGAF ADM.
-- Folded financial considerations (value and cost, cost of operations, application and vendor portfolio lifecycle) into the Business, Operational, and Technology contexts.
-
-### Fixed
-
-- Corrected the ECA and TOGAF ADM phase labels (phases D through G) to the canonical TOGAF ADM naming.
+- Page frontmatter drops the `status` field, which MkDocs Material reserves for navigation badges.
 
 ## [0.1.0] - 2026-07-26
 
 ### Added
 
 - Production-grade documentation repository structure.
+- **Enterprise Context Architecture (ECA)** as the flagship model: seven context domains centered on Requirements Management, positioned as a cross-cutting perspective on the TOGAF ADM. ECA replaces the pre-release working name "Enterprise AI Context Architecture (EAICA)". Financial considerations sit in the Business, Operational, and Technology contexts.
+- "ECA and the TOGAF ADM" page mapping each ADM phase (A through H) to ECA context domains, with the context wheel and ADM-cycle reference diagrams.
+- Context ownership, right-sizing, and documentation-to-runtime guidance, plus a background note on what ECA builds on.
 - MkDocs Material publishing configuration.
 - Architecture, governance, security, compliance, and blueprint document skeletons.
 - Compliance mapping templates for NIST AI RMF, ISO/IEC 42001, the EU AI Act, and FedRAMP.

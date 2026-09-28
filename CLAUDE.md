@@ -17,7 +17,7 @@ Run the checker on every Markdown file you change, and fix every error before yo
 python .github/skills/writing-style/scripts/sloplint.py <file>
 ```
 
-Warnings need judgement. Keep a flagged word when it is a quoted legal or standards term.
+Warnings need judgment. Keep a flagged word when it is a quoted legal or standards term.
 
 ## Checks before you finish
 

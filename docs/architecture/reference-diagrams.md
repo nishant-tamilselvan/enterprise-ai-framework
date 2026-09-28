@@ -1,6 +1,9 @@
 ---
 title: Reference Diagrams
+doc_status: Draft
 version: 0.1.0
+owners: Framework maintainers
+audience: Enterprise and solution architects
 last_reviewed: 2026-07-26
 ---
 
@@ -10,7 +13,7 @@ Reference diagrams communicate logical responsibilities and trust boundaries. Pr
 
 ## Enterprise Context Architecture wheel
 
-Requirements Management captures context requirements at the centre of seven ECA context domains.
+Requirements Management captures context requirements at the center of seven ECA context domains.
 
 ```mermaid
 flowchart TB
