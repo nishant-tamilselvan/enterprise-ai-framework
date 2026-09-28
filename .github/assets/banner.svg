@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="title desc">
+  <title id="title">Enterprise AI Framework</title>
+  <desc id="desc">Vendor-neutral Enterprise AI architecture for government, public-sector, and regulated organizations.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#303f9f"/>
+      <stop offset="0.6" stop-color="#3f51b5"/>
+      <stop offset="1" stop-color="#5c6bc0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.5" r="0.45">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1280" height="320" rx="18" fill="url(#bg)"/>
+  <rect width="1280" height="320" rx="18" fill="url(#glow)"/>
+
+  <!-- Context wheel motif: seven domains around Requirements Management -->
+  <g transform="translate(1050 160)" fill="none" stroke="#ffffff" stroke-linecap="round">
+    <circle r="118" stroke-width="2" opacity="0.18"/>
+    <circle r="78" stroke-width="2" opacity="0.28"/>
+    <g stroke-width="2.5" opacity="0.5">
+      <line x1="0" y1="0" x2="0" y2="-118"/>
+      <line x1="0" y1="0" x2="92.3" y2="-73.6"/>
+      <line x1="0" y1="0" x2="115" y2="26.3"/>
+      <line x1="0" y1="0" x2="51.2" y2="106.3"/>
+      <line x1="0" y1="0" x2="-51.2" y2="106.3"/>
+      <line x1="0" y1="0" x2="-115" y2="26.3"/>
+      <line x1="0" y1="0" x2="-92.3" y2="-73.6"/>
+    </g>
+    <g fill="#ffffff" stroke="none" opacity="0.9">
+      <circle cx="0" cy="-118" r="10"/>
+      <circle cx="92.3" cy="-73.6" r="10"/>
+      <circle cx="115" cy="26.3" r="10"/>
+      <circle cx="51.2" cy="106.3" r="10"/>
+      <circle cx="-51.2" cy="106.3" r="10"/>
+      <circle cx="-115" cy="26.3" r="10"/>
+      <circle cx="-92.3" cy="-73.6" r="10"/>
+    </g>
+    <circle r="30" fill="#ffffff" stroke="none"/>
+    <circle r="13" fill="#3f51b5" stroke="none"/>
+  </g>
+
+  <!-- Logo -->
+  <g transform="translate(72 92) scale(1.5)" fill="none">
+    <circle cx="24" cy="24" r="20" stroke="#ffffff" stroke-width="1.4" opacity="0.55"/>
+    <g stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" opacity="0.85">
+      <line x1="24" y1="24" x2="44" y2="24"/>
+      <line x1="24" y1="24" x2="34" y2="6.68"/>
+      <line x1="24" y1="24" x2="14" y2="6.68"/>
+      <line x1="24" y1="24" x2="4" y2="24"/>
+      <line x1="24" y1="24" x2="14" y2="41.32"/>
+      <line x1="24" y1="24" x2="34" y2="41.32"/>
+    </g>
+    <g fill="#ffffff">
+      <circle cx="44" cy="24" r="3"/>
+      <circle cx="34" cy="6.68" r="3"/>
+      <circle cx="14" cy="6.68" r="3"/>
+      <circle cx="4" cy="24" r="3"/>
+      <circle cx="14" cy="41.32" r="3"/>
+      <circle cx="34" cy="41.32" r="3"/>
+    </g>
+    <circle cx="24" cy="24" r="6.5" fill="#ffffff"/>
+    <circle cx="24" cy="24" r="3" fill="#3f51b5"/>
+  </g>
+
+  <g font-family="Roboto, 'Segoe UI', Helvetica, Arial, sans-serif" fill="#ffffff">
+    <text x="172" y="148" font-size="56" font-weight="700" letter-spacing="-1">Enterprise AI Framework</text>
+    <text x="174" y="192" font-size="24" opacity="0.92">Vendor-neutral architecture for government, public-sector,</text>
+    <text x="174" y="224" font-size="24" opacity="0.92">and regulated organizations</text>
+    <text x="174" y="268" font-size="17" opacity="0.75" letter-spacing="1.5">CONTEXT ARCHITECTURE · GOVERNANCE · SECURITY · COMPLIANCE MAPPINGS</text>
+  </g>
+</svg>

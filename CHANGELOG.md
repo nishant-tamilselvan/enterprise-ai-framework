@@ -8,6 +8,7 @@ The project uses the [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) fo
 
 ### Added
 
+- `.github/assets/` with a README banner, a social preview image and its editable source, and section icons, plus a note on their sources and licenses.
 - A diagram viewer: select any diagram, or its Expand button, to open it full screen and zoom with the mouse wheel, a pinch, or buttons, and drag to move (`docs/javascripts/diagrams.js`).
 - Provenance captions on the ECA wheel and the four Delivery images, all generated with NotebookLM, and a contribution rule that AI-generated figures name their tool.
 - `.github/CODEOWNERS`, so GitHub requests a maintainer review on every pull request.
@@ -25,6 +26,8 @@ The project uses the [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) fo
 
 ### Changed
 
+- The README has a banner, release, CI, Scorecard, and license badges, a section guide with icons, a role-based starting guide, a quick start for running the site locally, and an updated repository map.
+- Repository settings: a description and website, 16 topics, Discussions, auto-merge, required SHA pinning for actions, immutable releases, and a ruleset that protects release tags.
 - Mermaid diagrams render in the page instead of in Material's closed shadow DOM, span the full content width, and follow the light and dark theme. The context wheels and the delivery diagrams use layouts that read at page width.
 - Site navigation uses one tab per section, so the sidebar lists only the current section's pages. Pages show breadcrumbs, and the table of contents follows scrolling.
 - Every page has an icon in the navigation, and each page title is followed by chips for its status, version, audience, and last review date.
