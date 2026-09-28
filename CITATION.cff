@@ -9,7 +9,9 @@ authors:
     affiliation: "Enterprise AI Framework"
 repository-code: "https://github.com/nishant-tamilselvan/enterprise-ai-framework"
 url: "https://nishant-tamilselvan.github.io/enterprise-ai-framework/"
-license: "CC-BY-4.0"
+license:
+  - "CC-BY-4.0"
+  - "MIT"
 version: "0.2.0"
 date-released: "2026-07-28"
 abstract: >-
