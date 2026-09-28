@@ -46,7 +46,8 @@ The **Enterprise Context Architecture (ECA)** makes those dependencies explicit 
 
     ---
 
-    Specification-driven delivery, shifting roles and accountability, and team topologies.
+    Specification-driven delivery, shifting roles and accountability, team topologies, and a
+    reference implementation.
 
     [Explore delivery](delivery/overview.md)
 

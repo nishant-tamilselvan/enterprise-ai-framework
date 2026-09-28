@@ -35,6 +35,11 @@ Put every security decision in deterministic code that the model cannot rewrite.
 
 A system prompt that says "never reveal salary data" is a hint, not a control.
 
+!!! tip "In practice"
+    AEGIS enforces this with a deterministic hook: code agents cannot write outside
+    the active work package's declared paths. See the [AEGIS reference implementation](../delivery/reference-implementation-aegis.md#guardrails-and-security-controls). The framework does not require
+    any particular tool.
+
 ## Agent and tool controls
 
 | Control | What it prevents |
