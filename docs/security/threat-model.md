@@ -110,6 +110,11 @@ OWASP's 2026 prompt injection entry recommends the "Rule of Two" as a minimum ch
 
 An agent with all three needs human approval for every action. An agent with two of them needs a documented residual-risk assessment.
 
+!!! tip "In practice"
+    AEGIS limits each code agent to one approved work package and its paths, and
+    treats external content as data. See the [AEGIS reference implementation](../delivery/reference-implementation-aegis.md#guardrails-and-security-controls). The framework does not require
+    any particular tool.
+
 ### MCP servers and tool poisoning
 
 The Model Context Protocol (MCP) connects agents to tools. The model reads tool descriptions, so a malicious or compromised server can hide instructions in them. Invariant Labs described these tool poisoning attacks in April 2025. The same report named two variants.

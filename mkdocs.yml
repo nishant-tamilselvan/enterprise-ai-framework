@@ -141,6 +141,7 @@ nav:
       - Specification-Driven Delivery: delivery/specification-driven-delivery.md
       - Roles and Accountability: delivery/roles-and-accountability.md
       - Team Topologies: delivery/team-topologies.md
+      - "Reference Implementation: AEGIS": delivery/reference-implementation-aegis.md
   - Security:
       - Overview: security/overview.md
       - Zero-Trust AI: security/zero-trust-ai.md

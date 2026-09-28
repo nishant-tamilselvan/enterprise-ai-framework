@@ -42,6 +42,7 @@ jobs:
             --exclude-path .venv
             --exclude-path tmp
             --accept 200,202,206,429
+            --remap 'https://github\.com/nishant-tamilselvan/enterprise-ai-framework/(tree|blob)/master/(.*) file://${{ github.workspace }}/$2'
             "**/*.md"
           fail: true
 

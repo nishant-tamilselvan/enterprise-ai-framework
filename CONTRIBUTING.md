@@ -87,6 +87,21 @@ Mappings are informative unless explicitly approved otherwise. Include control o
 
 Maintainers evaluate technical correctness, evidence quality, neutrality, security and privacy implications, accessibility, consistency, and alignment with project scope. Normative and governance changes follow the decision model in [GOVERNANCE.md](GOVERNANCE.md): two maintainer approvals when two maintainers are available, and approval by the sole maintainer after public discussion until then.
 
+## Tools and implementations
+
+The framework is tool-agnostic. It may still point readers to tools that put it into practice, on these conditions:
+
+| Rule | Detail |
+| --- | --- |
+| Open license | The tool is available under an OSI-approved open-source license |
+| One place | The tool gets one page under the section it implements, such as [the AEGIS page](docs/delivery/reference-implementation-aegis.md). Other pages link to it through short callouts titled "In practice". |
+| Tool-agnostic rules | Normative text never names a tool. A tool is one way to meet a rule, never the rule itself. |
+| Mapping and gaps | The page maps the framework to the tool, and states where the tool falls short |
+| Disclosure | The page and the pull request disclose any affiliation between the contributor and the tool |
+| No endorsement | A listing is not an endorsement, and the page says so |
+
+Any contributor may propose a tool that meets these rules.
+
 ## License of contributions
 
 By contributing, you license documentation and other content under Creative Commons Attribution 4.0 International, and code under the MIT License, as the README's License section describes. A file that clearly states another license follows that license instead.

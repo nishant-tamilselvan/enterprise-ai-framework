@@ -27,6 +27,11 @@ last_reviewed: 2026-07-26
 6. **Operate and monitor:** SLOs, outcome and harm indicators, incidents, complaints, reassessment.
 7. **Change or retire:** material-change review, records preservation, model/data removal, transition.
 
+!!! tip "In practice"
+    AEGIS runs the Intake to Authorize gates as three phases and a named release
+    approval. See the [AEGIS reference implementation](../delivery/reference-implementation-aegis.md#the-handoff-chain-and-lifecycle-gates). The framework does not require
+    any particular tool.
+
 ## Accountability record
 
 Every governed system should name a service owner, risk owner, data owner, model or AI engineering owner, security owner, privacy contact, operational owner, and authorization authority. One person may hold multiple roles only when independence requirements permit it.

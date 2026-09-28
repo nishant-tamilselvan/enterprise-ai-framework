@@ -82,6 +82,8 @@ describes how delivery operates within those requirements.
   accountable for each outcome and gate.
 - [Team topologies](team-topologies.md): sizing, why more developers can slow delivery,
   short delivery loops, and work decomposition.
+- [Reference implementation: AEGIS](reference-implementation-aegis.md): one open-source
+  tool that puts this model into practice, with a mapping and its gaps.
 
 ## Relationship to the rest of the framework
 

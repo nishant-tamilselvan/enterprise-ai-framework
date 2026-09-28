@@ -76,6 +76,11 @@ to **Assessment** and **Design**; developer and verification work align to **Bui
 validate**; the final review feeds **Authorize and release**. The named accountability
 owners remain accountable at each gate.
 
+!!! tip "In practice"
+    AEGIS keeps each of the eight elements in a fixed document with stable ids, and a
+    read-only readiness gate stops implementation until they are complete. See the [AEGIS reference implementation](reference-implementation-aegis.md#the-specification). The framework does not require
+    any particular tool.
+
 ## The specification as historical record
 
 Because the specification is authoritative, it lives where the solution lives:
