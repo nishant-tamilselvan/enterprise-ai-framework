@@ -1,4 +1,5 @@
 ---
+icon: material/table-edit
 title: Control Mapping Template
 doc_status: Draft
 version: 0.1.0

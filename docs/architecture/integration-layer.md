@@ -1,4 +1,5 @@
 ---
+icon: material/transit-connection-variant
 title: Enterprise AI Integration Layer
 doc_status: Draft
 version: 0.1.0

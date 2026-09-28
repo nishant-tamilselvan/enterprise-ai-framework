@@ -1,4 +1,5 @@
 ---
+icon: material/office-building-outline
 title: Regulated-Enterprise AI Blueprint
 doc_status: Draft
 version: 0.1.0

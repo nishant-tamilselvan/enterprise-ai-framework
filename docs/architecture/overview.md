@@ -1,4 +1,5 @@
 ---
+icon: material/sitemap-outline
 title: Architecture Overview
 doc_status: Draft
 version: 0.1.0

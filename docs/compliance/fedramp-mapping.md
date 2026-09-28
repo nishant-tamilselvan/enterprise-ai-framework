@@ -1,4 +1,5 @@
 ---
+icon: material/cloud-check-outline
 title: FedRAMP Mapping
 doc_status: Draft
 version: 0.3.0
@@ -98,11 +99,11 @@ Record every AI component inside the authorization boundary, and every external 
 
 Checked 2026-09-28.
 
-- FedRAMP 20x: <https://www.fedramp.gov/20x/>
-- FedRAMP 2026 timeline: <https://www.fedramp.gov/2026/timeline/>
-- Class A Key Security Indicators: <https://www.fedramp.gov/2026/reference/20x/a/key-security-indicators/>
-- FedRAMP and AI: <https://www.fedramp.gov/ai/>
-- NIST SP 800-53 Rev. 5: <https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final>
-- NIST COSAiS project: <https://csrc.nist.gov/Projects/cosais>
-- OMB M-25-21: <https://www.whitehouse.gov/wp-content/uploads/2025/02/M-25-21-Accelerating-Federal-Use-of-AI-through-Innovation-Governance-and-Public-Trust.pdf>
-- OMB M-25-22: <https://www.whitehouse.gov/wp-content/uploads/2025/02/M-25-22-Driving-Efficient-Acquisition-of-Artificial-Intelligence-in-Government.pdf>
+- [FedRAMP 20x](https://www.fedramp.gov/20x/)
+- [FedRAMP 2026 timeline](https://www.fedramp.gov/2026/timeline/)
+- [Class A Key Security Indicators](https://www.fedramp.gov/2026/reference/20x/a/key-security-indicators/)
+- [FedRAMP and AI](https://www.fedramp.gov/ai/)
+- [NIST SP 800-53 Rev. 5](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final)
+- [NIST COSAiS project](https://csrc.nist.gov/Projects/cosais)
+- [OMB M-25-21](https://www.whitehouse.gov/wp-content/uploads/2025/02/M-25-21-Accelerating-Federal-Use-of-AI-through-Innovation-Governance-and-Public-Trust.pdf)
+- [OMB M-25-22](https://www.whitehouse.gov/wp-content/uploads/2025/02/M-25-22-Driving-Efficient-Acquisition-of-Artificial-Intelligence-in-Government.pdf)

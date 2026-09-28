@@ -1,4 +1,5 @@
 ---
+icon: material/format-list-checks
 title: NIST AI RMF Mapping
 doc_status: Draft
 version: 0.3.0
@@ -130,14 +131,14 @@ NIST lists crosswalks from the AI RMF to other frameworks. The ISO/IEC 42001 cro
 
 Checked 2026-09-28.
 
-- NIST AI 100-1: <https://doi.org/10.6028/NIST.AI.100-1>
-- NIST AI 600-1: <https://doi.org/10.6028/NIST.AI.600-1>
-- AI RMF page and revision status: <https://www.nist.gov/itl/ai-risk-management-framework>
-- AI RMF Playbook: <https://airc.nist.gov/airmf-resources/playbook/>
-- AI RMF crosswalks: <https://airc.nist.gov/airmf-resources/crosswalks/>
-- NIST AI 100-2e2025: <https://doi.org/10.6028/NIST.AI.100-2e2025>
-- SP 800-218A: <https://doi.org/10.6028/NIST.SP.800-218A>
-- NIST IR 8596 (draft): <https://csrc.nist.gov/pubs/ir/8596/iprd>
-- NIST AI 800-2 (draft): <https://doi.org/10.6028/NIST.AI.800-2.ipd>
-- NIST AI 800-4: <https://doi.org/10.6028/NIST.AI.800-4>
-- CAISI: <https://www.nist.gov/caisi>
+- [NIST AI 100-1](https://doi.org/10.6028/NIST.AI.100-1)
+- [NIST AI 600-1](https://doi.org/10.6028/NIST.AI.600-1)
+- [AI RMF page and revision status](https://www.nist.gov/itl/ai-risk-management-framework)
+- [AI RMF Playbook](https://airc.nist.gov/airmf-resources/playbook/)
+- [AI RMF crosswalks](https://airc.nist.gov/airmf-resources/crosswalks/)
+- [NIST AI 100-2e2025](https://doi.org/10.6028/NIST.AI.100-2e2025)
+- [SP 800-218A](https://doi.org/10.6028/NIST.SP.800-218A)
+- [NIST IR 8596 (draft)](https://csrc.nist.gov/pubs/ir/8596/iprd)
+- [NIST AI 800-2 (draft)](https://doi.org/10.6028/NIST.AI.800-2.ipd)
+- [NIST AI 800-4](https://doi.org/10.6028/NIST.AI.800-4)
+- [CAISI](https://www.nist.gov/caisi)

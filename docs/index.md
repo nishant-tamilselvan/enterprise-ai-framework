@@ -1,4 +1,5 @@
 ---
+icon: material/home
 title: Enterprise AI Framework
 doc_status: Draft
 version: 0.1.0

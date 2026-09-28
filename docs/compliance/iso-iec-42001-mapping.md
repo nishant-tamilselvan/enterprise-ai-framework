@@ -1,4 +1,5 @@
 ---
+icon: material/certificate-outline
 title: ISO/IEC 42001 Mapping
 doc_status: Draft
 version: 0.3.0
@@ -69,9 +70,9 @@ Annex C lists possible AI-related organizational objectives and risk sources, su
 
 Checked 2026-09-28.
 
-- ISO/IEC 42001:2023 publication record: <https://webstore.iec.ch/en/publication/90574>
-- ISO/IEC 42005:2025: <https://webstore.iec.ch/en/publication/107659>
-- ISO/IEC 42006:2025: <https://webstore.iec.ch/en/publication/108460>
-- ISO/IEC 23894:2023: <https://webstore.iec.ch/en/publication/82914>
+- [ISO/IEC 42001:2023 publication record](https://webstore.iec.ch/en/publication/90574)
+- [ISO/IEC 42005:2025](https://webstore.iec.ch/en/publication/107659)
+- [ISO/IEC 42006:2025](https://webstore.iec.ch/en/publication/108460)
+- [ISO/IEC 23894:2023](https://webstore.iec.ch/en/publication/82914)
 
 The clause and control titles above are short identifiers. Read the licensed standard for the requirements themselves.

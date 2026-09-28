@@ -1,4 +1,5 @@
 ---
+icon: material/view-grid-outline
 title: Enterprise AI Capability Model
 doc_status: Draft
 version: 0.1.0
