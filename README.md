@@ -136,7 +136,7 @@ Then open `http://127.0.0.1:8000/enterprise-ai-framework/` in your browser. The 
 | --- | --- | --- |
 | [0.1.0](releases/v0.1.0.md) | Released 2026-07-26 | Repository, governance, and publishing. Enterprise Context Architecture (ECA). Starter architecture, governance, security, compliance, and blueprint pages. |
 | [0.2.0](releases/v0.2.0.md) | Released 2026-07-28 | Delivery section, final ECA overview diagram, landing page |
-| [0.3.0](releases/v0.3.0.md) | In progress | Compliance mappings with article, clause, and category identifiers. Security pages with OWASP and MITRE ATLAS identifiers, plus AI supply chain and incident response. Repository hardening, site navigation, and zoomable diagrams. |
+| [0.3.0](releases/v0.3.0.md) | Released 2026-09-28 | Compliance mappings with article, clause, and category identifiers. Security pages with OWASP and MITRE ATLAS identifiers, plus AI supply chain and incident response. An AEGIS reference implementation and a starter standards library. Repository hardening, site navigation, and zoomable diagrams. |
 
 ### Planned
 

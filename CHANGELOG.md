@@ -6,12 +6,14 @@ The project uses the [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) fo
 
 ## [Unreleased]
 
+## [0.3.0] - 2026-09-28
+
 ### Added
 
 - A "Reference implementation: AEGIS" page in the Delivery section. It maps the specification, the lifecycle gates, and the security controls to AEGIS, and lists what AEGIS does not cover.
 - "In practice" callouts on the specification-driven delivery, operating model, zero-trust, and threat model pages.
 - `standards/`: six framework rules as a starter standards library in the format AEGIS reads, marked Draft for each organization to review and approve.
-- A blog post walking one example from idea to release approval with AEGIS, and a draft post announcing 0.3.0.
+- A blog post walking one example from idea to release approval with AEGIS, and a post announcing 0.3.0.
 - A "Tools and implementations" section in `CONTRIBUTING.md` that sets the rules for listing a tool.
 - `.github/assets/` with a README banner, a social preview image and its editable source, and section icons, plus a note on their sources and licenses.
 - A diagram viewer: select any diagram, or its Expand button, to open it full screen and zoom with the mouse wheel, a pinch, or buttons, and drag to move (`docs/javascripts/diagrams.js`).
@@ -21,7 +23,7 @@ The project uses the [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) fo
 - AI supply chain and AI incident response pages in the Security section.
 - A shared disclaimer on every compliance mapping page (`includes/compliance-disclaimer.md`).
 - `CLAUDE.md` and a `.claude/skills/writing-style` pointer, so Claude Code follows the same writing rules as Copilot.
-- Draft release notes for 0.3.0.
+- Release notes for 0.3.0.
 - `LICENSES/MIT.txt`: code (scripts, theme overrides, workflows, and configuration) is now licensed under MIT. Content stays under CC BY 4.0.
 - Supply-chain hardening: Dependabot for actions and pip (MkDocs stays on 1.x), OpenSSF Scorecard, CodeQL for workflows and Python, a gitleaks secret scan with a verified checksum, and a DCO sign-off check on pull requests.
 - Pre-commit hooks: file hygiene, markdownlint, gitleaks, and a denylist check (`scripts/ci/denylist.py`) whose organization patterns stay out of the repository.
@@ -102,6 +104,7 @@ The project uses the [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) fo
 - Compliance mapping templates for NIST AI RMF, ISO/IEC 42001, the EU AI Act, and FedRAMP.
 - Contribution, governance, security, citation, and release infrastructure.
 
-[Unreleased]: https://github.com/nishant-tamilselvan/enterprise-ai-framework/compare/v0.2.0...HEAD
+[Unreleased]: https://github.com/nishant-tamilselvan/enterprise-ai-framework/compare/v0.3.0...HEAD
+[0.3.0]: https://github.com/nishant-tamilselvan/enterprise-ai-framework/compare/v0.2.0...v0.3.0
 [0.2.0]: https://github.com/nishant-tamilselvan/enterprise-ai-framework/compare/v0.1.0...v0.2.0
 [0.1.0]: https://github.com/nishant-tamilselvan/enterprise-ai-framework/releases/tag/v0.1.0
