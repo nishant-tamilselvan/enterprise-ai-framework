@@ -34,7 +34,7 @@ At its center is the **Enterprise Context Architecture (ECA)**. ECA makes explic
 | :---: | --- | --- |
 | <img src=".github/assets/icons/architecture.svg" width="28" alt=""> | [Architecture](https://nishant-tamilselvan.github.io/enterprise-ai-framework/architecture/overview/) | Enterprise Context Architecture, its mapping to the TOGAF ADM, a capability model, integration services, and reference diagrams |
 | <img src=".github/assets/icons/governance.svg" width="28" alt=""> | [Governance](https://nishant-tamilselvan.github.io/enterprise-ai-framework/governance/overview/) | An operating model, risk management, and policy patterns |
-| <img src=".github/assets/icons/delivery.svg" width="28" alt=""> | [Delivery](https://nishant-tamilselvan.github.io/enterprise-ai-framework/delivery/overview/) | Specification-driven delivery, roles and accountability, and team topologies for AI-assisted work |
+| <img src=".github/assets/icons/delivery.svg" width="28" alt=""> | [Delivery](https://nishant-tamilselvan.github.io/enterprise-ai-framework/delivery/overview/) | Specification-driven delivery, roles and accountability, team topologies for AI-assisted work, and a reference implementation |
 | <img src=".github/assets/icons/security.svg" width="28" alt=""> | [Security](https://nishant-tamilselvan.github.io/enterprise-ai-framework/security/overview/) | A threat model with OWASP and MITRE ATLAS identifiers, zero-trust AI, data protection, AI supply chain, and incident response |
 | <img src=".github/assets/icons/compliance.svg" width="28" alt=""> | [Compliance](https://nishant-tamilselvan.github.io/enterprise-ai-framework/compliance/overview/) | Mappings to the NIST AI RMF, ISO/IEC 42001, the EU AI Act, and FedRAMP, each with identifiers and dated sources |
 | <img src=".github/assets/icons/blueprints.svg" width="28" alt=""> | [Blueprints](https://nishant-tamilselvan.github.io/enterprise-ai-framework/blueprints/overview/) | Reference designs for public-sector retrieval-augmented generation and for regulated enterprises |
@@ -57,6 +57,18 @@ ECA places seven context domains around Requirements Management and runs through
 | A risk, privacy, compliance, or audit lead | [Compliance mappings](https://nishant-tamilselvan.github.io/enterprise-ai-framework/compliance/overview/) |
 | A delivery lead or product owner | [AI-assisted delivery](https://nishant-tamilselvan.github.io/enterprise-ai-framework/delivery/overview/) |
 | Looking up a term | [Glossary](https://nishant-tamilselvan.github.io/enterprise-ai-framework/glossary/) |
+
+## Put it into practice
+
+The framework is tool-agnostic. [AEGIS](https://github.com/nishant-tamilselvan/AEGIS) is one open-source way to apply its delivery model. Its agents for GitHub Copilot and Claude Code turn an idea into an approved specification, an architecture, and reviewed code, one bounded work package at a time.
+
+| Resource | Link |
+| --- | --- |
+| How the framework maps to AEGIS, and where AEGIS falls short | [Reference implementation: AEGIS](docs/delivery/reference-implementation-aegis.md) |
+| A walkthrough from idea to release approval | [From specification to evidence](docs/blog/posts/2026-09-28-specification-to-evidence-with-aegis.md) |
+| The framework's rules as an AEGIS standards library | [`standards/`](standards/) |
+
+The maintainer of this framework also maintains AEGIS. See the [listing rules](CONTRIBUTING.md#tools-and-implementations).
 
 ## Principles
 
@@ -106,6 +118,7 @@ Then open `http://127.0.0.1:8000/enterprise-ai-framework/` in your browser. The 
 │   ├── javascripts/         # Diagram rendering and zoom viewer
 │   └── assets/              # Site images and diagrams
 ├── includes/                # Shared text, such as the compliance disclaimer
+├── standards/               # The framework's rules as an AEGIS standards library
 ├── overrides/               # Theme overrides for the landing page and page metadata
 ├── releases/                # Versioned release notes
 ├── scripts/ci/              # Denylist check
@@ -127,7 +140,7 @@ Then open `http://127.0.0.1:8000/enterprise-ai-framework/` in your browser. The 
 
 ### Planned
 
-- Reference implementation with pre-adoption and post-adoption metrics
+- Before-and-after adoption metrics for the [AEGIS reference implementation](docs/delivery/reference-implementation-aegis.md)
 - Quality assurance and review for AI-assisted delivery across large programs
 - Governance quality gates and shadow-application controls
 - Coordination across many delivery teams
