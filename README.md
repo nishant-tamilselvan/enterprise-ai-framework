@@ -64,8 +64,8 @@ The framework is tool-agnostic. [AEGIS](https://github.com/nishant-tamilselvan/A
 
 | Resource | Link |
 | --- | --- |
-| How the framework maps to AEGIS, and where AEGIS falls short | [Reference implementation: AEGIS](https://nishant-tamilselvan.github.io/enterprise-ai-framework/delivery/reference-implementation-aegis/) |
-| A walkthrough from idea to release approval | [From specification to evidence](https://nishant-tamilselvan.github.io/enterprise-ai-framework/blog/2026/09/28/from-specification-to-evidence-with-aegis/) |
+| How the framework maps to AEGIS, and where AEGIS falls short | [Reference implementation: AEGIS](docs/delivery/reference-implementation-aegis.md) |
+| A walkthrough from idea to release approval | [From specification to evidence](docs/blog/posts/2026-09-28-specification-to-evidence-with-aegis.md) |
 | The framework's rules as an AEGIS standards library | [`standards/`](standards/) |
 
 The maintainer of this framework also maintains AEGIS. See the [listing rules](CONTRIBUTING.md#tools-and-implementations).
@@ -140,7 +140,7 @@ Then open `http://127.0.0.1:8000/enterprise-ai-framework/` in your browser. The 
 
 ### Planned
 
-- Before-and-after adoption metrics for the [AEGIS reference implementation](https://nishant-tamilselvan.github.io/enterprise-ai-framework/delivery/reference-implementation-aegis/)
+- Before-and-after adoption metrics for the [AEGIS reference implementation](docs/delivery/reference-implementation-aegis.md)
 - Quality assurance and review for AI-assisted delivery across large programs
 - Governance quality gates and shadow-application controls
 - Coordination across many delivery teams

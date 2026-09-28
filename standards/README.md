@@ -2,7 +2,7 @@
 
 This folder holds some of the framework's rules as a standards library. Tools that read a library of this kind can search it, cite it, and base proposals on it. Each file is plain Markdown with YAML frontmatter, so people can read it too.
 
-The format follows the one [AEGIS](https://github.com/nishant-tamilselvan/AEGIS) reads through its Enterprise Standards server. The [AEGIS reference implementation page](https://nishant-tamilselvan.github.io/enterprise-ai-framework/delivery/reference-implementation-aegis/) explains how the two fit together.
+The format follows the one [AEGIS](https://github.com/nishant-tamilselvan/AEGIS) reads through its Enterprise Standards server. The [AEGIS reference implementation page](../docs/delivery/reference-implementation-aegis.md) explains how the two fit together.
 
 ## Documents
 
