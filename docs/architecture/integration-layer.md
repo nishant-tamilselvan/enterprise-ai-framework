@@ -1,6 +1,9 @@
 ---
 title: Enterprise AI Integration Layer
+doc_status: Draft
 version: 0.1.0
+owners: Framework maintainers
+audience: Enterprise and solution architects
 last_reviewed: 2026-07-26
 ---
 
@@ -10,13 +13,13 @@ The integration layer mediates between probabilistic AI behavior and determinist
 
 ## Logical services
 
-- **AI gateway**: approved model routing, quotas, policy enforcement, content controls, and telemetry.
-- **Context broker**: assembles authorized, task-specific context with provenance and freshness metadata.
-- **Retrieval service**: controlled search, ranking, citation, tenancy, and data-classification enforcement.
-- **Prompt and configuration registry**: versioning, approvals, testing, and rollback.
-- **Tool registry and execution broker**: allowlisted tools, typed contracts, least privilege, approvals, and transaction boundaries.
-- **Evaluation service**: repeatable offline, pre-release, and production evaluation.
-- **Audit and evidence service**: tamper-evident decision and change records with privacy-aware retention.
+- **AI gateway.** Approved model routing, quotas, policy enforcement, content controls, and telemetry.
+- **Context broker.** Assembles authorized, task-specific context with provenance and freshness metadata.
+- **Retrieval service.** Controlled search, ranking, citation, tenancy, and data-classification enforcement.
+- **Prompt and configuration registry.** Versioning, approvals, testing, and rollback.
+- **Tool registry and execution broker.** Allowlisted tools, typed contracts, least privilege, approvals, and transaction boundaries.
+- **Evaluation service.** Repeatable offline, pre-release, and production evaluation.
+- **Audit and evidence service.** Tamper-evident decision and change records with privacy-aware retention.
 
 ## Integration patterns
 

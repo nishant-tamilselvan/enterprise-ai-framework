@@ -1,6 +1,9 @@
 ---
 title: AI Data Protection
-version: 0.2.0
+doc_status: Draft
+version: 0.3.0
+owners: Framework maintainers
+audience: Security architects and engineers
 last_reviewed: 2026-09-28
 ---
 
@@ -38,7 +41,7 @@ Joint guidance from CISA, NSA, FBI and international partners, published 2025-05
 
 | Risk area | Controls |
 | --- | --- |
-| Data supply chain | Record the source and licence of every dataset, verify integrity with hashes or signatures, and prefer sources with provenance metadata |
+| Data supply chain | Record the source and license of every dataset, verify integrity with hashes or signatures, and prefer sources with provenance metadata |
 | Maliciously modified (poisoned) data | Curate and review data before training or indexing, detect anomalies, version datasets, keep a rollback path (OWASP LLM05:2026, MITRE ATLAS AML.T0020 and AML.T0070) |
 | Data drift | Monitor input distributions and output quality in production, and set reassessment triggers |
 
@@ -49,7 +52,7 @@ Joint guidance from CISA, NSA, FBI and international partners, published 2025-05
 | Memorization of training data | Minimize personal data before training, test for extraction |
 | Inferred sensitive attributes | Treat model inferences about people as personal data |
 | Stale knowledge | Date-stamp sources, expire outdated index entries |
-| Unlicensed content | Check rights before ingestion, record licences |
+| Unlicensed content | Check rights before ingestion, record licenses |
 | Deletion from trained weights | Record where deletion is infeasible, and select compensating controls such as output filtering, retraining schedules or model retirement |
 
 ## Sources

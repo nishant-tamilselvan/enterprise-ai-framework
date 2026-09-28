@@ -62,11 +62,22 @@ The denylist also reads a gitignored `.denylist.local` file for organization nam
 - Avoid unqualified claims of compliance, safety, accuracy, or regulatory approval.
 - Write technology-neutral guidance unless an example requires a named technology.
 - Add accessible alt text and source files for diagrams.
+- Credit every figure in a caption. A figure made with an AI tool names the tool, and a person checks its text and facts before it is published.
 - Use kebab-case file names and relative repository links.
 
 ## Document lifecycle
 
-Documents progress through `Draft`, `Public Review`, `Candidate`, `Stable`, and `Deprecated` statuses. Every substantive document should state its status, version, owners, last review date, and intended audience.
+Documents progress through `Draft`, `Public Review`, `Candidate`, `Stable`, and `Deprecated` statuses. Every page under `docs/`, except blog posts, states these fields in its frontmatter:
+
+| Field | Meaning |
+| --- | --- |
+| `doc_status` | Lifecycle status from the list above. The key is not `status`, because MkDocs Material reserves that name. |
+| `version` | The framework release in which the page last changed in substance |
+| `owners` | The role accountable for the page |
+| `audience` | The readers the page is written for |
+| `last_reviewed` | The date of the last content review |
+
+Blog posts use the blog plugin's frontmatter (`date`, `authors`, `categories`).
 
 ## Compliance mappings
 
@@ -74,7 +85,7 @@ Mappings are informative unless explicitly approved otherwise. Include control o
 
 ## Review expectations
 
-Maintainers evaluate technical correctness, evidence quality, neutrality, security and privacy implications, accessibility, consistency, and alignment with project scope. Normative or governance changes require two maintainer approvals.
+Maintainers evaluate technical correctness, evidence quality, neutrality, security and privacy implications, accessibility, consistency, and alignment with project scope. Normative and governance changes follow the decision model in [GOVERNANCE.md](GOVERNANCE.md): two maintainer approvals when two maintainers are available, and approval by the sole maintainer after public discussion until then.
 
 ## License of contributions
 

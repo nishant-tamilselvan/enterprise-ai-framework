@@ -1,6 +1,9 @@
 ---
 title: ISO/IEC 42001 Mapping
-version: 0.2.0
+doc_status: Draft
+version: 0.3.0
+owners: Framework maintainers
+audience: Compliance, legal, privacy, and assurance teams
 last_reviewed: 2026-09-28
 source_framework: ISO/IEC 42001:2023
 ---

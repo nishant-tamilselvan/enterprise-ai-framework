@@ -22,7 +22,11 @@ This Code applies in project spaces and when an individual officially represents
 
 ## Reporting and enforcement
 
-Report abusive, harassing, or otherwise unacceptable behavior privately to the project maintainer through the contact methods available on the maintainer's GitHub profile. Maintainers review reports promptly and fairly while respecting the privacy and security of reporters.
+Report abusive, harassing, or otherwise unacceptable behavior privately. Open a [conduct contact request](https://github.com/nishant-tamilselvan/enterprise-ai-framework/issues/new?template=conduct-contact-request.md). The issue is public, so include no names or details. A maintainer replies on the issue with a private channel for the report.
+
+You can also report content or accounts to GitHub through its [reporting feature](https://docs.github.com/en/communities/maintaining-your-safety-on-github/reporting-abuse-or-spam). Use it when the concern involves a maintainer.
+
+Maintainers review reports promptly and fairly while respecting the privacy and security of reporters.
 
 ## Attribution
 

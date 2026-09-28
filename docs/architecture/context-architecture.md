@@ -1,8 +1,10 @@
 ---
 title: Enterprise Context Architecture (ECA)
-version: 0.1.0
+doc_status: Draft
+version: 0.2.0
+owners: Framework maintainers
+audience: Enterprise and solution architects
 last_reviewed: 2026-07-26
-owners: Enterprise Architecture
 social:
   cards_layout_options:
     title: Enterprise Context Architecture (ECA)
@@ -17,7 +19,7 @@ social:
 
 ## Purpose
 
-ECA defines the enterprise contexts required to turn probabilistic AI capabilities into accountable enterprise services. Seven context domains describe the organization in which AI operates and feed context requirements into **Requirements Management** at the centre. Enterprise AI is the primary consumer of ECA: models and agents become trustworthy only when grounded in these contexts.
+ECA defines the enterprise contexts required to turn probabilistic AI capabilities into accountable enterprise services. Seven context domains describe the organization in which AI operates and feed context requirements into **Requirements Management** at the center. Enterprise AI is the primary consumer of ECA: models and agents become trustworthy only when grounded in these contexts.
 
 Enterprises use **systems of record** to support **systems of decision**. Context connects these systems and keeps decisions consistent across models and agents. ECA also documents the **tacit decision frameworks** that previously lived only in people's heads. A clear division of responsibility applies: ECA describes *what is happening* in the enterprise, while enterprise architecture and governance determine *what AI is permitted to do* with it.
 
@@ -32,7 +34,7 @@ Enterprises use **systems of record** to support **systems of decision**. Contex
 
 ## Context domains
 
-ECA organizes enterprise context into seven domains, all feeding **Requirements Management** at the centre:
+ECA organizes enterprise context into seven domains, all feeding **Requirements Management** at the center:
 
 1. **People & Org context**, including roles, culture, capabilities, and policies.
 2. **Business context**, including intent, capabilities, value streams, objectives, and financial value and cost.
@@ -42,11 +44,11 @@ ECA organizes enterprise context into seven domains, all feeding **Requirements 
 6. **Integration context**, including external organizations, partners, interfaces, and data flows.
 7. **Operational context**, including processes, metrics, SLAs, events, constraints, and cost of operations.
 
-![Enterprise Context Architecture as a cross-cutting perspective on the TOGAF ADM cycle. Seven context domains (People & Org, Business, Information, Technology, Governance, Integration, and Operational) surround Requirements Management at the centre. The eight ADM phases, A through H, encircle the domains.](../assets/diagrams/eca-adm-overview.png)
+![Enterprise Context Architecture as a cross-cutting perspective on the TOGAF ADM cycle. Seven context domains (People & Org, Business, Information, Technology, Governance, Integration, and Operational) surround Requirements Management at the center. The eight ADM phases, A through H, encircle the domains.](../assets/diagrams/eca-adm-overview.png)
 
 *Enterprise Context Architecture (ECA) as a cross-cutting perspective across the TOGAF ADM cycle.*
 
-<small>Figure: Enterprise AI Framework · © 2026 Nishant Tamilselvan · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)</small>
+<small>Figure: generated with NotebookLM from the framework's text · Enterprise AI Framework · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)</small>
 
 ## Context wheel
 

@@ -1,16 +1,19 @@
 ---
 title: Enterprise AI Threat Model
-version: 0.2.0
+doc_status: Draft
+version: 0.3.0
+owners: Framework maintainers
+audience: Security architects and engineers
 last_reviewed: 2026-09-28
 ---
 
 # Enterprise AI threat model
 
-An AI threat model covers the same ground as any threat model: adversarial attack, accidental failure, misuse by authorized people, supplier compromise and unexpected behaviour. AI adds two things. Natural language mixes instructions with data, so any text the model reads can try to steer it. Agents act on the model's output, so a steered model can take real actions.
+An AI threat model covers the same ground as any threat model: adversarial attack, accidental failure, misuse by authorized people, supplier compromise and unexpected behavior. AI adds two things. Natural language mixes instructions with data, so any text the model reads can try to steer it. Agents act on the model's output, so a steered model can take real actions.
 
 This page names threats with public identifiers so teams can trace them to tests, controls and incidents:
 
-| Catalogue | Edition used here |
+| Catalog | Edition used here |
 | --- | --- |
 | [OWASP Top 10 for LLM Applications](https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/) | 2026, released August 2026 (IDs such as `LLM01:2026`) |
 | [OWASP Top 10 for Agentic Applications](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/) | 2026, released 2025-12-09 (IDs such as `ASI01`) |
@@ -42,7 +45,7 @@ OWASP scopes the LLM list to a model used as a component. When the model acts th
 | Sensitive data | Prompts, retrieved documents, logs, training and fine-tuning data |
 | Identities, credentials and authorization | Agents and tools act with them |
 | System prompts, policies and tool definitions | They steer the model and describe what it can do |
-| Models, weights and adapters | Stolen, swapped or tampered artifacts change behaviour |
+| Models, weights and adapters | Stolen, swapped or tampered artifacts change behavior |
 | Retrieval indexes, vector stores and agent memory | Poisoned entries persist and reach many users |
 | Tools, plugins and MCP servers | They turn model output into actions |
 | Evaluation sets, logs and evidence | Assurance and investigation depend on them |
@@ -63,7 +66,7 @@ Draw each boundary on the system diagram and record what crosses it.
 | Agent to agent | Messages, delegated tasks | Authenticate both sides; validate every message |
 | Organization to supplier | Models, datasets, hosted APIs, tool servers | Verify provenance and integrity |
 
-## Threat catalogue
+## Threat catalog
 
 | Threat | OWASP | MITRE ATLAS | Main mitigations |
 | --- | --- | --- | --- |
@@ -82,7 +85,7 @@ Draw each boundary on the system diagram and record what crosses it.
 | Insecure inter-agent communication | ASI07 | AML.T0118 | Mutual authentication, signed messages, schema validation |
 | Cascading failures across agents | ASI08 | | Isolation, timeouts, circuit breakers, bounded retries |
 | Human-agent trust exploitation | ASI09 | AML.T0100 | Clear disclosure, friction before consequential approval, training against automation bias |
-| Rogue agents | ASI10 | AML.T0081 | Inventory agents, monitor behaviour against a baseline, keep a kill switch |
+| Rogue agents | ASI10 | AML.T0081 | Inventory agents, monitor behavior against a baseline, keep a kill switch |
 | Cross-tenant leakage | LLM02:2026, LLM09:2026 | | Tenant isolation in indexes, caches and memory; penetration testing |
 | Audit manipulation | | | Append-only evidence, separation of duties, synchronized time |
 
@@ -127,7 +130,7 @@ Record these for every AI system, and review them at each lifecycle gate:
 
 - system and trust-boundary diagrams
 - assumptions and out-of-scope threats
-- threats with their catalogue IDs and editions
+- threats with their catalog IDs and editions
 - affected assets
 - controls and their validation evidence
 - residual risks, with owners and acceptance decisions

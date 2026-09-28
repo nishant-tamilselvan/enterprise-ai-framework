@@ -1,16 +1,21 @@
 ---
 title: Roles and Accountability
-version: 0.1.0
+doc_status: Draft
+version: 0.2.0
+owners: Framework maintainers
+audience: Delivery leads, product owners, and delivery teams
 last_reviewed: 2026-07-28
 ---
 
 # Roles and accountability in AI-assisted delivery
 
-AI shifts role focus toward *specifying, directing, and validating* artefacts. Teams spend
+AI shifts role focus toward *specifying, directing, and validating* artifacts. Teams spend
 less time producing them. AI-assisted delivery requires collaboration, governance,
 accountability, and cross-functional review.
 
-![Diagram of seven delivery roles and their accountable outcomes: the product owner holds business intent and requirement approval; the architect holds specification completeness and standards; the developer holds implementation correctness against the specification; the verification specialist holds evidence that the solution meets the specification; the security and privacy reviewer holds control approval before build; the delivery coordinator holds delivery flow and governance checkpoints; and the operational owner holds live solution operation. Four principles support these assignments: one accountable owner per outcome, separation of duties, human accountability for AI output, and persistent operational ownership.](../assets/images/delivery-roles.webp)
+![Diagram of seven delivery roles and their accountable outcomes. The product owner holds business intent and requirement approval. The architect holds specification completeness and standards. The developer holds implementation correctness against the specification. The verification specialist holds evidence that the solution meets the specification. The security and privacy reviewer holds control approval before build. The delivery coordinator holds delivery flow and governance checkpoints. The operational owner holds live solution operation. Four principles support these assignments: one accountable owner per outcome, separation of duties, human accountability for AI output, and persistent operational ownership.](../assets/images/delivery-roles.webp)
+
+<small>Figure: generated with NotebookLM from the framework's text · Enterprise AI Framework · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)</small>
 
 ## How roles shift
 
@@ -33,7 +38,7 @@ ownership of generated code, and unreviewed change.
 2. **Separation of duties.** A second human reviews changes before release, independently
   of the person who directed the AI implementation.
 3. **Human accountability for AI output.** A named human is accountable for every
-  AI-generated artefact through to production.
+  AI-generated artifact through to production.
 4. **Operational ownership persists.** A named owner remains accountable after release for
   the solution's supportability, maintenance, and drift.
 

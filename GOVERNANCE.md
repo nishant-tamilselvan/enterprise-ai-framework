@@ -20,7 +20,7 @@ Contributors propose changes. Reviewers provide domain, implementation, security
 
 ## Decision model
 
-The project seeks evidence-based consensus. Routine editorial corrections may be merged by one maintainer. Substantive architecture, normative, governance, or licensing changes require public discussion and approval from at least two maintainers when two are available.
+The project seeks evidence-based consensus. Routine editorial corrections may be merged by one maintainer. Substantive architecture, normative, governance, or licensing changes require public discussion and approval from at least two maintainers when two are available. While the project has one maintainer, that maintainer approves these changes after the public discussion period.
 
 If participants cannot reach consensus, maintainers record options, evidence, objections, and the final decision in the relevant issue. The lead maintainer is the final decision-maker until the project establishes a multi-maintainer steering group.
 

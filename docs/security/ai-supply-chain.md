@@ -1,6 +1,9 @@
 ---
 title: AI Supply Chain Security
-version: 0.1.0
+doc_status: Draft
+version: 0.3.0
+owners: Framework maintainers
+audience: Security architects and engineers
 last_reviewed: 2026-09-28
 ---
 
@@ -12,8 +15,8 @@ An AI system depends on more than software packages. It also depends on models, 
 
 | Component | Record |
 | --- | --- |
-| Models and adapters | Name, version, source, licence, hash, signature, intended use, evaluation results |
-| Datasets | Source, licence, collection date, preprocessing, hash, known limitations |
+| Models and adapters | Name, version, source, license, hash, signature, intended use, evaluation results |
+| Datasets | Source, license, collection date, preprocessing, hash, known limitations |
 | AI software | Frameworks, runtimes, inference servers, with versions |
 | Prompts and policies | Versioned system prompts and guardrail configurations |
 | Tools and MCP servers | Publisher, version, tool definitions, permissions requested |
