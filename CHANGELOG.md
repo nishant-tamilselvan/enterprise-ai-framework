@@ -8,6 +8,10 @@ The project uses the [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) fo
 
 ### Added
 
+- AI supply chain and AI incident response pages in the Security section.
+- A shared disclaimer on every compliance mapping page (`includes/compliance-disclaimer.md`).
+- `CLAUDE.md` and a `.claude/skills/writing-style` pointer, so Claude Code follows the same writing rules as Copilot.
+- Draft release notes for 0.3.0.
 - `LICENSES/MIT.txt`: code (scripts, theme overrides, workflows, and configuration) is now licensed under MIT. Content stays under CC BY 4.0.
 - Supply-chain hardening: Dependabot for actions and pip (MkDocs stays on 1.x), OpenSSF Scorecard, CodeQL for workflows and Python, a gitleaks secret scan with a verified checksum, and a DCO sign-off check on pull requests.
 - Pre-commit hooks: file hygiene, markdownlint, gitleaks, and a denylist check (`scripts/ci/denylist.py`) whose organization patterns stay out of the repository.
@@ -17,6 +21,8 @@ The project uses the [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) fo
 
 ### Changed
 
+- The four compliance mappings cite article, clause and category identifiers, record the date their facts were checked, and list their sources. The EU AI Act mapping reflects the Digital Omnibus on AI (Regulation (EU) 2026/1744).
+- The threat model, zero-trust and data protection pages name threats with OWASP and MITRE ATLAS identifiers and cover improper output handling, excessive agency, MCP tool poisoning and hidden context exposure, using OWASP LLM Top 10 2026 IDs with a crosswalk from the 2025 IDs.
 - The Copilot instructions point at the `writing-style` skill instead of the old instructions file.
 - `LICENSE` now holds the full Creative Commons Attribution 4.0 legal code, so GitHub detects the license as CC-BY-4.0.
 - Workflows pin every action to a full commit SHA, set `persist-credentials: false`, and set job timeouts. The Pages workflow grants `pages: write` and `id-token: write` to the deploy job only, and it now also runs when `overrides/` changes.
