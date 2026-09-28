@@ -30,6 +30,9 @@ jobs:
         with:
           globs: "**/*.md"
 
+      # Compare links point at release tags, which exist only after the release is tagged.
+      # The European Commission site blocks GitHub-hosted runners at times (403), so a
+      # person checks its links before each release instead.
       - name: Check links
         uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2.9.0
         with:
@@ -42,6 +45,8 @@ jobs:
             --exclude-path .venv
             --exclude-path tmp
             --accept 200,202,206,429
+            --exclude 'github\.com/nishant-tamilselvan/enterprise-ai-framework/compare/'
+            --exclude 'digital-strategy\.ec\.europa\.eu'
             --remap 'https://github\.com/nishant-tamilselvan/enterprise-ai-framework/(tree|blob)/master/(.*) file://${{ github.workspace }}/$2'
             "**/*.md"
           fail: true
