@@ -8,6 +8,11 @@ The project uses the [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) fo
 
 ### Added
 
+- A "Reference implementation: AEGIS" page in the Delivery section. It maps the specification, the lifecycle gates, and the security controls to AEGIS, and lists what AEGIS does not cover.
+- "In practice" callouts on the specification-driven delivery, operating model, zero-trust, and threat model pages.
+- `standards/`: six framework rules as a starter standards library in the format AEGIS reads, marked Draft for each organization to review and approve.
+- A blog post walking one example from idea to release approval with AEGIS, and a draft post announcing 0.3.0.
+- A "Tools and implementations" section in `CONTRIBUTING.md` that sets the rules for listing a tool.
 - `.github/assets/` with a README banner, a social preview image and its editable source, and section icons, plus a note on their sources and licenses.
 - A diagram viewer: select any diagram, or its Expand button, to open it full screen and zoom with the mouse wheel, a pinch, or buttons, and drag to move (`docs/javascripts/diagrams.js`).
 - Provenance captions on the ECA wheel and the four Delivery images, all generated with NotebookLM, and a contribution rule that AI-generated figures name their tool.
