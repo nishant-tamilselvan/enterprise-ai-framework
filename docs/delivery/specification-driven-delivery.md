@@ -17,7 +17,7 @@ enough detail for an AI-assisted team to implement and validate directly.
 
 ![The specification as the authoritative delivery artifact. One versioned document holds eight components: purpose and context, requirements, acceptance criteria, architecture constraints, security and privacy requirements, standards references, open questions and resolutions, and approvals. It guides implementation and verification. Teams commit it with the code to create an auditable historical record and derive work items from it.](../assets/images/delivery-specification.webp)
 
-<small>Figure: generated with NotebookLM from the framework's text · Enterprise AI Framework · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)</small>
+<small>Figure: generated with NotebookLM from the framework's text, with one word corrected by hand · Enterprise AI Framework · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)</small>
 
 ## Specifications and work items
 
